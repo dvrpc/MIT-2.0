@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import { useBreadcrumb } from "gatsby-plugin-breadcrumb";
 import BreadCrumb from "../components/BreadCrumb";
+import Logo from "../components/Logo";
 
 export default function Template({ data, location }) {
   const { markdownRemark } = data;
@@ -21,10 +22,12 @@ export default function Template({ data, location }) {
       {frontmatter.principles.map(principle => {
         return <div className="ml-4">{principle}</div>;
       })}
-      <div>focusAreas: </div>
-      {frontmatter.focusAreas.map(focus => {
-        return <div className="ml-4">{focus}</div>;
-      })}
+      <div className="flex">
+        focusAreas:
+        {frontmatter.focusAreas.map(focus => {
+          return <Logo focus={focus} />;
+        })}
+      </div>
     </Layout>
   );
 }
