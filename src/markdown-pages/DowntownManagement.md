@@ -1,6 +1,7 @@
 ---
+  slug: "/downtownmanagement"
   title: Downtown Management
   focusAreas: [Economy]
   principles: []
 ---
-#Downtown Management
+# Downtown Management

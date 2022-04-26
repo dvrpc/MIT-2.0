@@ -1,6 +1,7 @@
 ---
+  slug: "/certifiedlocalgovernment(clg)"
   title: Certified Local Government (CLG)
   focusAreas: [Environment]
   principles: []
 ---
-#Certified Local Government (CLG)
+# Certified Local Government (CLG)

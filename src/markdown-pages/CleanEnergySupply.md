@@ -1,6 +1,7 @@
 ---
+  slug: "/cleanenergysupply"
   title: Clean Energy Supply
   focusAreas: [Environment,Economy]
   principles: [Sustainability]
 ---
-#Clean Energy Supply
+# Clean Energy Supply
