@@ -7,7 +7,15 @@ export default function Template({ data }) {
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout>
-      <div dangerouslySetInnerHTML={{ __html: html }} />
+      <div className="text-3xl">{frontmatter.title}...</div>
+      <div>principles: </div>
+      {frontmatter.principles.map(principle => {
+        return <div className="ml-4">{principle}</div>;
+      })}
+      <div>focusAreas: </div>
+      {frontmatter.focusAreas.map(focus => {
+        return <div className="ml-4">{focus}</div>;
+      })}
     </Layout>
   );
 }
