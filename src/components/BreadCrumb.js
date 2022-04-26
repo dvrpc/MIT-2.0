@@ -2,7 +2,6 @@ import { Link } from "gatsby";
 import React from "react";
 
 const BreadCrumb = ({ crumbs }) => {
-  console.log(crumbs);
   return (
     <>
       {crumbs[0] && (

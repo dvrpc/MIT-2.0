@@ -13,13 +13,14 @@ const IndexPage = () => {
   const [focusFilter, setFocusFilter] = useState([]);
   const [principleFilter, setPrincipleFilter] = useState([]);
   const [page, setPage] = useState(0);
-  const filters = {
-    nameFilter: namefilter,
-    focusFilter: focusFilter,
-    principleFilter: principleFilter,
-  };
 
   useEffect(() => {
+    const filters = {
+      nameFilter: namefilter,
+      focusFilter: focusFilter,
+      principleFilter: principleFilter,
+    };
+
     let oldState = data;
     Object.keys(filters).map(key => {
       let filter = filters[key];
@@ -31,7 +32,7 @@ const IndexPage = () => {
       }
     });
     setTools(oldState);
-  }, [filters]);
+  }, [namefilter, focusFilter, principleFilter]);
 
   return (
     <Layout>
@@ -49,7 +50,7 @@ const IndexPage = () => {
             />
           </div>
           {tools.slice(page, page + 5).map(tool => {
-            return <Tool tool={tool} />;
+            return <Tool key={tool.name} tool={tool} />;
           })}
           <div className="flex justify-end my-4">
             <button

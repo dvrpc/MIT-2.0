@@ -17,15 +17,17 @@ export default function Template({ data, location }) {
   return (
     <Layout>
       <BreadCrumb crumbs={crumbs} />
-      <div className="text-3xl">{frontmatter.title}...</div>
-      <div>principles: </div>
-      {frontmatter.principles.map(principle => {
-        return <div className="ml-4">{principle}</div>;
-      })}
-      <div className="flex">
-        focusAreas:
-        {frontmatter.focusAreas.map(focus => {
-          return <Logo focus={focus} />;
+      <div className="p-12">
+        <div className="text-3xl">{frontmatter.title}...</div>
+        <div className="flex">
+          Focus Areas:
+          {frontmatter.focusAreas.map(focus => {
+            return <Logo focus={focus} />;
+          })}
+        </div>
+        <div>Principles: </div>
+        {frontmatter.principles.map(principle => {
+          return <div className="ml-4">{principle}</div>;
         })}
       </div>
     </Layout>
