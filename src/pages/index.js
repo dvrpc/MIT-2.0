@@ -36,10 +36,9 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <div className="flex flex-col items-center">
+      <div className="flex">
         <Preface />
-        <FocusAreas />
-        <div className="w-1/2 py-12">
+        <div className="p-6 my-6">
           <div className="text-2xl pb-6 text-[#4fa3a8]">Search for Tools:</div>
           <div>
             <Filter
