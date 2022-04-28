@@ -37,34 +37,19 @@ const ButtonFilter = ({
   const colors = ["plum", "green", "orange"];
 
   return (
-    <>
-      <label>Filter by name: </label>
-      <input
-        type="text"
-        onChange={e => setNameFilter(e.target.value)}
-        value={nameFilter}
-        className="w-1/2 block border border-[#cccccc] p-1"
-        style={{ borderRadius: "4px" }}
-      />
-      <div className="grid grid-cols-2">
+    <div className="grid grid-cols-2">
+      <div>
+        <label>Filter by name: </label>
+        <input
+          type="text"
+          onChange={e => setNameFilter(e.target.value)}
+          value={nameFilter}
+          className="w-5/6 block border border-[#cccccc] p-1"
+          style={{ borderRadius: "4px" }}
+        />
+      </div>
+      <div className="flex">
         <div>
-          <label>Filter by focus area:</label>
-          <div className="flex my-2">
-            {Object.keys(images).map(image => {
-              return (
-                <button id="focus">
-                  <img
-                    src={images[image]}
-                    onClick={toggleFilter}
-                    id={`${image}`}
-                    className="h-[35px] rounded-full mr-2 grayscale"
-                  />
-                </button>
-              );
-            })}
-          </div>
-        </div>
-        <div className="pl-2">
           <label>Filter by principle:</label>
           <div className="flex my-2">
             {Object.keys(principles).map(principle => {
@@ -83,8 +68,25 @@ const ButtonFilter = ({
             })}
           </div>
         </div>
+        <div className="ml-12">
+          <label>Filter by focus area:</label>
+          <div className="flex my-2">
+            {Object.keys(images).map(image => {
+              return (
+                <button id="focus">
+                  <img
+                    src={images[image]}
+                    onClick={toggleFilter}
+                    id={`${image}`}
+                    className="h-[35px] rounded-full mr-2 grayscale"
+                  />
+                </button>
+              );
+            })}
+          </div>
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

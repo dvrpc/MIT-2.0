@@ -47,7 +47,7 @@ const IndexPage = () => {
             setPrincipleFilter={setPrincipleFilter}
           />
         </div>
-        <div className="overflow-auto my-8">
+        <div className="overflow-auto mb-8 mt-2">
           {tools.map(tool => {
             return <Tool key={tool.name} tool={tool} />;
           })}
