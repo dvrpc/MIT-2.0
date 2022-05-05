@@ -9,7 +9,7 @@ const Filter = ({
 }) => {
   const focusAreas = [
     { value: "Communities", label: "Communities", color: "#006ba6" },
-    { value: "Environment", label: "Environment", color: "#4fa3a8" },
+    { value: "Environment", label: "Environment", color: "#7a9c3d" },
     {
       value: "Regional Planning",
       label: "Regional Planning",
