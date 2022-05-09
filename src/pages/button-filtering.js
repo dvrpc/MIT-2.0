@@ -3,8 +3,8 @@ import Layout from "../components/layout";
 import data from "../utils/data.json";
 import Tool from "../components/Tool";
 import filterData from "../utils/filterData";
-import Filter from "../components/Filter";
 import Preface from "../components/Preface";
+import ButtonFilter from "../components/ButtonFilter";
 
 const IndexPage = () => {
   const [tools, setTools] = useState([]);
@@ -38,14 +38,16 @@ const IndexPage = () => {
       <div className="flex flex-col px-6 py-6">
         <div>
           <div className="text-2xl pb-2 text-[#4fa3a8]">Search for Tools:</div>
-          <Filter
+          <ButtonFilter
             namefilter={namefilter}
+            focusFilter={focusFilter}
+            principleFilter={principleFilter}
             setNameFilter={setNameFilter}
             setFocusFilter={setFocusFilter}
             setPrincipleFilter={setPrincipleFilter}
           />
         </div>
-        <div className="overflow-auto my-8">
+        <div className="overflow-auto mb-8 mt-2">
           {tools.map(tool => {
             return <Tool key={tool.name} tool={tool} />;
           })}

@@ -9,7 +9,7 @@ const Filter = ({
 }) => {
   const focusAreas = [
     { value: "Communities", label: "Communities", color: "#006ba6" },
-    { value: "Environment", label: "Environment", color: "#4fa3a8" },
+    { value: "Environment", label: "Environment", color: "#7a9c3d" },
     {
       value: "Regional Planning",
       label: "Regional Planning",
@@ -49,7 +49,7 @@ const Filter = ({
       <label>Filter by name: </label>
       <input
         type="text"
-        onChange={(e) => setNameFilter(e.target.value)}
+        onChange={e => setNameFilter(e.target.value)}
         value={nameFilter}
         className="w-1/2 block border border-[#cccccc] p-1"
         style={{ borderRadius: "4px" }}
@@ -60,9 +60,9 @@ const Filter = ({
           <Select
             options={focusAreas}
             isMulti
-            onChange={(selected) => {
+            onChange={selected => {
               const temp = [];
-              selected.map((option) => temp.push(option.value));
+              selected.map(option => temp.push(option.value));
               setFocusFilter([...temp]);
             }}
             styles={bgStyles}
@@ -73,9 +73,9 @@ const Filter = ({
           <Select
             options={principles}
             isMulti
-            onChange={(selected) => {
+            onChange={selected => {
               const temp = [];
-              selected.map((option) => temp.push(option.value));
+              selected.map(option => temp.push(option.value));
               setPrincipleFilter([...temp]);
             }}
             styles={bgStyles}
