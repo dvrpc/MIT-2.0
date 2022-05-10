@@ -6,7 +6,7 @@ const Logo = ({ focus }) => {
     <img
       src={images[focus]}
       alt={focus}
-      className="rounded-full h-[30px] my-[2px] ml-4"
+      className="rounded-full h-[30px] mx-1"
     />
   );
 };

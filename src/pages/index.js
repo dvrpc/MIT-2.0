@@ -37,7 +37,7 @@ const IndexPage = () => {
       <Preface />
       <div className="flex flex-col px-6 py-6">
         <div>
-          <div className="text-2xl pb-2 text-[#4fa3a8]">Search for Tools:</div>
+          <div className="text-2xl pb-2 text-[#4fa3a8]">Tools:</div>
           <Filter
             namefilter={namefilter}
             setNameFilter={setNameFilter}
@@ -45,7 +45,7 @@ const IndexPage = () => {
             setPrincipleFilter={setPrincipleFilter}
           />
         </div>
-        <div className="overflow-auto my-8">
+        <div className="overflow-auto my-4 md:my-8">
           {tools.map(tool => {
             return <Tool key={tool.name} tool={tool} />;
           })}

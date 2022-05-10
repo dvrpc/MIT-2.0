@@ -9,14 +9,14 @@ const Tool = ({ tool }) => {
   return (
     <div className="my-4">
       <div className="flex items-center">
-        <Link className="mr-[5px] text-xl" to={fileName}>
+        <Link className="text-xl" to={fileName}>
           {tool.name}
         </Link>
         {tool.focusAreas.map(focus => {
           return <Logo focus={focus} />;
         })}
       </div>
-      <div>
+      <div className="md:w-1/2">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Elementum pulvinar
         etiam non quam lacus suspendisse faucibus.

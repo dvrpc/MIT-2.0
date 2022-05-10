@@ -7,10 +7,14 @@ import DownArrow from "../images/downarrow.svg";
 const Preface = () => {
   return (
     <div className="flex flex-col w-full absolute z-10">
-      <div className="flex px-6 py-6 items-center bg-[#edf6f6] justify-center border-b-2 shadow-md">
-        <img src={ToolKit} alt="toolkit-logo" className="h-[350px]" />
-        <div className="text-lg mt-4 w-1/2">
-          <div className="ml-12">
+      <div className="flex flex-col md:flex-row px-6 md:py-6 items-center bg-[#edf6f6] justify-center  border-b-2 shadow-md">
+        <img
+          src={ToolKit}
+          alt="toolkit-logo"
+          className="h-[200px] md:h-[300px] w-auto"
+        />
+        <div className="text-lg mt-4 md:w-1/2">
+          <div className="md:ml-12">
             <Tabs>
               <TabList className="flex cursor-pointer border-b">
                 <Tab>About</Tab>
