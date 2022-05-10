@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
       <div className="h-[8%]">
         <Header />
       </div>
-      <div className="flex h-[84%]">{children}</div>
+      <div className="flex justify-center h-[84%]">{children}</div>
       <div className="h-[8%]">
         <Footer />
       </div>
