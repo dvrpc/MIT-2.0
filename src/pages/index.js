@@ -1,16 +1,26 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../components/layout";
-import data from "../utils/data.json";
+// import data from "../utils/data.json";
 import Tool from "../components/Tool";
 import filterData from "../utils/filterData";
 import Filter from "../components/Filter";
 import Preface from "../components/Preface";
+import { graphql } from "gatsby";
 
-const IndexPage = () => {
+const IndexPage = ({ data }) => {
   const [tools, setTools] = useState([]);
   const [namefilter, setNameFilter] = useState("");
   const [focusFilter, setFocusFilter] = useState([]);
   const [principleFilter, setPrincipleFilter] = useState([]);
+  // destructure what is returned from query
+  let {
+    allMarkdownRemark: { edges: edges },
+  } = data;
+  // destructure nodes
+  edges = Array.from(
+    edges,
+    ({ node: { frontmatter: frontmatter } }) => frontmatter
+  );
 
   useEffect(() => {
     const filters = {
@@ -19,7 +29,7 @@ const IndexPage = () => {
       principleFilter: principleFilter,
     };
 
-    let oldState = data;
+    let oldState = edges;
     Object.keys(filters).forEach(key => {
       let filter = filters[key];
       if (typeof filter === "object" && filter.length) {
@@ -30,7 +40,7 @@ const IndexPage = () => {
       }
     });
     setTools(oldState);
-  }, [namefilter, focusFilter, principleFilter]);
+  }, [namefilter, focusFilter, principleFilter, edges]);
 
   return (
     <Layout>
@@ -54,5 +64,22 @@ const IndexPage = () => {
     </Layout>
   );
 };
+
+export const pageQuery = graphql`
+  query {
+    allMarkdownRemark {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            focusAreas
+            principles
+          }
+        }
+      }
+    }
+  }
+`;
 
 export default IndexPage;

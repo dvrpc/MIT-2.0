@@ -7,7 +7,7 @@ import Logo from "../components/Logo";
 
 export default function Template({ data, location }) {
   const { markdownRemark } = data;
-  const { frontmatter, html } = markdownRemark;
+  const { frontmatter } = markdownRemark;
   const { crumbs } = useBreadcrumb({
     location,
     crumbLabel: frontmatter.title,

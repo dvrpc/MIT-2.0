@@ -7,7 +7,7 @@ const filterData = (data, filter, property) => {
       return data.filter(data => checker(data.principles, filter));
   }
   return data.filter(data =>
-    data.name.toLowerCase().includes(filter.toLowerCase())
+    data.title.toLowerCase().includes(filter.toLowerCase())
   );
 };
 

@@ -3,14 +3,14 @@ import Logo from "./Logo";
 import { Link } from "gatsby";
 
 const Tool = ({ tool }) => {
-  let fileName = tool.name;
+  let fileName = tool.title;
   fileName = fileName.replace(/\s/g, "").toLowerCase();
 
   return (
     <div className="my-4">
       <div className="flex items-center">
         <Link className="text-xl" to={fileName}>
-          {tool.name}
+          {tool.title}
         </Link>
         {tool.focusAreas.map(focus => {
           return <Logo focus={focus} />;
