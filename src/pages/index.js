@@ -40,7 +40,7 @@ const IndexPage = ({ data }) => {
       }
     });
     setTools(oldState);
-  }, [namefilter, focusFilter, principleFilter, edges]);
+  }, [namefilter, focusFilter, principleFilter]);
 
   return (
     <Layout>

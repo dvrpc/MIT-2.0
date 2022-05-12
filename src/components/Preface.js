@@ -6,14 +6,14 @@ import DownArrow from "../images/downarrow.svg";
 
 const Preface = () => {
   return (
-    <div className="flex flex-col w-full absolute z-10">
+    <div className="flex flex-col w-full absolute z-10 -mt-[1%] md:mt-0">
       <div className="flex flex-col md:flex-row px-6 md:py-6 items-center bg-[#edf6f6] justify-center  border-b-2 shadow-md">
         <img
           src={ToolKit}
           alt="toolkit-logo"
           className="h-[200px] md:h-[300px] w-auto"
         />
-        <div className="text-lg mt-4 md:w-1/2">
+        <div className="text-lg mt-4 md:w-1/2 text-base">
           <div className="md:ml-12">
             <Tabs>
               <TabList className="flex cursor-pointer border-b">
@@ -42,14 +42,6 @@ const Preface = () => {
                     summo populo, purto timeam periculis mei in, eam id fugit
                     interesset. Has no veri utroque.
                   </p>
-                  <p>
-                    Et unum dicit menandri mei. Nec elitr suscipit disputationi
-                    id. Est adhuc error nostro ne, in adolescens complectitur
-                    mel, quem oblique feugiat nec at. Eu omittam constituto qui.
-                    Ad eam habeo quando, per dolorem suscipiantur te. Ignota
-                    moderatius eloquentiam et mei, diam luptatum accommodare an
-                    quo.
-                  </p>
                 </TabPanel>
                 <TabPanel>
                   <p>
@@ -60,14 +52,6 @@ const Preface = () => {
                     ridens discere. Laudem graecis ea sea. Alii menandri
                     liberavisse at mei, causae salutatus sadipscing vim te.
                     Illud oratio ius id, ne sit discere cotidieque efficiantur.
-                  </p>
-                  <p>
-                    Sit invidunt recusabo ea, quis noluisse concludaturque vim
-                    in, dicam oratio ius et. Cum ne iudico abhorreant, simul
-                    insolens definitionem mei an. Eu eros omnium temporibus pro,
-                    primis atomorum salutatus ex sed. Pri justo nostro salutatus
-                    ut, probo utinam legere cu mel. Dico veniam eu qui, ne
-                    nostrum rationibus pro.
                   </p>
                 </TabPanel>
               </div>

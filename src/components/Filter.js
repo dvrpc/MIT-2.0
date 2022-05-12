@@ -51,10 +51,10 @@ const Filter = ({
         type="text"
         onChange={e => setNameFilter(e.target.value)}
         value={nameFilter}
-        className="w-1/2 block border border-[#cccccc] p-1"
+        className="w-full md:w-1/2 block border border-[#cccccc] p-1"
         style={{ borderRadius: "4px" }}
       />
-      <div className="grid grid-cols-2">
+      <div className="flex flex-col md:grid md:grid-cols-2">
         <div>
           <label>Filter by focus area:</label>
           <Select
@@ -68,7 +68,7 @@ const Filter = ({
             styles={bgStyles}
           />
         </div>
-        <div className="pl-2">
+        <div className="md:pl-2">
           <label>Filter by principle:</label>
           <Select
             options={principles}
