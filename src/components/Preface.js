@@ -13,7 +13,7 @@ const Preface = () => {
           alt="toolkit-logo"
           className="h-[200px] md:h-[300px] w-auto"
         />
-        <div className="text-lg mt-4 md:w-1/2 text-base">
+        <div className="text-lg mt-4 md:w-1/2 text-sm md:text-base pb-2">
           <div className="md:ml-12">
             <Tabs>
               <TabList className="flex cursor-pointer border-b">
@@ -63,7 +63,7 @@ const Preface = () => {
         <img
           src={UpArrow}
           alt="arrow"
-          className="h-[30px] p-1 ml-auto mr-auto cursor-pointer ball"
+          className="h-[30px] p-2 ml-auto mr-auto cursor-pointer ball rounded-full bg-[#4fa3a8]"
           onClick={e => {
             const parentSibling = e.target.parentNode.previousSibling;
             parentSibling.classList.toggle("hidden");
@@ -74,7 +74,7 @@ const Preface = () => {
         <img
           src={DownArrow}
           alt="arrow"
-          className="h-[30px] p-1 ml-auto mr-auto cursor-pointer ball hidden"
+          className="h-[30px] p-2 ml-auto mr-auto cursor-pointer ball hidden rounded-full bg-[#4fa3a8]"
           onClick={e => {
             const parentSibling = e.target.parentNode.previousSibling;
             parentSibling.classList.toggle("hidden");
