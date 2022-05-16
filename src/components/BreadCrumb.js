@@ -5,7 +5,7 @@ const BreadCrumb = ({ crumbs }) => {
   return (
     <>
       {crumbs[0] && (
-        <div className="absolute top-0 flex text-white text-xl p-8">
+        <div className="absolute flex top-0 left-0 text-white text-xl p-8">
           <Link to="/" className="pr-4">
             Home
           </Link>

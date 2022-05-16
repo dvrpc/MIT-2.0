@@ -29,6 +29,14 @@ export default function Template({ data, location }) {
         {frontmatter.principles.map(principle => {
           return <div className="ml-4">{principle}</div>;
         })}
+        <div>See Other: </div>
+        {frontmatter.seeOther.map(link => {
+          return <div className="ml-4">{link}</div>;
+        })}
+        <div>Tracking Progress Links: </div>
+        {frontmatter.trackingProgressLinks.map(link => {
+          return <div className="ml-4">{link}</div>;
+        })}
       </div>
     </Layout>
   );
@@ -42,6 +50,8 @@ export const pageQuery = graphql`
         title
         principles
         focusAreas
+        seeOther
+        trackingProgressLinks
       }
     }
   }
