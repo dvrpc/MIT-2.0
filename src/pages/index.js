@@ -16,7 +16,7 @@ const IndexPage = ({ data }) => {
   let {
     allMarkdownRemark: { edges: edges },
   } = data;
-  // destructure nodes
+  // destructure nodes frontmatter and html
   edges = Array.from(
     edges,
     ({ node: { frontmatter: frontmatter, html: html } }) => {
@@ -47,7 +47,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <Preface />
-      <div className="flex flex-col px-6 py-6 w-full">
+      <div className="flex flex-col px-6 py-6 w-3/4">
         <div>
           <div className="text-2xl pb-2 text-[#4fa3a8]">Tools:</div>
           <Filter
@@ -58,8 +58,8 @@ const IndexPage = ({ data }) => {
           />
         </div>
         <div className="overflow-auto my-4 md:my-8">
-          {tools.map(tool => {
-            return <Tool key={tool.id} tool={tool} />;
+          {tools.map((tool, idx) => {
+            return <Tool key={idx} tool={tool} />;
           })}
           {!tools.length && (
             <div className="text-slate-400">No tools match search...</div>
