@@ -1,13 +1,13 @@
 import React from "react";
 import ToolKit from "../images/toolkit.png";
 import { Tabs, Tab, TabList, TabPanel } from "react-tabs";
-import UpArrow from "../images/uparrow.svg";
+import Close from "../images/close.svg";
 import DownArrow from "../images/downarrow.svg";
 
 const Preface = () => {
   return (
     <div className="flex flex-col w-full absolute z-10 -mt-[1%] md:mt-0">
-      <div className="flex flex-col md:flex-row px-6 md:py-6 items-center bg-[#edf6f6] justify-center  border-b-2 shadow-md">
+      <div className="flex flex-col md:flex-row px-6 md:py-6 items-center bg-[#edf6f6] justify-center border-b-2 shadow-md">
         <img
           src={ToolKit}
           alt="toolkit-logo"
@@ -61,9 +61,9 @@ const Preface = () => {
       </div>
       <div className="flex text-white w-full">
         <img
-          src={UpArrow}
+          src={Close}
           alt="arrow"
-          className="h-[30px] p-2 ml-auto mr-auto cursor-pointer ball rounded-full bg-[#4fa3a8]"
+          className="h-[30px] mt-1 p-1.5 ml-auto mr-auto cursor-pointer rounded-full bg-[#4fa3a8]"
           onClick={e => {
             const parentSibling = e.target.parentNode.previousSibling;
             parentSibling.classList.toggle("hidden");
@@ -74,7 +74,7 @@ const Preface = () => {
         <img
           src={DownArrow}
           alt="arrow"
-          className="h-[30px] p-2 ml-auto mr-auto cursor-pointer ball hidden rounded-full bg-[#4fa3a8]"
+          className="h-[30px] mt-1 p-2 ml-auto mr-auto cursor-pointer ball hidden rounded-full bg-[#4fa3a8]"
           onClick={e => {
             const parentSibling = e.target.parentNode.previousSibling;
             parentSibling.classList.toggle("hidden");
