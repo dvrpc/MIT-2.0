@@ -6,8 +6,10 @@ const filterData = (data, filter, property) => {
     if (property === "principle")
       return data.filter(data => checker(data.principles, filter));
   }
-  return data.filter(data =>
-    data.title.toLowerCase().includes(filter.toLowerCase())
+  return data.filter(
+    data =>
+      data.title.toLowerCase().includes(filter.toLowerCase()) ||
+      data.html.toLowerCase().includes(filter.toLowerCase())
   );
 };
 

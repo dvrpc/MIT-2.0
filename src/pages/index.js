@@ -19,7 +19,9 @@ const IndexPage = ({ data }) => {
   // destructure nodes
   edges = Array.from(
     edges,
-    ({ node: { frontmatter: frontmatter } }) => frontmatter
+    ({ node: { frontmatter: frontmatter, html: html } }) => {
+      return { ...frontmatter, html };
+    }
   );
 
   useEffect(() => {
@@ -71,6 +73,7 @@ export const pageQuery = graphql`
       edges {
         node {
           id
+          html
           frontmatter {
             title
             focusAreas
