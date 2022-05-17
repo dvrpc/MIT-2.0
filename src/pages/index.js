@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Layout from "../components/layout";
 import Tool from "../components/Tool";
 import filterData from "../utils/filterData";
@@ -16,9 +16,11 @@ const IndexPage = ({ data }) => {
     allMarkdownRemark: { edges },
   } = data;
   // destructure frontmatter and html from nodes
-  edges = Array.from(edges, ({ node: { frontmatter, html } }) => {
-    return { ...frontmatter, html };
-  });
+  edges = useRef(
+    Array.from(edges, ({ node: { frontmatter, html } }) => {
+      return { ...frontmatter, html };
+    })
+  );
 
   useEffect(() => {
     const filters = {
@@ -27,7 +29,7 @@ const IndexPage = ({ data }) => {
       principleFilter: principleFilter,
     };
 
-    let oldState = edges;
+    let oldState = [...edges.current];
     Object.keys(filters).forEach(key => {
       let filter = filters[key];
       if (typeof filter === "object" && filter.length) {
@@ -37,13 +39,14 @@ const IndexPage = ({ data }) => {
         oldState = filterData(oldState, filter);
       }
     });
+
     setTools(oldState);
-  }, [namefilter, focusFilter, principleFilter]);
+  }, [namefilter, focusFilter, principleFilter, edges]);
 
   return (
     <Layout>
       <Preface />
-      <div className="flex flex-col px-6 py-6 w-3/4">
+      <div className="flex flex-col px-6 py-6 w-full md:w-3/4">
         <div>
           <div className="text-2xl pb-2 text-[#4fa3a8]">Tools:</div>
           <Filter
