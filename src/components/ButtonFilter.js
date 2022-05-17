@@ -1,5 +1,4 @@
 import React from "react";
-import images from "../utils/images";
 
 const ButtonFilter = ({
   nameFilter,
@@ -34,7 +33,16 @@ const ButtonFilter = ({
     Sustainability: "sustainability",
   };
 
+  const focuses = {
+    Communities: "Communities",
+    Economy: "Economy",
+    Environment: "Environment",
+    Regional_Planning: "Regional Planning",
+    Transportation: "Transportation",
+  };
+
   const colors = ["plum", "green", "orange"];
+  const focusColors = ["#de6e1d", "#572065", "#799b3c", "#bc2455", "#006ba6"];
 
   return (
     <div className="grid grid-cols-2">
@@ -48,7 +56,7 @@ const ButtonFilter = ({
           style={{ borderRadius: "4px" }}
         />
       </div>
-      <div className="flex">
+      <div className="flex flex-col">
         <div>
           <label>Filter by principle:</label>
           <div className="flex my-2">
@@ -58,28 +66,30 @@ const ButtonFilter = ({
                   <div
                     onClick={toggleFilter}
                     id={`${principle}`}
-                    className={`h-[35px] w-[35px] rounded-full flex items-center justify-center mr-2 grayscale text-white`}
+                    className={`rounded-full p-2 text-sm flex items-center justify-center mr-2 grayscale text-white z-0`}
                     style={{ backgroundColor: colors.pop() }}
                   >
-                    {principle.charAt(0).toUpperCase()}
+                    {principle}
                   </div>
                 </button>
               );
             })}
           </div>
         </div>
-        <div className="ml-12">
+        <div>
           <label>Filter by focus area:</label>
           <div className="flex my-2">
-            {Object.keys(images).map(image => {
+            {Object.keys(focuses).map(focus => {
               return (
                 <button id="focus">
-                  <img
-                    src={images[image]}
+                  <div
                     onClick={toggleFilter}
-                    id={`${image}`}
-                    className="h-[35px] rounded-full mr-2 grayscale"
-                  />
+                    id={`${focuses[focus]}`}
+                    className={`rounded-full p-2 text-sm flex items-center justify-center mr-2 grayscale text-white`}
+                    style={{ backgroundColor: focusColors.pop() }}
+                  >
+                    {focus.replace("_", " ")}
+                  </div>
                 </button>
               );
             })}

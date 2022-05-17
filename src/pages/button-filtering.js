@@ -1,16 +1,26 @@
-import React, { useEffect, useState } from "react";
-import Layout from "../components/layout";
-import data from "../utils/data.json";
+import React, { useEffect, useRef, useState } from "react";
+import TestLayout from "../components/TestLayout";
 import Tool from "../components/Tool";
 import filterData from "../utils/filterData";
-import Preface from "../components/Preface";
 import ButtonFilter from "../components/ButtonFilter";
+import TestPreface from "../components/TestPreface";
+import { graphql } from "gatsby";
 
-const IndexPage = () => {
+const IndexPage = ({ data }) => {
   const [tools, setTools] = useState([]);
   const [namefilter, setNameFilter] = useState("");
   const [focusFilter, setFocusFilter] = useState([]);
   const [principleFilter, setPrincipleFilter] = useState([]);
+  // destructure what is returned from query
+  let {
+    allMarkdownRemark: { edges },
+  } = data;
+  // destructure frontmatter and html from nodes
+  edges = useRef(
+    Array.from(edges, ({ node: { frontmatter, html } }) => {
+      return { ...frontmatter, html };
+    })
+  );
 
   useEffect(() => {
     const filters = {
@@ -19,7 +29,7 @@ const IndexPage = () => {
       principleFilter: principleFilter,
     };
 
-    let oldState = data;
+    let oldState = [...edges.current];
     Object.keys(filters).forEach(key => {
       let filter = filters[key];
       if (typeof filter === "object" && filter.length) {
@@ -29,15 +39,16 @@ const IndexPage = () => {
         oldState = filterData(oldState, filter);
       }
     });
+
     setTools(oldState);
-  }, [namefilter, focusFilter, principleFilter]);
+  }, [namefilter, focusFilter, principleFilter, edges]);
 
   return (
-    <Layout>
-      <Preface />
-      <div className="flex flex-col px-6 py-6">
+    <TestLayout>
+      <TestPreface />
+      <div className="flex flex-col px-6 py-4 w-screen max-h-[80vh]">
         <div>
-          <div className="text-2xl pb-2 text-[#4fa3a8]">Search for Tools:</div>
+          <div className="text-2xl pb-2 text-[#4fa3a8]">Tools:</div>
           <ButtonFilter
             namefilter={namefilter}
             focusFilter={focusFilter}
@@ -47,14 +58,35 @@ const IndexPage = () => {
             setPrincipleFilter={setPrincipleFilter}
           />
         </div>
-        <div className="overflow-auto mb-8 mt-2">
-          {tools.map(tool => {
-            return <Tool key={tool.name} tool={tool} />;
+        <div className="overflow-auto my-4 md:my-8 h-[55vh]">
+          {tools.map((tool, idx) => {
+            return <Tool key={idx} tool={tool} />;
           })}
+          {!tools.length && (
+            <div className="text-slate-400">No tools match search...</div>
+          )}
         </div>
       </div>
-    </Layout>
+    </TestLayout>
   );
 };
+
+export const pageQuery = graphql`
+  query {
+    allMarkdownRemark {
+      edges {
+        node {
+          id
+          html
+          frontmatter {
+            title
+            focusAreas
+            principles
+          }
+        }
+      }
+    }
+  }
+`;
 
 export default IndexPage;
