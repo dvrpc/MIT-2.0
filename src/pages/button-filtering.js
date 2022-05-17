@@ -46,7 +46,7 @@ const IndexPage = ({ data }) => {
   return (
     <TestLayout>
       <TestPreface />
-      <div className="flex flex-col px-6 py-4 w-screen max-h-[80vh]">
+      <div className="flex flex-col px-6 py-4 w-3/4 max-h-[80vh]">
         <div>
           <div className="text-2xl pb-2 text-[#4fa3a8]">Tools:</div>
           <ButtonFilter

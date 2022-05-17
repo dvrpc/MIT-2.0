@@ -8,7 +8,7 @@ const TestLayout = ({ children }) => {
       <div className="h-[10vh] fixed w-full">
         <Header />
       </div>
-      <div className="flex flex-col mt-[10vh] justify-center relative">
+      <div className="flex flex-col mt-[10vh] justify-center items-center relative">
         {children}
       </div>
       <div className="h-[10vh]">
