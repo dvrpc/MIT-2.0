@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../components/layout";
-// import data from "../utils/data.json";
 import Tool from "../components/Tool";
 import filterData from "../utils/filterData";
 import Filter from "../components/Filter";
@@ -14,15 +13,12 @@ const IndexPage = ({ data }) => {
   const [principleFilter, setPrincipleFilter] = useState([]);
   // destructure what is returned from query
   let {
-    allMarkdownRemark: { edges: edges },
+    allMarkdownRemark: { edges },
   } = data;
-  // destructure nodes frontmatter and html
-  edges = Array.from(
-    edges,
-    ({ node: { frontmatter: frontmatter, html: html } }) => {
-      return { ...frontmatter, html };
-    }
-  );
+  // destructure frontmatter and html from nodes
+  edges = Array.from(edges, ({ node: { frontmatter, html } }) => {
+    return { ...frontmatter, html };
+  });
 
   useEffect(() => {
     const filters = {
