@@ -7,20 +7,22 @@ const TestPreface = () => {
   const info = useRef(null);
   const [isVisible, setIsVisible] = useState(true);
 
-  const listenToScroll = () => {
-    if (!isVisible) return;
-    let heightToHideFrom = info.current.getBoundingClientRect().height;
-    const winScroll =
-      document.body.scrollTop || document.documentElement.scrollTop;
-    if (winScroll > heightToHideFrom) {
-      isVisible && setIsVisible(false);
-    }
-  };
-
   useEffect(() => {
+    const listenToScroll = () => {
+      if (!isVisible) return;
+      let heightToHideFrom = Math.floor(
+        info.current.getBoundingClientRect().height
+      );
+      const winScroll =
+        document.body.scrollTop || document.documentElement.scrollTop;
+      if (winScroll >= heightToHideFrom) {
+        isVisible && setIsVisible(false);
+      }
+    };
+
     window.addEventListener("scroll", listenToScroll);
     return () => window.removeEventListener("scroll", listenToScroll);
-  }, []);
+  }, [isVisible]);
 
   return (
     <div className="flex flex-col w-full" ref={info}>
@@ -28,11 +30,7 @@ const TestPreface = () => {
         className="flex flex-col md:flex-row md:py-6 items-center bg-[#edf6f6] justify-center border-b-2 shadow-md h-[30vh]"
         style={{ display: isVisible ? "" : "none", zIndex: -10 }}
       >
-        <img
-          src={ToolKit}
-          alt="toolkit-logo"
-          className="h-[200px] md:h-[300px] w-auto"
-        />
+        <img src={ToolKit} alt="toolkit-logo" className="h-[90%] w-auto" />
         <div className="text-lg md:w-1/2 text-sm md:text-base pb-2">
           <div className="md:ml-12">
             <Tabs>

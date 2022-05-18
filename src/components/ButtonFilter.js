@@ -22,7 +22,7 @@ const ButtonFilter = ({
     if (!filterArr.includes(filterElem)) {
       return setFilterFunc([...filterArr, filterElem]);
     } else if (filterArr.includes(filterElem)) {
-      const oldState = filterArr.filter(el => el != filterElem);
+      const oldState = filterArr.filter(el => el !== filterElem);
       return setFilterFunc(oldState);
     }
   };
