@@ -38,20 +38,6 @@ export default function Template({ data, location }) {
               cras ornare arcu. Id semper risus in hendrerit gravida. Vulputate
               dignissim suspendisse in est ante.
             </p>
-            <p className="pt-4">
-              Id diam vel quam elementum pulvinar etiam non. Posuere ac ut
-              consequat semper viverra nam libero justo laoreet. Scelerisque
-              felis imperdiet proin fermentum leo vel orci porta. Auctor urna
-              nunc id cursus metus aliquam eleifend. Nibh nisl condimentum id
-              venenatis a condimentum. Donec ac odio tempor orci dapibus
-              ultrices in iaculis. Neque laoreet suspendisse interdum
-              consectetur libero id. Turpis cursus in hac habitasse platea
-              dictumst. Nam aliquam sem et tortor. Aenean sed adipiscing diam
-              donec adipiscing tristique risus. Tellus cras adipiscing enim eu
-              turpis egestas pretium. Libero nunc consequat interdum varius sit.
-              Aliquet nibh praesent tristique magna sit. Sed felis eget velit
-              aliquet sagittis id.
-            </p>
           </div>
         </div>
         <div className="mt-auto">
