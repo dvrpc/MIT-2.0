@@ -3,7 +3,7 @@
   title: Buy Local Campaign
   focusAreas: [Economy]
   principles: [Sustainability]
-  seeOther: [Local Food Procurement Policy Preference,Agricultural Zoning,Minority and Women-owned Business Enterprises]
+  seeOther: [LOCAL FOOD PROCUREMENT POLICY PREFERENCE,Agricultural Zoning,Minority and Women-owned Business Enterprises]
   trackingProgressLinks: [Job Growth]
 ---
 # Buy Local Campaign

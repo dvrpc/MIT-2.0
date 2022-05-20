@@ -3,7 +3,7 @@
   title: Brownfields Redevelopment
   focusAreas: [Environment,Communities]
   principles: [Sustainability]
-  seeOther: [Revitalization Planning and Programs,Infill Design,]
+  seeOther: [Revitalization Planning and Programs,Infill Ordinances,]
   trackingProgressLinks: [Housing Activity,Land Consumption]
 ---
 # Brownfields Redevelopment

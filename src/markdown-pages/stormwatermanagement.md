@@ -1,9 +1,9 @@
 ---
   slug: "/stormwatermanagement"
-  title: stormwater management
+  title: Stormwater Management
   focusAreas: [Environment]
   principles: [Sustainability]
   seeOther: [Stormwater Fees]
   trackingProgressLinks: [Water Quality]
 ---
-# stormwater management
+# Stormwater Management

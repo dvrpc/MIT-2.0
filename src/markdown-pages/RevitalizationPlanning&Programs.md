@@ -3,7 +3,7 @@
   title: Revitalization Planning & Programs
   focusAreas: [Communities]
   principles: [Equity]
-  seeOther: [Suburban Retrofit,Neighborhood Design Codes & Ordinances,Brownfields Redevelopment,Infill Design]
+  seeOther: [Suburban Retrofit,Neighborhood Design Codes & Ordinances,Brownfields Redevelopment,Infill Ordinances]
   trackingProgressLinks: [Housing Activity,Population Growth,Racial & Ethnic Disparities]
 ---
 # Revitalization Planning & Programs

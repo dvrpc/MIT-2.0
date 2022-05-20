@@ -1,10 +1,10 @@
 ---
   slug: "/localfoodprocurementpolicypreference"
-  title: LOCAL FOOD PROCUREMENT POLICY PREFERENCE
+  title: Local Food Procurement Policy Preference
 
   focusAreas: [Economy,Regional Planning]
   principles: [Sustainability]
   seeOther: [Buy Local Campaign,Agricultural Zoning]
   trackingProgressLinks: []
 ---
-# LOCAL FOOD PROCUREMENT POLICY PREFERENCE
+# Local Food Procurement Policy Preference
