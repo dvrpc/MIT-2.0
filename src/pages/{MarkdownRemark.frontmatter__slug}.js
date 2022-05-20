@@ -50,7 +50,7 @@ export default function Template({ data, location }) {
                   "/" +
                   link
                     .toLowerCase()
-                    .replace(/\s/g, "")
+                    .replace(/\s|[\/]/g, "")
                     .replace(/&|and/g, "-and-")
                 }
               >
