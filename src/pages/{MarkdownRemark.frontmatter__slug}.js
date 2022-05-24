@@ -4,13 +4,13 @@ import Layout from "../components/layout";
 import Logo from "../components/Logo";
 import ToolKit from "../images/toolkit.png";
 
-export default function Template({ data, location }) {
+export default function Template({ data }) {
   const { markdownRemark } = data;
   const { frontmatter } = markdownRemark;
 
   return (
     <Layout>
-      <div className="w-3/4 mt-6 flex flex-col">
+      <div className="w-3/5 mt-10 flex flex-col">
         <div className="flex">
           <div className="text-3xl">{frontmatter.title}</div>
           <div className="flex items-center ml-auto">
@@ -23,7 +23,7 @@ export default function Template({ data, location }) {
           <div className="w-100 flex justify-center">
             <img src={ToolKit} alt="toolkit-logo" className="h-[300px] mr-12" />
           </div>
-          <div>
+          <div className="flex items-center">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla
@@ -40,24 +40,49 @@ export default function Template({ data, location }) {
             </p>
           </div>
         </div>
-        <div className="mt-auto">
-          <div>See Also: </div>
-          {frontmatter.seeOther.map(link => {
-            return (
-              <Link
-                className="mr-4 underline"
-                to={
-                  "/" +
-                  link
-                    .toLowerCase()
-                    .replace(/\s|[\/]/g, "")
-                    .replace(/&|and/g, "-and-")
-                }
-              >
-                {link}
-              </Link>
-            );
-          })}
+        <div className="mt-[8%]">
+          {frontmatter.seeOther.length && (
+            <>
+              <div>See Also: </div>
+              {frontmatter.seeOther.map(link => {
+                return (
+                  <Link
+                    className="mr-4 underline"
+                    to={
+                      "/" +
+                      link
+                        .toLowerCase()
+                        .replace(/\s|[/]/g, "")
+                        .replace(/&| and /g, "-and-")
+                    }
+                  >
+                    {link}
+                  </Link>
+                );
+              })}
+            </>
+          )}
+          {frontmatter.trackingProgressLinks.length && (
+            <>
+              <div>Tracking Progress Links: </div>
+              {frontmatter.trackingProgressLinks.map(link => {
+                return (
+                  <Link
+                    className="mr-4 underline"
+                    to={
+                      "/" +
+                      link
+                        .toLowerCase()
+                        .replace(/\s|[/]/g, "")
+                        .replace(/&| and /g, "-and-")
+                    }
+                  >
+                    {link}
+                  </Link>
+                );
+              })}
+            </>
+          )}
         </div>
       </div>
     </Layout>
