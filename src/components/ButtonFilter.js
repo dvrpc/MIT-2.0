@@ -44,7 +44,7 @@ const ButtonFilter = ({
             type="text"
             onChange={e => setNameFilter(e.target.value)}
             value={nameFilter}
-            className="w-5/6 block border border-[#cccccc] p-1"
+            className="w-1/2 block border border-[#cccccc] p-1"
             style={{ borderRadius: "4px" }}
           />
         </label>
@@ -52,6 +52,9 @@ const ButtonFilter = ({
       <div className="flex flex-col">
         <div>
           <label>Filter by principle:</label>
+          {/* 
+            temp setup while waiting for logos from creative services
+          */}
           <div className="flex my-2">
             {Object.keys(principles).map(principle => {
               return (
@@ -71,15 +74,16 @@ const ButtonFilter = ({
         </div>
         <div>
           <label>Filter by focus area:</label>
-          <div className="flex my-2">
+          <div>
             {Object.keys(focusAreas).map(focus => {
               return (
-                <button id="focus">
+                <button id="focus" className="flex">
+                  <span>{focus}</span>
                   <img
                     src={focusAreas[focus]}
                     onClick={toggleFilter}
                     id={`${focus}`}
-                    className="h-[35px] rounded-full mr-2 grayscale"
+                    className="w-[35px] rounded-full grayscale"
                   />
                 </button>
               );
