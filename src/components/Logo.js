@@ -1,10 +1,10 @@
 import React from "react";
-import images from "../utils/images";
+import { focusAreas } from "../utils/images";
 
 const Logo = ({ focus }) => {
   return (
     <img
-      src={images[focus]}
+      src={focusAreas[focus]}
       alt={focus}
       className="rounded-full h-[30px] mx-1"
     />
