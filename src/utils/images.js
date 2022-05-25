@@ -4,7 +4,7 @@ import environment from "../logos/environment.png";
 import regionalplanning from "../logos/regionalplanning.png";
 import transportation from "../logos/transportation.png";
 
-const images = {
+export const focusAreas = {
   Communities: communities,
   Economy: economy,
   Environment: environment,
@@ -12,4 +12,4 @@ const images = {
   Transportation: transportation,
 };
 
-export default images;
+export const principles = {};
