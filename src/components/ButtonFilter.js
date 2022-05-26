@@ -49,7 +49,7 @@ const ButtonFilter = ({
           />
         </label>
       </div>
-      <div className="flex">
+      <div className="flex space-x-2">
         <div>
           <label>Filter by focus area:</label>
           <div>
