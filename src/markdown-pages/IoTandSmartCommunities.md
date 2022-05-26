@@ -1,10 +1,9 @@
 ---
   slug: "/iotandsmartcommunities"
   title: IoT and Smart Communities
-  focusAreas: [Environment,Transportation,Economy,Regional Planning]
-  principles: [Resiliency]
-  seeOther: [Broadband Universal Access,Wireless Communications Facilitiies Ordinances (5G),Connected & Automated Vehicle Preparations]
-  trackingProgressLinks: []
+  focusAreas: [Environment,Communities,Regional Planning]
+  principles: []
+  seeOther: [Comprehensive Environmental Protection ordinances,Stream Corridor Protection Ordinancess,Street Tree Ordinance & Management Plan]
+  trackingProgressLinks: [Land Consumption]
 ---
-
 # IoT and Smart Communities

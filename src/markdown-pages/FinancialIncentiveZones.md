@@ -1,9 +1,9 @@
 ---
   slug: "/financialincentivezones"
   title: Financial Incentive Zones
-  focusAreas: [Economy,Regional Planning]
-  principles: []
-  seeOther: [TID,Downtown Management,Greenhouse Gas Overlay Zones]
-  trackingProgressLinks: [Job Growth,Racial and Ethnic Disparities,Income Disparities]
+  focusAreas: [Environment,Communities,Regional Planning]
+  principles: [Equity,Sustainability]
+  seeOther: [Age Friendly Communities,Community engagement,Housing Maintenance & Rehabilitation Programs,Human Capital Investments]
+  trackingProgressLinks: [Racial & Ethnic Disparities,Sex Disparities]
 ---
 # Financial Incentive Zones

@@ -1,9 +1,9 @@
 ---
   slug: "/greenbuildingstandards"
   title: Green Building Standards
-  focusAreas: [Environment,Communities]
+  focusAreas: [Environment,Communities,Regional Planning]
   principles: [Resiliency,Sustainability]
-  seeOther: [Greenhouse Gas Reduction Targets And Climate Action Plans,Alternative Energy Ordinance]
-  trackingProgressLinks: [Greenhouse Gas Emissions]
+  seeOther: [Right-To-Farm Provisions,Agricultural Zoning,LOCAL FOOD PROCUREMENT POLICY PREFERENCE]
+  trackingProgressLinks: []
 ---
 # Green Building Standards

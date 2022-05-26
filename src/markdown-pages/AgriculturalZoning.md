@@ -1,9 +1,9 @@
 ---
   slug: "/agriculturalzoning"
   title: Agricultural Zoning
-  focusAreas: [Environment,Communities,Regional Planning]
-  principles: [Sustainability]
-  seeOther: [Food System Planning,Right-To-Farm Provisions,LOCAL Food Procurement Policy Preference]
-  trackingProgressLinks: [Land Consumption]
+  focusAreas: [Communities,Transportation,Economy]
+  principles: [Equity,Sustainability]
+  seeOther: [Build Missing Middle Housing,Universal Design & Visitability,Infill Ordinances]
+  trackingProgressLinks: [Housing Affordability,Income Disparities]
 ---
 # Agricultural Zoning

@@ -1,9 +1,9 @@
 ---
   slug: "/communityengagement"
   title: Community Engagement
-  focusAreas: [Communities,Regional Planning]
-  principles: [Equity]
-  seeOther: [Engaging Underserved Communities,Tactical Urbanism,Biophilic Design,Smart Location of Public Facilities]
+  focusAreas: [Communities,Economy]
+  principles: []
+  seeOther: [Buy Local Campaign,Downtown Management]
   trackingProgressLinks: []
 ---
 # Community Engagement

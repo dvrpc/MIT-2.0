@@ -1,9 +1,9 @@
 ---
   slug: "/multimunicipalcomprehensiveplans"
   title: Multimunicipal Comprehensive Plans
-  focusAreas: [Communities,Regional Planning]
-  principles: []
-  seeOther: [Shared Services,Official Map]
-  trackingProgressLinks: [Global Connectivity,Transit Conditions]
+  focusAreas: [Environment ,Communities]
+  principles: [Resiliency,Sustainability]
+  seeOther: [Comprehensive environmental protection ordinances,Stream Corridor Protection Ordinancess,Street Tree Ordinance & Management Plan]
+  trackingProgressLinks: [Water Quality]
 ---
 # Multimunicipal Comprehensive Plans

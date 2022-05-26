@@ -1,9 +1,9 @@
 ---
   slug: "/cleanenergysupply"
   title: Clean Energy Supply
-  focusAreas: [Environment,Economy]
-  principles: [Sustainability]
-  seeOther: [Alternative Energy Ordinance,Electric Vehicles,Greenhouse Gas Reduction Targets And Climate Action Plans]
-  trackingProgressLinks: [Air Quality,Greenhouse Gas Emissions]
+  focusAreas: [Environment]
+  principles: []
+  seeOther: [Historic Districts & Overlay Zones,Shared Services,Official Map]
+  trackingProgressLinks: []
 ---
 # Clean Energy Supply

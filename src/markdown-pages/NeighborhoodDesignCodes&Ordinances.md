@@ -1,9 +1,9 @@
 ---
   slug: "/neighborhooddesigncodes&ordinances"
   title: Neighborhood Design Codes & Ordinances
-  focusAreas: [Communities]
+  focusAreas: [Environment,Regional Planning]
   principles: []
-  seeOther: [Form-Based Zoning,Performance Zoning]
-  trackingProgressLinks: [Housing Activity]
+  seeOther: [Multimunicipal Comprehensive Plans,Neighborhood Design Codes & Ordinances,Historical District Overlay]
+  trackingProgressLinks: [Land Consumption,Population Growth,Transit Ridership]
 ---
 # Neighborhood Design Codes & Ordinances

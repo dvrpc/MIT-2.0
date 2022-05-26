@@ -1,9 +1,9 @@
 ---
   slug: "/buylocalcampaign"
   title: Buy Local Campaign
-  focusAreas: [Economy]
-  principles: [Sustainability]
-  seeOther: [LOCAL FOOD PROCUREMENT POLICY PREFERENCE,Agricultural Zoning,Minority and Women-owned Business Enterprises]
-  trackingProgressLinks: [Job Growth]
+  focusAreas: [Communities,Regional Planning]
+  principles: [Equity,Sustainability]
+  seeOther: [Age Friendly Communities,Build Missing Middle Housing,Development without Displacement,Live/Work Zoning,Home Repair Programs]
+  trackingProgressLinks: [Housing Affordability,Housing Activity,Income Disparities,Population Growth]
 ---
 # Buy Local Campaign

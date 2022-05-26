@@ -1,9 +1,9 @@
 ---
   slug: "/liveworkzoning"
   title: Live/Work Zoning
-  focusAreas: [Communities,Regional Planning]
-  principles: [Equity]
-  seeOther: [Age Friendly Communities,Build Missing Middle Housing,Development without Displacement,]
-  trackingProgressLinks: [Housing Affordability,Housing Activity]
+  focusAreas: [Economy,Regional Planning]
+  principles: [Sustainability]
+  seeOther: [Buy Local Campaign,Agricultural Zoning]
+  trackingProgressLinks: []
 ---
 # Live/Work Zoning

@@ -1,9 +1,9 @@
 ---
   slug: "/connected&automatedvehiclepreparations"
   title: Connected & Automated Vehicle Preparations
-  focusAreas: [Transportation,Regional Planning]
-  principles: []
-  seeOther: [IoT and Smart Communities,Multimodal Transportation Hubs,Shared Mobility Regulatory Framework,Curbside Management]
-  trackingProgressLinks: [Bridge Conditions,Pavement Conditions,Roadway Safety]
+  focusAreas: [Environment,Transportation]
+  principles: [Equity]
+  seeOther: [Sidewalk Standards,Walking and Biking Encouragement Programs,Curbside Management]
+  trackingProgressLinks: [Commute Mode,Transit Ridership]
 ---
 # Connected & Automated Vehicle Preparations

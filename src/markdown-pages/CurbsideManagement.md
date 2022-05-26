@@ -1,9 +1,9 @@
 ---
   slug: "/curbsidemanagement"
   title: Curbside Management 
-  focusAreas: [Communities,Transportation]
+  focusAreas: [Transportation,Regional Planning]
   principles: []
-  seeOther: [Delivery-Friendly Design,Complete Streets,Sidewalk Standards,Shared Mobility Regulatory Frameworks,Connected and Automated Vehicle Preparations]
-  trackingProgressLinks: [Greenhouse Gas Emissions,Congestion]
+  seeOther: [IoT and Smart Communities,Multimodal Transportation Hubs,Shared Mobility Regulatory Framework,Curbside Management]
+  trackingProgressLinks: [Bridge Conditions,Pavement Conditions,Roadway Safety]
 ---
 # Curbside Management
