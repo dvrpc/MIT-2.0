@@ -4,12 +4,14 @@ import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
-    <div className="h-screen flex flex-col">
-      <div className="h-[12%]" style={{ zIndex: 1000 }}>
+    <div className="flex min-h-screen overflow-hidden flex-col">
+      <div className="h-[10vh] fixed w-full" style={{ zIndex: 1000 }}>
         <Header />
       </div>
-      <div className="flex justify-center h-[86%] md:h-[84%]">{children}</div>
-      <div className="h-[2%] md:h-[8%]">
+      <div className="flex flex-col mt-[10vh] justify-center items-center relative">
+        {children}
+      </div>
+      <div className="h-[10vh]">
         <Footer />
       </div>
     </div>

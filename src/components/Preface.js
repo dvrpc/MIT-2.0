@@ -1,19 +1,41 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import ToolKit from "../images/toolkit.png";
 import { Tabs, Tab, TabList, TabPanel } from "react-tabs";
-import Close from "../images/close.svg";
 import DownArrow from "../images/downarrow.svg";
 
 const Preface = () => {
+  const info = useRef(null);
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const listenToScroll = () => {
+      if (!isVisible) return;
+      let heightToHideFrom = Math.floor(
+        info.current.getBoundingClientRect().height
+      );
+      const winScroll =
+        document.body.scrollTop || document.documentElement.scrollTop;
+      if (winScroll >= heightToHideFrom) {
+        isVisible && setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", listenToScroll);
+    return () => window.removeEventListener("scroll", listenToScroll);
+  }, [isVisible]);
+
   return (
-    <div className="flex flex-col w-full absolute z-10 -mt-[1%] md:mt-0">
-      <div className="flex flex-col md:flex-row px-6 md:py-6 items-center bg-[#edf6f6] justify-center border-b-2 shadow-md">
+    <div className="flex flex-col w-full" ref={info}>
+      <div
+        className="flex flex-col md:flex-row md:py-6 items-center bg-[#edf6f6] justify-center border-b-2 shadow-md h-[45vh]"
+        style={{ display: isVisible ? "" : "none" }}
+      >
         <img
           src={ToolKit}
           alt="toolkit-logo"
           className="h-[200px] md:h-[300px] w-auto"
         />
-        <div className="text-lg mt-4 md:w-1/2 text-sm md:text-base pb-2">
+        <div className="text-lg md:w-1/2 text-sm md:text-base pb-2">
           <div className="md:ml-12">
             <Tabs>
               <TabList className="flex cursor-pointer border-b">
@@ -59,28 +81,13 @@ const Preface = () => {
           </div>
         </div>
       </div>
-      <div className="flex text-white w-full">
-        <img
-          src={Close}
-          alt="arrow"
-          className="h-[30px] mt-1 p-1.5 ml-auto mr-auto cursor-pointer rounded-full bg-[#4fa3a8]"
-          onClick={e => {
-            const parentSibling = e.target.parentNode.previousSibling;
-            parentSibling.classList.toggle("hidden");
-            e.target.classList.toggle("hidden");
-            e.target.nextSibling.classList.toggle("hidden");
-          }}
-        />
+      <div className="flex items-center absolute w-full">
         <img
           src={DownArrow}
           alt="arrow"
-          className="h-[30px] mt-1 p-2 ml-auto mr-auto cursor-pointer ball hidden rounded-full bg-[#4fa3a8]"
-          onClick={e => {
-            const parentSibling = e.target.parentNode.previousSibling;
-            parentSibling.classList.toggle("hidden");
-            e.target.classList.toggle("hidden");
-            e.target.previousSibling.classList.toggle("hidden");
-          }}
+          className="h-[30px] mt-1 p-2 ml-auto mr-auto cursor-pointer ball rounded-full bg-[#4fa3a8]"
+          onClick={e => setIsVisible(!isVisible)}
+          style={{ display: !isVisible ? "" : "none" }}
         />
       </div>
     </div>

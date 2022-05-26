@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
-import TestLayout from "../components/TestLayout";
+import Layout from "../components/Layout";
 import Tool from "../components/Tool";
 import filterData from "../utils/filterData";
 import ButtonFilter from "../components/ButtonFilter";
-import TestPreface from "../components/TestPreface";
+import Preface from "../components/Preface";
 import { graphql } from "gatsby";
 
 const IndexPage = ({ data }) => {
@@ -44,8 +44,8 @@ const IndexPage = ({ data }) => {
   }, [namefilter, focusFilter, principleFilter, edges]);
 
   return (
-    <TestLayout>
-      <TestPreface />
+    <Layout>
+      <Preface />
       <div className="flex flex-col md:flex-row justify-center md:px-6 py-12 h-[80vh] md:w-4/5">
         <div className="md:w-1/4 mx-6 md:border-r-4 border-[#4fa3a8]">
           <div className="text-2xl pb-2 text-[#4fa3a8]">Tools:</div>
@@ -67,7 +67,7 @@ const IndexPage = ({ data }) => {
           )}
         </div>
       </div>
-    </TestLayout>
+    </Layout>
   );
 };
 
