@@ -6,4 +6,3 @@
   seeOther: [Sidewalk Standards,Complete Streets]
   trackingProgressLinks: [Commute Mode,Miles Driven]
 ---
-# Walking and Biking Encouragement Programs

@@ -6,4 +6,3 @@
   seeOther: [Multimodal Transportation Hubs and Connections]
   trackingProgressLinks: [Commute Mode]
 ---
-# Transit Revitalization Investment District (TRID)

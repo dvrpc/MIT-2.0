@@ -1,9 +1,8 @@
 ---
   slug: "/traveldemandmanagement(tdm)"
   title: Travel Demand Management (TDM)
-  focusAreas: [Transportation]
-  principles: [Equity,Resiliency]
-  seeOther: [Community Shuttle Programs,Transportation Safety Programs]
-  trackingProgressLinks: [Roadway Safety,Bridge Conditions,Pavement Conditions]
+  focusAreas: [Environment,Transportation,Regional Planning]
+  principles: [Sustainability]
+  seeOther: [Community Shuttle Programs,Walking and Biking Encouragement Programs,Travel Demand Management]
+  trackingProgressLinks: [Air Quality, Commute Mode,Greenhouse Gas Emissions,Miles Driven,Congestion]
 ---
-# Travel Demand Management (TDM)

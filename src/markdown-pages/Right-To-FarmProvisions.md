@@ -6,4 +6,3 @@
   seeOther: [Food System Planning]
   trackingProgressLinks: [Land Consumption]
 ---
-# Right-To-Farm Provisions

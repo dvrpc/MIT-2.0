@@ -6,4 +6,3 @@
   seeOther: [Inclusionary Zoning,Building Missing Middle Housing]
   trackingProgressLinks: [Transit Conditions]
 ---
-# Impact Fees

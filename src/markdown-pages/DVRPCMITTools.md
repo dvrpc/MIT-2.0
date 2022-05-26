@@ -1,9 +1,8 @@
 ---
   slug: "/dvrpcmittools"
   title: DVRPC MIT Tools
-  focusAreas: [Communities]
-  principles: [Equity]
-  seeOther: [Inclusionary Zoning,Affordable housing,and Community Benefits Agreements]
-  trackingProgressLinks: [Housing Affordability,Racial and Ethnic Disparities,Income Disparities]
+  focusAreas: [Environment,Communities,Transportation,Economy,Regional Planning]
+  principles: [Equity,Resiliency,Sustainability]
+  seeOther: []
+  trackingProgressLinks: []
 ---
-# DVRPC MIT Tools

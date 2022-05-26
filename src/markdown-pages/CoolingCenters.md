@@ -1,9 +1,8 @@
 ---
   slug: "/coolingcenters"
   title: Cooling Centers 
-  focusAreas: [Environment]
-  principles: [Resiliency,Sustainability]
-  seeOther: [Official Map,Parkland Dedication and Fee-in-Lieu,Land Acquisition and Conservation Easements,Dedicated Open Space Funding,Stream Corridor Protection Ordinances,Native Plantings]
-  trackingProgressLinks: [Land Consumption,Water Quality]
+  focusAreas: [Environment,Communities]
+  principles: [Equity,Resiliency]
+  seeOther: [Post-Disaster Planning,GREEN BUILDING STANDARDS,Engaging Underserved Communities]
+  trackingProgressLinks: [Greenhouse Gas Emissions]
 ---
-# Cooling Centers

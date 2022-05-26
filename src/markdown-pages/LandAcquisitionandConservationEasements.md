@@ -1,9 +1,8 @@
 ---
   slug: "/landacquisitionandconservationeasements"
   title: Land Acquisition and Conservation Easements
-  focusAreas: [Communities,Regional Planning]
-  principles: [Equity]
-  seeOther: [Age Friendly Communities,Build Missing Middle Housing,Development without Displacement,]
-  trackingProgressLinks: [Housing Affordability,Housing Activity]
+  focusAreas: [Environment,Communities,Regional Planning]
+  principles: []
+  seeOther: [Comprehensive Environmental Protection ordinances,Stream Corridor Protection Ordinancess,Street Tree Ordinance & Management Plan]
+  trackingProgressLinks: [Land Consumption]
 ---
-# Land Acquisition and Conservation Easements

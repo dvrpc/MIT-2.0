@@ -6,4 +6,3 @@
   seeOther: [Neighborhood Design Codes & Ordinances and Revitalization Plans]
   trackingProgressLinks: [Commute Mode,Land Consumption,Transit Ridership]
 ---
-# Smart Location Of Public Facilities

@@ -1,9 +1,10 @@
 ---
   slug: "/alternativeenergyordinance"
   title: Alternative Energy Ordinance
-  focusAreas: [Environment,Communities,Regional Planning]
+  focusAreas: [Environment,Regional Planning]
   principles: [Sustainability]
-  seeOther: [Food System Planning,Right-To-Farm Provisions,LOCAL Food Procurement Policy Preference]
-  trackingProgressLinks: [Land Consumption]
+  seeOther: [Street Tree Ordinance and Management Plan,Greenhouse Gas Reduction Targets And Climate Action Plans,GREEN BUILDING STANDARDS]
+  trackingProgressLinks: [Air Quality, Greenhouse Gas Emissions]
 ---
-# Alternative Energy Ordinance
+
+Municipalities can play a significant role in supporting or encouraging the development of solar energy in their communities. Municipalities can encourage solar energy development through implementing supportive zoning and permitting processes, training staff on best practices, and supporting community education on best practices in alternative energy (solar, wind, hydro) implementation. There are 16 local governments, plus DVRPC, who have received SolSmart designation, which requires a solar ordinance.

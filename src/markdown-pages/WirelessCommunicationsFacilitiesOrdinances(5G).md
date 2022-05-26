@@ -6,4 +6,3 @@
   seeOther: [Broadband Univeral Access,IoT and Smart Communities]
   trackingProgressLinks: [Job Growth]
 ---
-# Wireless Communications Facilities Ordinances (5G)

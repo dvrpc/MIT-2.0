@@ -6,4 +6,3 @@
   seeOther: [Age Friendly Communities,Home Repair Programs]
   trackingProgressLinks: [Housing Activity]
 ---
-# Universal Design & Visitability

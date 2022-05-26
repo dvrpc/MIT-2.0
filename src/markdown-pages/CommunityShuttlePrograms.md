@@ -1,9 +1,8 @@
 ---
   slug: "/communityshuttleprograms"
   title: Community Shuttle Programs
-  focusAreas: [Communities,Regional Planning]
+  focusAreas: [Environment,Transportation]
   principles: [Equity]
-  seeOther: [Engaging Underserved Communities,Tactical Urbanism,Biophilic Design,Smart Location of Public Facilities]
-  trackingProgressLinks: []
+  seeOther: [Multimodal Hubs and Connections,Shared services,TDM,Mobility as a Service (MaaS)]
+  trackingProgressLinks: [Commute Mode,Racial & Ethnic Disparities]
 ---
-# Community Shuttle Programs

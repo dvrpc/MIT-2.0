@@ -1,9 +1,8 @@
 ---
   slug: "/officialmap"
   title: Official Map
-  focusAreas: [Environment,Communities,Regional Planning]
-  principles: [Resiliency,Sustainability]
-  seeOther: [Neighborhood Design Codes & Ordinances,Alternative Energy Ordinances,GREEN BUILDING STANDARDS]
-  trackingProgressLinks: [Greenhouse Gas Emissions]
+  focusAreas: [Environment,Regional Planning]
+  principles: []
+  seeOther: [Multimunicipal Comprehensive Plans,Neighborhood Design Codes & Ordinances,Historical District Overlay]
+  trackingProgressLinks: [Land Consumption,Population Growth,Transit Ridership]
 ---
-# Official Map

@@ -6,4 +6,3 @@
   seeOther: [Neighborhood Design Codes & Ordinances,Performance Zoning,Downtown Management]
   trackingProgressLinks: []
 ---
-# Historic Districts, Overlay Zones, and Facade Improvement Grants

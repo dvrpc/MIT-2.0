@@ -1,9 +1,8 @@
 ---
   slug: "/engagingunderservedcommunities"
   title: Engaging Underserved Communities
-  focusAreas: [Environment,Transportation]
-  principles: [Sustainability]
-  seeOther: [Community Shuttle Programs,Clean Energy Supply,Curbside Management]
-  trackingProgressLinks: [Air Quality,Greenhouse Gas Emissions]
+  focusAreas: [Environment,Communities,Regional Planning]
+  principles: [Equity,Sustainability]
+  seeOther: [Age Friendly Communities,Community engagement,Housing Maintenance & Rehabilitation Programs,Human Capital Investments]
+  trackingProgressLinks: [Racial & Ethnic Disparities,Sex Disparities]
 ---
-# Engaging Underserved Communities

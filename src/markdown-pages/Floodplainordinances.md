@@ -1,9 +1,8 @@
 ---
   slug: "/floodplainordinances"
   title: Floodplain ordinances 
-  focusAreas: [Economy,Regional Planning]
-  principles: []
-  seeOther: [TID,Downtown Management,Greenhouse Gas Overlay Zones]
-  trackingProgressLinks: [Job Growth,Racial and Ethnic Disparities,Income Disparities]
+  focusAreas: [Environment,Communities,Regional Planning]
+  principles: [Resiliency]
+  seeOther: [Stream Corridor Protection Ordinances,Stormwater Management,Stormwater Feess]
+  trackingProgressLinks: [Water Quality,Greenhouse Gas Emissions]
 ---
-# Floodplain ordinances

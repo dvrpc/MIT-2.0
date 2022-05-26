@@ -1,9 +1,8 @@
 ---
   slug: "/agefriendlycommunities"
   title: Age Friendly Communities 
-  focusAreas: [Transportation,Regional Planning]
-  principles: []
-  seeOther: [Vision Zero,Transportation Safety Programs,Travel Demand Management]
-  trackingProgressLinks: [Congestion,Roadway Safety]
+  focusAreas: [Communities,Transportation,Economy]
+  principles: [Equity,Sustainability]
+  seeOther: [Build Missing Middle Housing,Universal Design & Visitability,infill ordinances]
+  trackingProgressLinks: [Housing Affordability,Income Disparities]
 ---
-# Age Friendly Communities

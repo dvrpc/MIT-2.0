@@ -6,4 +6,3 @@
   seeOther: [Native Plantings,Cool Pavement,Downtown Management]
   trackingProgressLinks: [Air Quality]
 ---
-# Street Tree Ordinance & Management Plan

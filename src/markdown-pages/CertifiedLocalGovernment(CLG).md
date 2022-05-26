@@ -1,9 +1,8 @@
 ---
   slug: "/certifiedlocalgovernment(clg)"
   title: Certified Local Government (CLG)
-  focusAreas: [Economy]
-  principles: [Sustainability]
-  seeOther: [LOCAL FOOD PROCUREMENT POLICY PREFERENCE,Agricultural Zoning,Minority and Women-owned Business Enterprises]
-  trackingProgressLinks: [Job Growth]
+  focusAreas: [Environment]
+  principles: []
+  seeOther: [Historic Districts & Overlay Zones,Shared Services,Official Map]
+  trackingProgressLinks: []
 ---
-# Certified Local Government (CLG)

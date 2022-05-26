@@ -1,9 +1,8 @@
 ---
   slug: "/communitybenefitsagreements(cbas)"
   title: Community Benefits Agreements (CBAs)
-  focusAreas: [Environment,Economy]
-  principles: [Sustainability]
-  seeOther: [Alternative Energy Ordinance,Electric Vehicles,Greenhouse Gas Reduction Targets And Climate Action Plans]
-  trackingProgressLinks: [Air Quality,Greenhouse Gas Emissions]
+  focusAreas: [Environment,Communities,Regional Planning]
+  principles: [Equity]
+  seeOther: [Community Engagement,Human Capital Investments,Engaging Underserved Communities,Tactical Urbanism]
+  trackingProgressLinks: [Housing Affordability]
 ---
-# Community Benefits Agreements (CBAs)
