@@ -27,7 +27,7 @@ const Preface = () => {
   return (
     <div className="flex flex-col w-full" ref={info}>
       <div
-        className="flex flex-col md:flex-row md:py-6 items-center bg-[#edf6f6] justify-center border-b-2 shadow-md h-[45vh]"
+        className="flex flex-col md:flex-row md:py-6 items-center bg-[#edf6f6] justify-center border-b-2 shadow-md min-h-[45vh]"
         style={{ display: isVisible ? "" : "none" }}
       >
         <img
@@ -41,40 +41,75 @@ const Preface = () => {
               <TabList className="flex cursor-pointer border-b">
                 <Tab>About</Tab>
                 <Tab>Principles/Focuses</Tab>
-                <Tab>Abstract</Tab>
               </TabList>
               <div className="mt-4">
                 <TabPanel>
-                  DVRPC has designed this Municipal Implementation Toolbox to
-                  serve as a guide for municipalities to help implement the
-                  goals of Connections 2045, the region’s Long-Range Plan. It
-                  contains resources, case studies, and model/sample ordinances
-                  for more than 60 tools municipalities can use to implement the
-                  5 Core Principles of the Plan in their own jurisdictions.
+                  The Delaware Valley Regional Planning Commission (DVRPC) is
+                  responsible for long-range planning at the regional scale, but
+                  implementation of the Plan—and much of our collective
+                  future—is based on how the region’s 350 municipalities use
+                  their home-rule authority to influence land use, provide
+                  public services, protect natural and historic resources, and,
+                  ultimately, create the places we call home. DVRPC has designed
+                  this Municipal Implementation Toolbox to serve as a guide for
+                  municipalities to help implement the goals of Connections
+                  2050, the region’s Long-Range Plan. It contains resources,
+                  case studies, ordinances, and indicators for nearly 80 tools.
                   Scroll down to find the tools that best fit your
-                  municipality’s needs, either by using the interactive word
-                  cloud, or by viewing the full toolkit.
+                  municipality’s needs by using the interactive filters. Learn
+                  more about Principle and Focus Area filters.
                 </TabPanel>
                 <TabPanel>
-                  <p>
-                    Lorem ipsum dolor sit amet, an nominavi complectitur sea, ut
-                    voluptua ullamcorper usu, vero lobortis duo cu. Dicat
-                    repudiare an sea. In eam bonorum theophrastus. Ea libris
-                    appetere vix, ea commodo sapientem splendide nec. Sed at
-                    summo populo, purto timeam periculis mei in, eam id fugit
-                    interesset. Has no veri utroque.
-                  </p>
-                </TabPanel>
-                <TabPanel>
-                  <p>
-                    Vel ne dicta adipiscing, doctus aliquando id mea, mel ne
-                    homero consul. Malis facilis fierent mei et, et eloquentiam
-                    theophrastus duo. Laudem efficiantur vim ex, vim te dicat
-                    qualisque suscipiantur. Ad nobis albucius nec, id his tota
-                    ridens discere. Laudem graecis ea sea. Alii menandri
-                    liberavisse at mei, causae salutatus sadipscing vim te.
-                    Illud oratio ius id, ne sit discere cotidieque efficiantur.
-                  </p>
+                  <div className="flex">
+                    <ul>
+                      <strong>Principles</strong>
+                      <li>
+                        EQUITY: commitment to public outreach and participatory
+                        planning to hear more voices in the development of
+                        communities that we live in, and to increase everyone’s
+                        access to the transportation infrastructure needed for
+                        all of our daily activities
+                      </li>
+                      <li>
+                        SUSTAINABILITY: reduction of emissions to a net zero
+                        level by 2050 through renewable energy, energy
+                        management, the electrification of buildings and
+                        vehicles, and improving transit and non-motorized travel
+                        options
+                      </li>
+                      <li>
+                        RESILIENCY: hardening our communities and their
+                        infrastructure systems or moving them out of harm’s way
+                        in the face of anticipated flooding; ecosystem
+                        degradation; fishing and farming disruptions; and human
+                        health risks.
+                      </li>
+                    </ul>
+                    <ul>
+                      <strong>Focus Areas</strong>
+                      <li>
+                        ENVIRONMENT: protection and enhancement of natural
+                        amenities, air and water quality, open space, and
+                        farmland
+                      </li>
+                      <li>
+                        COMMUNITIES: inclusive, healthy, and walkable
+                        communities that offer a better quality of life for all
+                        residents, using the more than 135 Plan Centers as a
+                        framework for infrastructure investments
+                      </li>
+                      <li>
+                        MULTIMODAL TRANSPORTATION: safe, healthy, and
+                        environmentally friendly transportation accessible to a
+                        wide range of users for a variety of trip purposes
+                      </li>
+                      <li>
+                        ECONOMY: accelerating the transition to a more
+                        environmentally friendly economy, enhancing workforce
+                        skills, and supporting inclusive growth.
+                      </li>
+                    </ul>
+                  </div>
                 </TabPanel>
               </div>
             </Tabs>

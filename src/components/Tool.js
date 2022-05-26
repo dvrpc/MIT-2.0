@@ -16,11 +16,18 @@ const Tool = ({ tool }) => {
           return <Logo focus={focus} />;
         })}
       </div>
-      <div className="w-2/3">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Elementum pulvinar
-        etiam non quam lacus suspendisse faucibus.
-      </div>
+      {tool.html ? (
+        <div
+          className="w-2/3"
+          dangerouslySetInnerHTML={{ __html: tool.html.slice(0, 249) + "..." }}
+        />
+      ) : (
+        <div className="w-2/3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum
+          pulvinar etiam non quam lacus suspendisse faucibus.
+        </div>
+      )}
     </div>
   );
 };
