@@ -10,8 +10,8 @@ export default function Template({ data }) {
 
   return (
     <Layout>
-      <div className="w-3/5 mt-10 flex flex-col">
-        <div className="flex">
+      <div className="w-3/5 flex h-[80vh] flex-col">
+        <div className="flex mt-10">
           <div className="text-3xl">{frontmatter.title}</div>
           <div className="flex items-center ml-auto">
             {frontmatter.focusAreas.map(focus => {
