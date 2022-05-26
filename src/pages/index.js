@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
-import Layout from "../components/layout";
+import TestLayout from "../components/TestLayout";
 import Tool from "../components/Tool";
 import filterData from "../utils/filterData";
-import Filter from "../components/Filter";
-import Preface from "../components/Preface";
+import ButtonFilter from "../components/ButtonFilter";
+import TestPreface from "../components/TestPreface";
 import { graphql } from "gatsby";
 
 const IndexPage = ({ data }) => {
@@ -44,19 +44,21 @@ const IndexPage = ({ data }) => {
   }, [namefilter, focusFilter, principleFilter, edges]);
 
   return (
-    <Layout>
-      <Preface />
-      <div className="flex flex-col px-6 py-6 w-full md:w-3/4">
-        <div>
+    <TestLayout>
+      <TestPreface />
+      <div className="flex flex-col md:flex-row justify-center md:px-6 py-12 h-[80vh] md:w-4/5">
+        <div className="md:w-1/4 mx-6 md:border-r-4 border-[#4fa3a8]">
           <div className="text-2xl pb-2 text-[#4fa3a8]">Tools:</div>
-          <Filter
+          <ButtonFilter
             namefilter={namefilter}
+            focusFilter={focusFilter}
+            principleFilter={principleFilter}
             setNameFilter={setNameFilter}
             setFocusFilter={setFocusFilter}
             setPrincipleFilter={setPrincipleFilter}
           />
         </div>
-        <div className="overflow-auto my-4 md:my-8">
+        <div className="overflow-auto my-4 ml-6 md:my-8 w-3/4">
           {tools.map((tool, idx) => {
             return <Tool key={idx} tool={tool} />;
           })}
@@ -65,7 +67,7 @@ const IndexPage = ({ data }) => {
           )}
         </div>
       </div>
-    </Layout>
+    </TestLayout>
   );
 };
 
