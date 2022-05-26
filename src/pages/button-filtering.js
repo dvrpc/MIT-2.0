@@ -46,8 +46,8 @@ const IndexPage = ({ data }) => {
   return (
     <TestLayout>
       <TestPreface />
-      <div className="flex justify-center px-6 py-12 h-[80vh] w-4/5">
-        <div className="w-1/4 ml-6 md:border-r-4 border-[#4fa3a8]">
+      <div className="flex flex-col md:flex-row justify-center md:px-6 py-12 h-[80vh] md:w-4/5">
+        <div className="md:w-1/4 mx-6 md:border-r-4 border-[#4fa3a8]">
           <div className="text-2xl pb-2 text-[#4fa3a8]">Tools:</div>
           <ButtonFilter
             namefilter={namefilter}
