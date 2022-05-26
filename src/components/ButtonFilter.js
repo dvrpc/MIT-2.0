@@ -44,12 +44,12 @@ const ButtonFilter = ({
             type="text"
             onChange={e => setNameFilter(e.target.value)}
             value={nameFilter}
-            className="w-full md:w-5/6 block border border-[#cccccc] p-1"
+            className="w-full block border border-[#cccccc] p-1"
             style={{ borderRadius: "4px" }}
           />
         </label>
       </div>
-      <div className="flex space-x-2">
+      <div className="flex space-x-2 mt-2">
         <div>
           <label>Filter by focus area:</label>
           <div>
