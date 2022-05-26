@@ -44,47 +44,48 @@ const ButtonFilter = ({
             type="text"
             onChange={e => setNameFilter(e.target.value)}
             value={nameFilter}
-            className="w-1/2 block border border-[#cccccc] p-1"
+            className="w-5/6 block border border-[#cccccc] p-1"
             style={{ borderRadius: "4px" }}
           />
         </label>
       </div>
-      <div className="flex flex-col">
-        <div>
-          <label>Filter by principle:</label>
-          {/* 
-            temp setup while waiting for logos from creative services
-          */}
-          <div className="flex my-2">
-            {Object.keys(principles).map(principle => {
-              return (
-                <button id="principle">
-                  <div
-                    onClick={toggleFilter}
-                    id={`${principle}`}
-                    className={`rounded-full p-2 text-sm flex items-center justify-center mr-2 grayscale text-white z-0`}
-                    style={{ backgroundColor: colors.pop() }}
-                  >
-                    {principle}
-                  </div>
-                </button>
-              );
-            })}
-          </div>
-        </div>
+      <div className="flex">
         <div>
           <label>Filter by focus area:</label>
           <div>
             {Object.keys(focusAreas).map(focus => {
               return (
-                <button id="focus" className="flex">
-                  <span>{focus}</span>
+                <button id="focus" className="flex my-4 items-center">
                   <img
                     src={focusAreas[focus]}
                     onClick={toggleFilter}
                     id={`${focus}`}
                     className="w-[35px] rounded-full grayscale"
                   />
+                  <span className="ml-2">{focus}</span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+        <div>
+          <label>Filter by principle:</label>
+          {/* 
+            temp setup while waiting for logos from creative services
+          */}
+          <div>
+            {Object.keys(principles).map(principle => {
+              return (
+                <button id="principle" className="flex my-4 items-center">
+                  <div
+                    onClick={toggleFilter}
+                    id={`${principle}`}
+                    className="rounded-full p-2 text-sm flex items-center w-[35px] rounded-full grayscale justify-center grayscale text-white z-0"
+                    style={{ backgroundColor: colors.pop() }}
+                  >
+                    {principle.slice(0, 1)}
+                  </div>
+                  <span className="ml-2">{principle}</span>
                 </button>
               );
             })}

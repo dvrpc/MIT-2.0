@@ -46,8 +46,9 @@ const IndexPage = ({ data }) => {
   return (
     <TestLayout>
       <TestPreface />
-      <div className="flex justify-center px-6 py-12 h-[80vh]">
-        <div className="w-1/2">
+      <div className="flex justify-center px-6 py-12 h-[80vh] w-4/5">
+        <div className="w-1/4 ml-6 md:border-r-4 border-[#4fa3a8]">
+          <div className="text-2xl pb-2 text-[#4fa3a8]">Tools:</div>
           <ButtonFilter
             namefilter={namefilter}
             focusFilter={focusFilter}
@@ -57,7 +58,7 @@ const IndexPage = ({ data }) => {
             setPrincipleFilter={setPrincipleFilter}
           />
         </div>
-        <div className="overflow-auto my-4 md:my-8 h-[60vh]">
+        <div className="overflow-auto my-4 ml-6 md:my-8 w-3/4">
           {tools.map((tool, idx) => {
             return <Tool key={idx} tool={tool} />;
           })}

@@ -16,7 +16,7 @@ const Tool = ({ tool }) => {
           return <Logo focus={focus} />;
         })}
       </div>
-      <div>
+      <div className="w-2/3">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Elementum pulvinar
         etiam non quam lacus suspendisse faucibus.
