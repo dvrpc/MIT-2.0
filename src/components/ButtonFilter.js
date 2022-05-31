@@ -62,7 +62,7 @@ const ButtonFilter = ({
                     id={`${focus}`}
                     className="w-[35px] rounded-full grayscale"
                   />
-                  <span className="ml-2">{focus}</span>
+                  <span className="ml-2 text-left">{focus}</span>
                 </button>
               );
             })}
