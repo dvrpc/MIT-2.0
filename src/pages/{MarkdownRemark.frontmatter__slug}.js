@@ -20,18 +20,19 @@ export default function Template({ data }) {
             })}
           </div>
         </div>
-        <div className="grid grid-cols-3 my-8">
+        <div className="grid grid-cols-3 my-8 h-full">
           <div className="w-100 flex justify-center p-12 pt-0">
             {frontmatter.media ? (
               <img
                 src={require(`../images/${frontmatter.media.path}`).default}
                 alt={frontmatter.title}
+                className="object-contain object-top"
               />
             ) : (
               <img src={ToolKit} alt="toolkit-logo" className="h-[300px]" />
             )}
           </div>
-          <div className="border-r pr-8">
+          <div>
             {markdownRemark.html ? (
               <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
             ) : (
@@ -68,6 +69,39 @@ export default function Template({ data }) {
                     >
                       {link}
                     </Link>
+                  );
+                })}
+              </Accordion>
+            )}
+            {frontmatter.resources && (
+              <Accordion label="Resources: ">
+                {frontmatter.resources.map(resource => {
+                  return (
+                    <a className="pb-2 underline" href={resource.link}>
+                      {resource.label}
+                    </a>
+                  );
+                })}
+              </Accordion>
+            )}
+            {frontmatter.whoHasUsedThisTool && (
+              <Accordion label="Who Has Used This Tool?: ">
+                {frontmatter.whoHasUsedThisTool.map(who => {
+                  return (
+                    <a className="pb-2 underline" href={who.link}>
+                      {who.label}
+                    </a>
+                  );
+                })}
+              </Accordion>
+            )}
+            {frontmatter.guidelines && (
+              <Accordion label="Model/Sample Ordinances and Design Guidelines: ">
+                {frontmatter.whoHasUsedThisTool.map(guideline => {
+                  return (
+                    <a className="pb-2 underline" href={guideline.link}>
+                      {guideline.label}
+                    </a>
                   );
                 })}
               </Accordion>
@@ -115,6 +149,18 @@ export const pageQuery = graphql`
         media {
           type
           path
+        }
+        resources {
+          label
+          link
+        }
+        whoHasUsedThisTool {
+          label
+          link
+        }
+        guidelines {
+          label
+          link
         }
       }
     }
