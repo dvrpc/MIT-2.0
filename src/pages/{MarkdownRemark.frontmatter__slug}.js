@@ -3,14 +3,15 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
 import Logo from "../components/Logo";
 import ToolKit from "../images/toolkit.png";
+import Accordion from "../components/Accordion";
 
 export default function Template({ data }) {
   const { markdownRemark } = data;
   const { frontmatter } = markdownRemark;
-
+  console.log(frontmatter);
   return (
     <Layout>
-      <div className="w-3/5 flex h-[80vh] flex-col">
+      <div className="w-4/5 flex h-[80vh] flex-col">
         <div className="flex mt-10">
           <div className="text-3xl">{frontmatter.title}</div>
           <div className="flex items-center ml-auto">
@@ -19,11 +20,18 @@ export default function Template({ data }) {
             })}
           </div>
         </div>
-        <div className="grid grid-cols-2 mt-8">
-          <div className="w-100 flex justify-center">
-            <img src={ToolKit} alt="toolkit-logo" className="h-[300px] mr-12" />
+        <div className="grid grid-cols-3 my-8">
+          <div className="w-100 flex justify-center p-12 pt-0">
+            {frontmatter.media ? (
+              <img
+                src={require(`../images/${frontmatter.media.path}`).default}
+                alt={frontmatter.title}
+              />
+            ) : (
+              <img src={ToolKit} alt="toolkit-logo" className="h-[300px]" />
+            )}
           </div>
-          <div className="flex items-center">
+          <div className="border-r pr-8">
             {markdownRemark.html ? (
               <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
             ) : (
@@ -43,36 +51,37 @@ export default function Template({ data }) {
               </p>
             )}
           </div>
+          <div className="flex flex-col items-center">
+            {frontmatter.trackingProgressLinks.length > 0 && (
+              <Accordion label="Tracking Progress Links: ">
+                {frontmatter.trackingProgressLinks.map(link => {
+                  return (
+                    <Link
+                      className="pb-2 underline"
+                      to={
+                        "/" +
+                        link
+                          .toLowerCase()
+                          .replace(/\s|[/]/g, "")
+                          .replace(/&| and /g, "-and-")
+                      }
+                    >
+                      {link}
+                    </Link>
+                  );
+                })}
+              </Accordion>
+            )}
+          </div>
         </div>
-        <div className="mt-[8%]">
+        <div>
           {frontmatter.seeOther.length > 0 && (
             <>
-              <div>See Also: </div>
+              <div className="inline">See also: </div>
               {frontmatter.seeOther.map(link => {
                 return (
                   <Link
-                    className="mr-4 underline"
-                    to={
-                      "/" +
-                      link
-                        .toLowerCase()
-                        .replace(/\s|[/]/g, "")
-                        .replace(/&| and /g, "-and-")
-                    }
-                  >
-                    {link}
-                  </Link>
-                );
-              })}
-            </>
-          )}
-          {frontmatter.trackingProgressLinks.length > 0 && (
-            <>
-              <div>Tracking Progress Links: </div>
-              {frontmatter.trackingProgressLinks.map(link => {
-                return (
-                  <Link
-                    className="mr-4 underline"
+                    className="underline mr-4"
                     to={
                       "/" +
                       link
@@ -103,6 +112,10 @@ export const pageQuery = graphql`
         focusAreas
         seeOther
         trackingProgressLinks
+        media {
+          type
+          path
+        }
       }
     }
   }

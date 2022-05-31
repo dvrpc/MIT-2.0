@@ -56,8 +56,8 @@ const Preface = () => {
                   2050, the region’s Long-Range Plan. It contains resources,
                   case studies, ordinances, and indicators for nearly 80 tools.
                   Scroll down to find the tools that best fit your
-                  municipality’s needs by using the interactive filters. Learn
-                  more about Principle and Focus Area filters.
+                  municipality’s needs by using the interactive filters.{" "}
+                  <u>Learn more about Principle and Focus Area filters.</u>
                 </TabPanel>
                 <TabPanel>
                   <div className="flex">
@@ -88,25 +88,30 @@ const Preface = () => {
                     <ul>
                       <strong>Focus Areas</strong>
                       <li>
-                        ENVIRONMENT: protection and enhancement of natural
-                        amenities, air and water quality, open space, and
-                        farmland
+                        <span className="text-[#7b9d3e]">ENVIRONMENT:</span>{" "}
+                        protection and enhancement of natural amenities, air and
+                        water quality, open space, and farmland
                       </li>
                       <li>
-                        COMMUNITIES: inclusive, healthy, and walkable
-                        communities that offer a better quality of life for all
-                        residents, using the more than 135 Plan Centers as a
-                        framework for infrastructure investments
+                        <span className="text-[#006ba6]">COMMUNITIES:</span>{" "}
+                        inclusive, healthy, and walkable communities that offer
+                        a better quality of life for all residents, using the
+                        more than 135 Plan Centers as a framework for
+                        infrastructure investments
                       </li>
                       <li>
-                        MULTIMODAL TRANSPORTATION: safe, healthy, and
-                        environmentally friendly transportation accessible to a
-                        wide range of users for a variety of trip purposes
+                        <span className="text-[#de6e1d]">
+                          MULTIMODAL TRANSPORTATION:
+                        </span>{" "}
+                        safe, healthy, and environmentally friendly
+                        transportation accessible to a wide range of users for a
+                        variety of trip purposes
                       </li>
                       <li>
-                        ECONOMY: accelerating the transition to a more
-                        environmentally friendly economy, enhancing workforce
-                        skills, and supporting inclusive growth.
+                        <span className="text-[#bd2556]">ECONOMY:</span>{" "}
+                        accelerating the transition to a more environmentally
+                        friendly economy, enhancing workforce skills, and
+                        supporting inclusive growth.
                       </li>
                     </ul>
                   </div>
