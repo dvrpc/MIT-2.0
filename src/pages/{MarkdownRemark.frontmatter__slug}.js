@@ -8,7 +8,7 @@ import Accordion from "../components/Accordion";
 export default function Template({ data }) {
   const { markdownRemark } = data;
   const { frontmatter } = markdownRemark;
-  console.log(frontmatter);
+
   return (
     <Layout>
       <div className="w-4/5 flex h-[80vh] flex-col">
