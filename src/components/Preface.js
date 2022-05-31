@@ -2,6 +2,10 @@ import React, { useEffect, useRef, useState } from "react";
 import ToolKit from "../images/toolkit.png";
 import { Tabs, Tab, TabList, TabPanel } from "react-tabs";
 import DownArrow from "../images/downarrow.svg";
+import Funding from "../images/funding.png";
+import Municipal from "../images/municipal.png";
+import Connections from "../images/connections.png";
+import Abstract from "../images/abstract.png";
 
 const Preface = () => {
   const info = useRef(null);
@@ -58,6 +62,49 @@ const Preface = () => {
                   Scroll down to find the tools that best fit your
                   municipality’s needs by using the interactive filters.{" "}
                   <u>Learn more about Principle and Focus Area filters.</u>
+                  <div className="grid grid-cols-4 mt-6 text-center text-[#4fa3a8]">
+                    <a
+                      className="h-min flex flex-col justify-center"
+                      href="https://www.dvrpc.org/Funding/"
+                    >
+                      <img
+                        src={Funding}
+                        alt="Funding Opportunities"
+                        className="h-[70px] object-contain"
+                      />
+                      <div>Funding Opportunities</div>
+                    </a>
+                    <a
+                      className="h-min flex flex-col justify-center"
+                      href="https://www.dvrpc.org/municipaloutreach"
+                    >
+                      <img
+                        src={Municipal}
+                        alt="Building Municipal Capacity"
+                        className="h-[70px] object-contain"
+                      />
+                      <div>Building Municipal Capacity</div>
+                    </a>
+                    <a
+                      className="h-min flex flex-col justify-center"
+                      href="https://www.dvrpc.org/Connections2045/"
+                    >
+                      <img
+                        src={Connections}
+                        alt="Connections 2050 Plan"
+                        className="h-[70px] object-contain"
+                      />
+                      <div>Connections 2050 Plan</div>
+                    </a>
+                    <a className="h-min flex flex-col justify-center" href="/">
+                      <img
+                        src={Abstract}
+                        alt="Abstract"
+                        className="h-[70px] object-contain"
+                      />
+                      <div>Abstract</div>
+                    </a>
+                  </div>
                 </TabPanel>
                 <TabPanel>
                   <div className="flex">
