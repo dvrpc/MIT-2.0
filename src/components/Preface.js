@@ -39,12 +39,12 @@ const Preface = () => {
           alt="toolkit-logo"
           className="h-[200px] md:h-[300px] w-auto"
         />
-        <div className="text-lg md:w-1/2 text-sm md:text-base pb-2">
+        <div className="text-lg md:w-3/5 text-sm md:text-base pb-2">
           <div className="md:ml-12">
             <Tabs>
               <TabList className="flex cursor-pointer border-b">
                 <Tab>About</Tab>
-                <Tab>Principles/Focuses</Tab>
+                <Tab>Principles & Focus Areas</Tab>
               </TabList>
               <div className="mt-4">
                 <TabPanel>
@@ -107,8 +107,8 @@ const Preface = () => {
                   </div>
                 </TabPanel>
                 <TabPanel>
-                  <div className="flex">
-                    <ul>
+                  <div className="flex space-x-4">
+                    <ul className="space-y-2">
                       <strong>Principles</strong>
                       <li>
                         EQUITY: commitment to public outreach and participatory
@@ -132,7 +132,7 @@ const Preface = () => {
                         health risks.
                       </li>
                     </ul>
-                    <ul>
+                    <ul className="space-y-2">
                       <strong>Focus Areas</strong>
                       <li>
                         <span className="text-[#7b9d3e]">ENVIRONMENT:</span>{" "}

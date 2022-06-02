@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import Logo from "../components/Logo";
 import ToolKit from "../images/toolkit.png";
 import Accordion from "../components/Accordion";
+import Image from "../components/Image";
 
 export default function Template({ data }) {
   const { markdownRemark } = data;
@@ -16,18 +17,14 @@ export default function Template({ data }) {
           <div className="text-3xl">{frontmatter.title}</div>
           <div className="flex items-center ml-auto">
             {frontmatter.focusAreas.map(focus => {
-              return <Logo focus={focus} />;
+              return <Logo focus={focus} enableToolTip={true} />;
             })}
           </div>
         </div>
         <div className="grid grid-cols-3 my-8 h-full">
           <div className="w-100 flex justify-center p-12 pt-0">
             {frontmatter.media ? (
-              <img
-                src={require(`../images/${frontmatter.media.path}`).default}
-                alt={frontmatter.title}
-                className="object-contain object-top"
-              />
+              <Image media={frontmatter.media} />
             ) : (
               <img src={ToolKit} alt="toolkit-logo" className="h-[300px]" />
             )}
@@ -53,26 +50,6 @@ export default function Template({ data }) {
             )}
           </div>
           <div className="flex flex-col items-center">
-            {frontmatter.trackingProgressLinks.length > 0 && (
-              <Accordion label="Tracking Progress Links: ">
-                {frontmatter.trackingProgressLinks.map(link => {
-                  return (
-                    <Link
-                      className="pb-2 underline"
-                      to={
-                        "/" +
-                        link
-                          .toLowerCase()
-                          .replace(/\s|[/]/g, "")
-                          .replace(/&| and /g, "-and-")
-                      }
-                    >
-                      {link}
-                    </Link>
-                  );
-                })}
-              </Accordion>
-            )}
             {frontmatter.resources && (
               <Accordion label="Resources: ">
                 {frontmatter.resources.map(resource => {
@@ -106,30 +83,47 @@ export default function Template({ data }) {
                 })}
               </Accordion>
             )}
+            {frontmatter.trackingProgressLinks.length > 0 && (
+              <Accordion label="Tracking Progress Indicators: ">
+                {frontmatter.trackingProgressLinks.map(link => {
+                  return (
+                    <Link
+                      className="pb-2 underline"
+                      to={
+                        "/" +
+                        link
+                          .toLowerCase()
+                          .replace(/\s|[/]/g, "")
+                          .replace(/&| and /g, "-and-")
+                      }
+                    >
+                      {link}
+                    </Link>
+                  );
+                })}
+              </Accordion>
+            )}
+            {frontmatter.seeOther && (
+              <Accordion label="See Related Tools:">
+                {frontmatter.seeOther.map(link => {
+                  return (
+                    <Link
+                      className="underline mr-4"
+                      to={
+                        "/" +
+                        link
+                          .toLowerCase()
+                          .replace(/\s|[/]/g, "")
+                          .replace(/&| and /g, "-and-")
+                      }
+                    >
+                      {link}
+                    </Link>
+                  );
+                })}
+              </Accordion>
+            )}
           </div>
-        </div>
-        <div>
-          {frontmatter.seeOther.length > 0 && (
-            <>
-              <div className="inline">See also: </div>
-              {frontmatter.seeOther.map(link => {
-                return (
-                  <Link
-                    className="underline mr-4"
-                    to={
-                      "/" +
-                      link
-                        .toLowerCase()
-                        .replace(/\s|[/]/g, "")
-                        .replace(/&| and /g, "-and-")
-                    }
-                  >
-                    {link}
-                  </Link>
-                );
-              })}
-            </>
-          )}
         </div>
       </div>
     </Layout>
@@ -149,6 +143,7 @@ export const pageQuery = graphql`
         media {
           type
           path
+          credit
         }
         resources {
           label

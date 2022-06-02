@@ -8,6 +8,7 @@
   media: 
     type: "image"
     path: "AGRICULTURALZONING.jpg"
+    credit: "Montgomery County Planning Commission"
   resources: 
     - label: "Chester County Planning Toolbox: Agricultural Zoning"
       link: "https://www.chescoplanning.org/MuniCorner/eTools/12-agzoning.cfm"

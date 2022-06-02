@@ -8,6 +8,7 @@
   media: 
     type: "image"
     path: "ACCESSMANAGEMENT.jpg"
+    credit: "DVRPC"
   resources: 
     - label: "Access Management, FHWA"
       link: "https://ops.fhwa.dot.gov/access_mgmt/"
