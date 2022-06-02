@@ -6,6 +6,7 @@ import Funding from "../images/funding.png";
 import Municipal from "../images/municipal.png";
 import Connections from "../images/connections.png";
 import Abstract from "../images/abstract.png";
+import { flushSync } from "react-dom";
 
 const Preface = () => {
   const info = useRef(null);
@@ -20,7 +21,13 @@ const Preface = () => {
       const winScroll =
         document.body.scrollTop || document.documentElement.scrollTop;
       if (winScroll >= heightToHideFrom) {
-        isVisible && setIsVisible(false);
+        if (isVisible) {
+          flushSync(() => setIsVisible(false));
+          window.scrollTo({
+            top: document.body.scrollTop.toString(),
+            behavior: "auto",
+          });
+        }
       }
     };
 
