@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
       <div className="flex flex-col mt-[10vh] justify-center items-center relative">
         {children}
       </div>
-      <div className="h-[30vh]">
+      <div className="max-h-[30vh]">
         <Footer />
       </div>
     </div>
