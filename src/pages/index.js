@@ -48,8 +48,8 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <Preface isVisible={isVisible} setIsVisible={setIsVisible} />
-      <div className="flex justify-center w-4/5">
-        <div className="flex flex-col md:flex-row pt-[4vh]">
+      <div className="flex justify-center items-start w-4/5">
+        <div className="flex flex-col w-full min-h-[80vh] md:flex-row pt-[4vh]">
           <div
             className="w-1/3 p-6"
             style={{ position: !isVisible ? "fixed" : "absolute" }}
