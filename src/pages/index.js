@@ -11,6 +11,8 @@ const IndexPage = ({ data }) => {
   const [namefilter, setNameFilter] = useState("");
   const [focusFilter, setFocusFilter] = useState([]);
   const [principleFilter, setPrincipleFilter] = useState([]);
+  const [isVisible, setIsVisible] = useState(true);
+
   // destructure what is returned from query
   let {
     allMarkdownRemark: { edges },
@@ -45,26 +47,31 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <Preface />
-      <div className="flex flex-col md:flex-row justify-center md:px-6 py-12 h-[80vh] md:w-4/5">
-        <div className="md:w-1/3 p-6 md:border-r-4 border-[#4fa3a8]">
-          <div className="text-2xl pb-2 text-[#4fa3a8]">Tools:</div>
-          <ButtonFilter
-            namefilter={namefilter}
-            focusFilter={focusFilter}
-            principleFilter={principleFilter}
-            setNameFilter={setNameFilter}
-            setFocusFilter={setFocusFilter}
-            setPrincipleFilter={setPrincipleFilter}
-          />
-        </div>
-        <div className="overflow-auto my-4 ml-6 md:my-8 w-3/4">
-          {tools.map((tool, idx) => {
-            return <Tool key={idx} tool={tool} />;
-          })}
-          {!tools.length && (
-            <div className="text-slate-400">No tools match search...</div>
-          )}
+      <Preface isVisible={isVisible} setIsVisible={setIsVisible} />
+      <div className="flex justify-center w-4/5">
+        <div className="flex flex-col md:flex-row pt-[4vh]">
+          <div
+            className="w-1/3 p-6"
+            style={{ position: !isVisible ? "fixed" : "absolute" }}
+          >
+            <div className="text-2xl pb-2 text-[#4fa3a8]">Tools:</div>
+            <ButtonFilter
+              namefilter={namefilter}
+              focusFilter={focusFilter}
+              principleFilter={principleFilter}
+              setNameFilter={setNameFilter}
+              setFocusFilter={setFocusFilter}
+              setPrincipleFilter={setPrincipleFilter}
+            />
+          </div>
+          <div className="w-3/4 ml-[33%] p-6">
+            {tools.map((tool, idx) => {
+              return <Tool key={idx} tool={tool} />;
+            })}
+            {!tools.length && (
+              <div className="text-slate-400">No tools match search...</div>
+            )}
+          </div>
         </div>
       </div>
     </Layout>

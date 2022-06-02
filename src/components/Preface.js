@@ -8,9 +8,8 @@ import Connections from "../images/connections.png";
 import Abstract from "../images/abstract.png";
 import { flushSync } from "react-dom";
 
-const Preface = () => {
+const Preface = ({ isVisible, setIsVisible }) => {
   const info = useRef(null);
-  const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
     const listenToScroll = () => {
@@ -33,7 +32,7 @@ const Preface = () => {
 
     window.addEventListener("scroll", listenToScroll);
     return () => window.removeEventListener("scroll", listenToScroll);
-  }, [isVisible]);
+  }, [isVisible, setIsVisible]);
 
   return (
     <div className="flex flex-col w-full" ref={info}>
@@ -63,12 +62,12 @@ const Preface = () => {
                   public services, protect natural and historic resources, and,
                   ultimately, create the places we call home. DVRPC has designed
                   this Municipal Implementation Toolbox to serve as a guide for
-                  municipalities to help implement the goals of Connections
-                  2050, the region’s Long-Range Plan. It contains resources,
-                  case studies, ordinances, and indicators for nearly 80 tools.
-                  Scroll down to find the tools that best fit your
-                  municipality’s needs by using the interactive filters.{" "}
-                  <u>Learn more about Principle and Focus Area filters.</u>
+                  municipalities to help implement the goals of{" "}
+                  <i>Connections 2050</i>, the region’s Long-Range Plan. It
+                  contains resources, case studies, ordinances, and indicators
+                  for nearly 80 tools. Scroll down to find the tools that best
+                  fit your municipality’s needs by using the interactive
+                  filters.
                   <div className="grid grid-cols-4 mt-6 text-center text-[#4fa3a8]">
                     <a
                       className="h-min flex flex-col justify-center"
@@ -101,7 +100,7 @@ const Preface = () => {
                         alt="Connections 2050 Plan"
                         className="h-[70px] object-contain"
                       />
-                      <div>Connections 2050 Plan</div>
+                      <div className="italic">Connections 2050 Plan</div>
                     </a>
                     <a className="h-min flex flex-col justify-center" href="/">
                       <img
