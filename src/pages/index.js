@@ -51,7 +51,7 @@ const IndexPage = ({ data }) => {
       <div className="flex justify-center items-start w-4/5">
         <div className="flex flex-col w-full min-h-[80vh] md:flex-row pt-[4vh]">
           <div
-            className="w-1/3 p-6"
+            className="p-6 pr-0"
             style={{ position: !isVisible ? "fixed" : "absolute" }}
           >
             <div className="text-2xl pb-2 text-[#4fa3a8]">Tools:</div>
