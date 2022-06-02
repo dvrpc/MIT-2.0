@@ -17,7 +17,7 @@ export default function Template({ data }) {
           <div className="text-3xl">{frontmatter.title}</div>
           <div className="flex items-center ml-auto">
             {frontmatter.focusAreas.map(focus => {
-              return <Logo focus={focus} enableToolTip={true} />;
+              return <Logo focus={focus} enableToolTip />;
             })}
           </div>
         </div>
