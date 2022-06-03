@@ -2,15 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  letter-spacing: -0.025em;
+}
+
+.preface-bold {
+  color: #58a7ac;
+  font-weight: bold;
+}
+
 .react-tabs__tab {
-  padding: 0.5rem; /* 8px */
+  padding: 0.5rem;
+  margin: 0.1rem; /* 8px */
+  margin-bottom: 0px;
+  font-weight: bold;
+  border-top-left-radius: 0.5rem; /* 8px */
+  border-top-right-radius: 0.5rem; /* 8px */
+  color: #58a7ac;
+  border-width: 1px;
+  border-color: lightgray;
+  border-bottom: none;
 }
 
 .react-tabs__tab--selected {
-  background-color: #008c92;
-  border-top-left-radius: 0.5rem; /* 8px */
-  border-top-right-radius: 0.5rem; /* 8px */
-  color: white;
+  background-color: #c8e3e2;
 }
 
 .ball {
