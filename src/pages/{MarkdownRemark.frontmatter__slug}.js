@@ -5,6 +5,7 @@ import Logo from "../components/Logo";
 import ToolKit from "../images/toolkit.png";
 import Accordion from "../components/Accordion";
 import Image from "../components/Image";
+import { focusAreas, principles } from "../utils/icons";
 
 export default function Template({ data }) {
   const { markdownRemark } = data;
@@ -17,7 +18,10 @@ export default function Template({ data }) {
           <div className="text-3xl">{frontmatter.title}</div>
           <div className="flex items-center ml-auto">
             {frontmatter.focusAreas.map(focus => {
-              return <Logo focus={focus} enableToolTip />;
+              return <Logo image={focusAreas[focus]} enableToolTip />;
+            })}
+            {frontmatter.principles.map(principle => {
+              return <Logo image={principles[principle]} enableToolTip />;
             })}
           </div>
         </div>
