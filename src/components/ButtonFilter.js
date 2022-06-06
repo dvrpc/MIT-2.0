@@ -47,15 +47,16 @@ const ButtonFilter = ({
           <div>Filter by focus area:</div>
           {Object.keys(focusAreas).map(focus => {
             return (
-              <button id="focus" className="flex my-4 items-center">
+              <div id="focus" className="flex my-4 items-center cursor-pointer">
                 <img
+                  alt={focus}
                   src={focusAreas[focus]}
                   onClick={toggleFilter}
                   id={`${focus}`}
                   className="w-[35px] rounded-full grayscale"
                 />
                 <span className="ml-2 text-left">{focus}</span>
-              </button>
+              </div>
             );
           })}
         </div>
@@ -63,15 +64,19 @@ const ButtonFilter = ({
           <div>Filter by principle:</div>
           {Object.keys(principles).map(principle => {
             return (
-              <button id="principle" className="flex my-4 items-center">
+              <div
+                id="principle"
+                className="flex my-4 items-center cursor-pointer"
+              >
                 <img
+                  alt={principle}
                   src={principles[principle]}
                   onClick={toggleFilter}
                   id={`${principle}`}
                   className="w-[35px] rounded-full grayscale"
                 />
                 <span className="ml-2">{principle}</span>
-              </button>
+              </div>
             );
           })}
         </div>
