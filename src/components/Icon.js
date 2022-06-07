@@ -1,6 +1,6 @@
 import React from "react";
 
-const Logo = ({ image, enableToolTip }) => {
+const Icon = ({ image, enableToolTip }) => {
   return (
     <div className="tooltip">
       <img src={image} alt={image} className="rounded-full h-[30px] mx-1" />
@@ -9,4 +9,4 @@ const Logo = ({ image, enableToolTip }) => {
   );
 };
 
-export default Logo;
+export default Icon;

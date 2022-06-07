@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
-import Logo from "../components/Logo";
+import Icon from "../components/Icon";
 import ToolKit from "../images/toolkit.png";
 import Accordion from "../components/Accordion";
 import Image from "../components/Image";
@@ -18,10 +18,10 @@ export default function Template({ data }) {
           <div className="text-3xl">{frontmatter.title}</div>
           <div className="flex items-center ml-auto">
             {frontmatter.focusAreas.map(focus => {
-              return <Logo image={focusAreas[focus]} enableToolTip />;
+              return <Icon image={focusAreas[focus]} enableToolTip />;
             })}
             {frontmatter.principles.map(principle => {
-              return <Logo image={principles[principle]} enableToolTip />;
+              return <Icon image={principles[principle]} enableToolTip />;
             })}
           </div>
         </div>

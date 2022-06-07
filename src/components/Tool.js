@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./Logo";
+import Icon from "./Icon";
 import { Link } from "gatsby";
 import { focusAreas, principles } from "../utils/icons";
 
@@ -14,10 +14,10 @@ const Tool = ({ tool }) => {
           {tool.title}
         </Link>
         {tool.focusAreas.map(focus => {
-          return <Logo image={focusAreas[focus]} />;
+          return <Icon image={focusAreas[focus]} />;
         })}
         {tool.principles.map(principle => {
-          return <Logo image={principles[principle]} />;
+          return <Icon image={principles[principle]} />;
         })}
       </div>
       {tool.html ? (
