@@ -12,8 +12,6 @@ const IndexPage = ({ data }) => {
   const [focusFilter, setFocusFilter] = useState([]);
   const [principleFilter, setPrincipleFilter] = useState([]);
   const [isVisible, setIsVisible] = useState(true);
-  const [screenWidth, setScreenWidth] = useState(window.screen.width);
-
   // destructure what is returned from query
   let {
     allMarkdownRemark: { edges },
@@ -46,49 +44,36 @@ const IndexPage = ({ data }) => {
     setTools(oldState);
   }, [namefilter, focusFilter, principleFilter, edges]);
 
-  useEffect(() => {
-    const updateSize = () => {
-      setScreenWidth([window.innerWidth]);
-    };
-
-    window.addEventListener("resize", updateSize);
-    updateSize();
-    return () => window.removeEventListener("resize", updateSize);
-  }, []);
-
   return (
     <Layout>
       <Preface isVisible={isVisible} setIsVisible={setIsVisible} />
-      <div className="flex justify-center items-start md:w-4/5">
+      <div className="flex justify-center items-start md:w-5/6">
         <div className="flex md:flex-row flex-col w-full min-h-[80vh] pt-[4vh]">
-          {screenWidth > 768 ? (
-            <div
-              className="p-6 pr-0 md:w-[30%] relative"
-              style={{ position: !isVisible ? "fixed" : "absolute" }}
-            >
-              <div className="text-2xl pb-2 preface-bold">Tools:</div>
-              <ButtonFilter
-                namefilter={namefilter}
-                focusFilter={focusFilter}
-                principleFilter={principleFilter}
-                setNameFilter={setNameFilter}
-                setFocusFilter={setFocusFilter}
-                setPrincipleFilter={setPrincipleFilter}
-              />
-            </div>
-          ) : (
-            <div className="pl-6 md:w-[30%] relative">
-              <div className="text-2xl pb-2 preface-bold">Tools:</div>
-              <ButtonFilter
-                namefilter={namefilter}
-                focusFilter={focusFilter}
-                principleFilter={principleFilter}
-                setNameFilter={setNameFilter}
-                setFocusFilter={setFocusFilter}
-                setPrincipleFilter={setPrincipleFilter}
-              />
-            </div>
-          )}
+          <div
+            className="py-6 md:w-[30%] desktop-filters"
+            style={{ position: !isVisible ? "fixed" : "absolute" }}
+          >
+            <div className="text-2xl pb-2 preface-bold">Tools:</div>
+            <ButtonFilter
+              namefilter={namefilter}
+              focusFilter={focusFilter}
+              principleFilter={principleFilter}
+              setNameFilter={setNameFilter}
+              setFocusFilter={setFocusFilter}
+              setPrincipleFilter={setPrincipleFilter}
+            />
+          </div>
+          <div className="pl-6 md:w-[30%] relative mobile-filters">
+            <div className="text-2xl pb-2 preface-bold">Tools:</div>
+            <ButtonFilter
+              namefilter={namefilter}
+              focusFilter={focusFilter}
+              principleFilter={principleFilter}
+              setNameFilter={setNameFilter}
+              setFocusFilter={setFocusFilter}
+              setPrincipleFilter={setPrincipleFilter}
+            />
+          </div>
           <div className="md:ml-[30%] w-full p-6">
             {tools.map((tool, idx) => {
               return <Tool key={idx} tool={tool} />;

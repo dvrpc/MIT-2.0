@@ -145,3 +145,21 @@ address {
 .footer-social-link {
   align-self: center;
 }
+
+@media (min-width: 800px) {
+  .mobile-filters {
+    display: none;
+  }
+  .desktop-filters {
+    display: block;
+  }
+}
+
+@media (max-width: 800px) {
+  .mobile-filters {
+    display: block;
+  }
+  .desktop-filters {
+    display: none;
+  }
+}
