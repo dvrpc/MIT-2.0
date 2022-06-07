@@ -55,7 +55,7 @@ const ButtonFilter = ({
                   id={`${focus}`}
                   className="w-[35px] rounded-full grayscale hover:filter-none"
                 />
-                <span className="ml-2 text-left preface-bold">{focus}</span>
+                <span className="ml-2 text-left text-[#58a7ac]">{focus}</span>
               </div>
             );
           })}
@@ -75,7 +75,7 @@ const ButtonFilter = ({
                   id={`${principle}`}
                   className="w-[35px] rounded-full grayscale hover:filter-none"
                 />
-                <span className="ml-2 preface-bold">{principle}</span>
+                <span className="ml-2 text-[#58a7ac]">{principle}</span>
               </div>
             );
           })}
