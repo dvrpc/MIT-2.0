@@ -7,6 +7,8 @@ import Municipal from "../images/municipal.png";
 import Connections from "../images/connections.png";
 import Abstract from "../images/abstract.png";
 import { flushSync } from "react-dom";
+import Icon from "./Icon";
+import { focusAreas, principles } from "../utils/icons";
 
 const Preface = ({ isVisible, setIsVisible }) => {
   const info = useRef(null);
@@ -120,56 +122,90 @@ const Preface = ({ isVisible, setIsVisible }) => {
                 </TabPanel>
                 <TabPanel>
                   <div className="grid grid-cols-2">
-                    <div>
-                      <span className="preface-bold">EQUITY:</span> commitment
-                      to public outreach and participatory planning to hear more
-                      voices in the development of communities that we live in,
-                      and to increase everyone’s access to the transportation
-                      infrastructure needed for all of our daily activities
+                    <div className="flex">
+                      <Icon altText="Equity" image={principles["Equity"]} />
+                      <div className="w-full ml-2">
+                        <span className="preface-bold">EQUITY:</span> commitment
+                        to public outreach and participatory planning to hear
+                        more voices in the development of communities that we
+                        live in, and to increase everyone’s access to the
+                        transportation infrastructure needed for all of our
+                        daily activities
+                      </div>
                     </div>
-                    <div>
-                      <span className="preface-bold">SUSTAINABILITY:</span>{" "}
-                      reduction of emissions to a net zero level by 2050 through
-                      renewable energy, energy management, the electrification
-                      of buildings and vehicles, and improving transit and
-                      non-motorized travel options
+                    <div className="flex">
+                      <Icon
+                        altText="Sustainability"
+                        image={principles["Sustainability"]}
+                      />
+                      <div className="w-full ml-2">
+                        <span className="preface-bold">SUSTAINABILITY:</span>{" "}
+                        reduction of emissions to a net zero level by 2050
+                        through renewable energy, energy management, the
+                        electrification of buildings and vehicles, and improving
+                        transit and non-motorized travel options
+                      </div>
                     </div>
-                    <div className="mt-4">
-                      <span className="preface-bold">RESILIENCY:</span>{" "}
-                      hardening our communities and their infrastructure systems
-                      or moving them out of harm’s way in the face of
-                      anticipated flooding; ecosystem degradation; fishing and
-                      farming disruptions; and human health risks.
+                    <div className="mt-4 flex">
+                      <Icon
+                        altText="Resiliency"
+                        image={principles["Resiliency"]}
+                      />
+                      <div className="w-full ml-2">
+                        <span className="preface-bold">RESILIENCY:</span>{" "}
+                        hardening our communities and their infrastructure
+                        systems or moving them out of harm’s way in the face of
+                        anticipated flooding; ecosystem degradation; fishing and
+                        farming disruptions; and human health risks.
+                      </div>
                     </div>
                   </div>
                 </TabPanel>
                 <TabPanel>
                   <div className="grid grid-cols-2">
-                    <div>
-                      <span className="preface-bold">
-                        MULTIMODAL TRANSPORTATION:
-                      </span>{" "}
-                      safe, healthy, and environmentally friendly transportation
-                      accessible to a wide range of users for a variety of trip
-                      purposes
+                    <div className="flex">
+                      <Icon
+                        altText="Transportation"
+                        image={focusAreas["Transportation"]}
+                      />
+                      <div className="w-full ml-2">
+                        <span className="preface-bold">
+                          MULTIMODAL TRANSPORTATION:
+                        </span>{" "}
+                        safe, healthy, and environmentally friendly
+                        transportation accessible to a wide range of users for a
+                        variety of trip purposes
+                      </div>
                     </div>
-                    <div>
-                      <span className="preface-bold">COMMUNITIES:</span>{" "}
-                      inclusive, healthy, and walkable communities that offer a
-                      better quality of life for all residents, using the more
-                      than 135 Plan Centers as a framework for infrastructure
-                      investments
+                    <div className="flex">
+                      <Icon
+                        altText="Communities"
+                        image={focusAreas["Communities"]}
+                      />
+                      <div className="w-full ml-2">
+                        <span className="preface-bold">COMMUNITIES:</span>{" "}
+                        inclusive, healthy, and walkable communities that offer
+                        a better quality of life for all residents, using the
+                        more than 135 Plan Centers as a framework for
+                        infrastructure investments
+                      </div>
                     </div>
-                    <div className="mt-4">
-                      <span className="preface-bold">ECONOMY:</span>{" "}
-                      accelerating the transition to a more environmentally
-                      friendly economy, enhancing workforce skills, and
-                      supporting inclusive growth.
+                    <div className="mt-4 flex">
+                      <Icon altText="Economy" image={focusAreas["Economy"]} />
+                      <div className="w-full ml-2">
+                        <span className="preface-bold">ECONOMY:</span>{" "}
+                        accelerating the transition to a more environmentally
+                        friendly economy, enhancing workforce skills, and
+                        supporting inclusive growth.
+                      </div>
                     </div>
-                    <div className="mt-4">
-                      <span className="preface-bold">ENVIRONMENT:</span>{" "}
-                      protection and enhancement of natural amenities, air and
-                      water quality, open space, and farmland
+                    <div className="mt-4 flex">
+                      <Icon altText="Economy" image={focusAreas["Economy"]} />
+                      <div className="w-full ml-2">
+                        <span className="preface-bold">ENVIRONMENT:</span>{" "}
+                        protection and enhancement of natural amenities, air and
+                        water quality, open space, and farmland
+                      </div>
                     </div>
                   </div>
                 </TabPanel>

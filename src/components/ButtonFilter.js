@@ -53,9 +53,9 @@ const ButtonFilter = ({
                   src={focusAreas[focus]}
                   onClick={toggleFilter}
                   id={`${focus}`}
-                  className="w-[35px] rounded-full grayscale"
+                  className="w-[35px] rounded-full grayscale hover:filter-none"
                 />
-                <span className="ml-2 text-left">{focus}</span>
+                <span className="ml-2 text-left preface-bold">{focus}</span>
               </div>
             );
           })}
@@ -73,9 +73,9 @@ const ButtonFilter = ({
                   src={principles[principle]}
                   onClick={toggleFilter}
                   id={`${principle}`}
-                  className="w-[35px] rounded-full grayscale"
+                  className="w-[35px] rounded-full grayscale hover:filter-none"
                 />
-                <span className="ml-2">{principle}</span>
+                <span className="ml-2 preface-bold">{principle}</span>
               </div>
             );
           })}
