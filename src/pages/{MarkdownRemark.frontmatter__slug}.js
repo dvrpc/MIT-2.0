@@ -15,7 +15,7 @@ export default function Template({ data }) {
     <Layout>
       <div className="w-4/5 flex min-h-[80vh] flex-col">
         <div className="flex mt-10">
-          <div className="text-3xl">{frontmatter.title}</div>
+          <div className="text-3xl text-[#4fa3a8]">{frontmatter.title}</div>
           <div className="flex items-center ml-auto">
             {frontmatter.focusAreas.map(focus => {
               return (

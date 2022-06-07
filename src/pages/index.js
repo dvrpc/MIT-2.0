@@ -54,7 +54,7 @@ const IndexPage = ({ data }) => {
             className="p-6 pr-0"
             style={{ position: !isVisible ? "fixed" : "absolute" }}
           >
-            <div className="text-2xl pb-2 text-[#4fa3a8]">Tools:</div>
+            <div className="text-2xl pb-2 preface-bold">Tools:</div>
             <ButtonFilter
               namefilter={namefilter}
               focusFilter={focusFilter}

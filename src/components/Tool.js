@@ -10,7 +10,7 @@ const Tool = ({ tool }) => {
   return (
     <div className="my-4">
       <div className="flex items-center">
-        <Link className="text-xl" to={fileName}>
+        <Link className="text-xl preface-bold" to={fileName}>
           {tool.title}
         </Link>
         {tool.focusAreas.map(focus => {
