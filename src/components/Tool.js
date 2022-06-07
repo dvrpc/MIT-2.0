@@ -14,10 +14,10 @@ const Tool = ({ tool }) => {
           {tool.title}
         </Link>
         {tool.focusAreas.map(focus => {
-          return <Icon image={focusAreas[focus]} />;
+          return <Icon image={focusAreas[focus]} altText={focus} />;
         })}
         {tool.principles.map(principle => {
-          return <Icon image={principles[principle]} />;
+          return <Icon image={principles[principle]} altText={principle} />;
         })}
       </div>
       {tool.html ? (

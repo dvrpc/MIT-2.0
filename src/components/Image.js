@@ -4,7 +4,7 @@ const Image = ({ media }) => {
   return (
     <div className="flex flex-col">
       <img
-        src={require(`../images/${media.path}`).default}
+        src={require(`../markdown-images/${media.path}`).default}
         className="object-contain object-top"
       />
       {media.credit && (

@@ -18,10 +18,18 @@ export default function Template({ data }) {
           <div className="text-3xl">{frontmatter.title}</div>
           <div className="flex items-center ml-auto">
             {frontmatter.focusAreas.map(focus => {
-              return <Icon image={focusAreas[focus]} enableToolTip />;
+              return (
+                <Icon altText={focus} image={focusAreas[focus]} enableToolTip />
+              );
             })}
             {frontmatter.principles.map(principle => {
-              return <Icon image={principles[principle]} enableToolTip />;
+              return (
+                <Icon
+                  altText={principle}
+                  image={principles[principle]}
+                  enableToolTip
+                />
+              );
             })}
           </div>
         </div>
@@ -87,7 +95,7 @@ export default function Template({ data }) {
                 })}
               </Accordion>
             )}
-            {frontmatter.trackingProgressLinks.length > 0 && (
+            {frontmatter.trackingProgressLinks && (
               <Accordion label="Tracking Progress Indicators: ">
                 {frontmatter.trackingProgressLinks.map(link => {
                   return (
