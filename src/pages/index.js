@@ -50,20 +50,9 @@ const IndexPage = ({ data }) => {
       <div className="flex justify-center items-start md:w-5/6">
         <div className="flex md:flex-row flex-col w-full min-h-[80vh] pt-[4vh]">
           <div
-            className="py-6 md:w-[30%] desktop-filters"
+            className="py-6 md:w-[30%] desktop-filters mobile-filters"
             style={{ position: !isVisible ? "fixed" : "absolute" }}
           >
-            <div className="text-2xl pb-2 preface-bold">Tools:</div>
-            <ButtonFilter
-              namefilter={namefilter}
-              focusFilter={focusFilter}
-              principleFilter={principleFilter}
-              setNameFilter={setNameFilter}
-              setFocusFilter={setFocusFilter}
-              setPrincipleFilter={setPrincipleFilter}
-            />
-          </div>
-          <div className="pl-6 md:w-[30%] relative mobile-filters">
             <div className="text-2xl pb-2 preface-bold">Tools:</div>
             <ButtonFilter
               namefilter={namefilter}
