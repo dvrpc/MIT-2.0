@@ -25,7 +25,11 @@ const Header = () => {
             setIsVisible(true);
           }}
           style={{
-            display: !isVisible && location.pathname === "/" ? "" : "none",
+            display:
+              !isVisible &&
+              (location.pathname === "/" || location.pathname === "/MIT/")
+                ? ""
+                : "none",
           }}
         />
       </div>
