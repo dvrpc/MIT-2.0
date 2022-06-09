@@ -13,9 +13,11 @@ export default function Template({ data }) {
 
   return (
     <Layout>
-      <div className="w-4/5 flex min-h-[80vh] flex-col">
+      <div className="md:w-4/5 px-4 md:px-0 flex min-h-[80vh] flex-col">
         <div className="flex mt-10">
-          <div className="text-3xl text-[#4fa3a8]">{frontmatter.title}</div>
+          <div className="text-xl md:text-3xl text-[#4fa3a8]">
+            {frontmatter.title}
+          </div>
           <div className="flex items-center ml-auto">
             {frontmatter.focusAreas.map(focus => {
               return (
@@ -33,8 +35,8 @@ export default function Template({ data }) {
             })}
           </div>
         </div>
-        <div className="grid grid-cols-3 my-8 h-full">
-          <div className="w-100 flex justify-center p-12 pt-0">
+        <div className="md:grid grid-cols-3 my-8 h-full">
+          <div className="w-100 flex justify-center md:p-12 py-4 md:py-0 pt-0">
             {frontmatter.media ? (
               <Image media={frontmatter.media} />
             ) : (
@@ -61,7 +63,7 @@ export default function Template({ data }) {
               </p>
             )}
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col md:items-center">
             {frontmatter.resources && (
               <Accordion label="Resources: ">
                 {frontmatter.resources.map(resource => {

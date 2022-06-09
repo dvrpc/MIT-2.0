@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="italic p-2 bg-[#dddddd]">
+      <div className="italic p-2 bg-[#dddddd] stacked-filters-footer">
         Contact:{" "}
         <a className="underline" href="mailto:abey@dvrpc.org@dvrpc.org">
           Amani Bey
