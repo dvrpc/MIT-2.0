@@ -4,9 +4,11 @@ import Banner from "../images/banner.png";
 import { Link } from "gatsby";
 import QuestionMark from "../images/questionmark.svg";
 import AppContext from "../utils/AppContext";
+import { useLocation } from "@reach/router";
 
 const Header = () => {
   const { isVisible, setIsVisible } = useContext(AppContext);
+  const location = useLocation();
 
   return (
     <header className="flex justify-end items-center h-full w-full p-4 bg-[#4fa3a8]">
@@ -22,7 +24,9 @@ const Header = () => {
             window.scrollTo({ top: 0, behavior: "auto" });
             setIsVisible(true);
           }}
-          style={{ display: !isVisible ? "" : "none" }}
+          style={{
+            display: !isVisible && location.pathname === "/" ? "" : "none",
+          }}
         />
       </div>
 
