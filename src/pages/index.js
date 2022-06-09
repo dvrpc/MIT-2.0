@@ -47,10 +47,10 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <Preface isVisible={isVisible} setIsVisible={setIsVisible} />
-      <div className="flex justify-center items-start md:w-5/6">
+      <div className="flex justify-center items-start md:w-4/5 md:pt-6">
         <div className="flex md:flex-row flex-col w-full min-h-[80vh] pt-[4vh]">
           <div
-            className="py-6 md:w-[30%] desktop-filters mobile-filters"
+            className="px-6 md:px-0 md:w-[30%] desktop-filters mobile-filters"
             style={{ position: !isVisible ? "fixed" : "absolute" }}
           >
             <div className="text-2xl pb-2 preface-bold">Tools:</div>
@@ -63,7 +63,7 @@ const IndexPage = ({ data }) => {
               setPrincipleFilter={setPrincipleFilter}
             />
           </div>
-          <div className="md:ml-[30%] w-full p-6">
+          <div className="md:ml-[30%] w-full p-6 pt-0">
             {tools.map((tool, idx) => {
               return <Tool key={idx} tool={tool} />;
             })}

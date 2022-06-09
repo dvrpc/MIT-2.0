@@ -45,9 +45,9 @@ const Preface = ({ isVisible, setIsVisible }) => {
         <img
           src={ToolKit}
           alt="toolkit-logo"
-          className="h-[200px] md:h-[300px] w-auto"
+          className="w-[200px] mx-auto md:mx-0 md:h-[300px] w-auto"
         />
-        <div className="text-lg md:w-1/2 text-sm md:text-base pb-2">
+        <div className="text-lg md:w-1/2 text-sm md:text-base pb-2 px-6 md:px-0">
           <div className="md:ml-12">
             <Tabs>
               <TabList className="flex cursor-pointer border-b">

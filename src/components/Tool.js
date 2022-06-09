@@ -9,16 +9,18 @@ const Tool = ({ tool }) => {
 
   return (
     <div className="my-4">
-      <div className="flex items-center">
-        <Link className="text-xl preface-bold" to={fileName}>
+      <div className="flex flex-col md:flex-row">
+        <Link className="md:text-xl preface-bold" to={fileName}>
           {tool.title}
         </Link>
-        {tool.focusAreas.map(focus => {
-          return <Icon image={focusAreas[focus]} altText={focus} />;
-        })}
-        {tool.principles.map(principle => {
-          return <Icon image={principles[principle]} altText={principle} />;
-        })}
+        <div>
+          {tool.focusAreas.map(focus => {
+            return <Icon image={focusAreas[focus]} altText={focus} />;
+          })}
+          {tool.principles.map(principle => {
+            return <Icon image={principles[principle]} altText={principle} />;
+          })}
+        </div>
       </div>
       {tool.html ? (
         <div
