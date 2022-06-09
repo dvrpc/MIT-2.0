@@ -1,17 +1,18 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import Layout from "../components/Layout";
 import Tool from "../components/Tool";
 import filterData from "../utils/filterData";
 import ButtonFilter from "../components/ButtonFilter";
 import Preface from "../components/Preface";
 import { graphql } from "gatsby";
+import AppContext from "../utils/AppContext";
 
 const IndexPage = ({ data }) => {
+  const { isVisible, setIsVisible } = useContext(AppContext);
   const [tools, setTools] = useState([]);
   const [namefilter, setNameFilter] = useState("");
   const [focusFilter, setFocusFilter] = useState([]);
   const [principleFilter, setPrincipleFilter] = useState([]);
-  const [isVisible, setIsVisible] = useState(true);
   // destructure what is returned from query
   let {
     allMarkdownRemark: { edges },

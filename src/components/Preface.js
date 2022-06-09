@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import ToolKit from "../images/toolkit.png";
 import { Tabs, Tab, TabList, TabPanel } from "react-tabs";
 import QuestionMark from "../images/questionmark.svg";
@@ -9,9 +9,10 @@ import Abstract from "../images/abstract.png";
 import { flushSync } from "react-dom";
 import Icon from "./Icon";
 import { focusAreas, principles } from "../utils/icons";
+import AppContext from "../utils/AppContext";
 
-const Preface = ({ isVisible, setIsVisible }) => {
-  const info = useRef(null);
+const Preface = () => {
+  const { info, isVisible, setIsVisible } = useContext(AppContext);
 
   useEffect(() => {
     const listenToScroll = () => {
@@ -228,21 +229,6 @@ const Preface = ({ isVisible, setIsVisible }) => {
             </Tabs>
           </div>
         </div>
-      </div>
-      <div
-        className="top-0 w-[75%] ml-[25%] fixed p-4 h-[10vh] flex items-end"
-        style={{ zIndex: 1000 }}
-      >
-        <img
-          src={QuestionMark}
-          alt="question mark"
-          className="h-[30px] mt-1 p-2 cursor-pointer rounded-full bg-white"
-          onClick={() => {
-            window.scrollTo({ top: 0, behavior: "auto" });
-            setIsVisible(true);
-          }}
-          style={{ display: !isVisible ? "" : "none" }}
-        />
       </div>
     </div>
   );

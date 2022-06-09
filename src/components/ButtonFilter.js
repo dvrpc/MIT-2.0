@@ -42,7 +42,7 @@ const ButtonFilter = ({
           />
         </label>
       </div>
-      <div className="flex space-x-2 mt-2">
+      <div className="flex stacked-filters space-x-2 mt-2">
         <div>
           <div>Filter by focus area:</div>
           {Object.keys(focusAreas).map(focus => {

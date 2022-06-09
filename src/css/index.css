@@ -151,3 +151,9 @@ address {
     position: relative !important;
   }
 }
+
+@media (min-width: 800px) and (max-width: 1260px) {
+  .stacked-filters {
+    flex-direction: column;
+  }
+}
