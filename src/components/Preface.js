@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import ToolKit from "../images/toolkit.png";
 import { Tabs, Tab, TabList, TabPanel } from "react-tabs";
-import DownArrow from "../images/downarrow.svg";
+import QuestionMark from "../images/questionmark.svg";
 import Funding from "../images/funding.png";
 import Municipal from "../images/municipal.png";
 import Connections from "../images/connections.png";
@@ -15,12 +15,12 @@ const Preface = ({ isVisible, setIsVisible }) => {
 
   useEffect(() => {
     const listenToScroll = () => {
-      if (!isVisible) return;
       let heightToHideFrom = Math.floor(
         info.current.getBoundingClientRect().height
       );
       const winScroll =
         document.body.scrollTop || document.documentElement.scrollTop;
+
       if (winScroll >= heightToHideFrom) {
         if (isVisible) {
           flushSync(() => setIsVisible(false));
@@ -45,7 +45,7 @@ const Preface = ({ isVisible, setIsVisible }) => {
         <img
           src={ToolKit}
           alt="toolkit-logo"
-          className="w-[200px] mx-auto md:mx-0 md:h-[300px] w-auto"
+          className="mx-auto md:mx-0 self-center md:w-[15%] md:h-[15%] w-[50%] h-[50%] py-6 md:py-0"
         />
         <div className="text-lg md:w-1/2 text-sm md:text-base pb-2 px-6 md:px-0">
           <div className="md:ml-12">
@@ -200,11 +200,26 @@ const Preface = ({ isVisible, setIsVisible }) => {
                       </div>
                     </div>
                     <div className="mt-4 flex">
-                      <Icon altText="Economy" image={focusAreas["Economy"]} />
+                      <Icon
+                        altText="Environment"
+                        image={focusAreas["Environment"]}
+                      />
                       <div className="w-full ml-2">
                         <span className="preface-bold">ENVIRONMENT:</span>{" "}
                         protection and enhancement of natural amenities, air and
                         water quality, open space, and farmland
+                      </div>
+                    </div>
+                    <div className="mt-4 flex">
+                      <Icon
+                        altText="Regional Planning"
+                        image={focusAreas["Regional Planning"]}
+                      />
+                      <div className="w-full ml-2">
+                        <span className="preface-bold">REGIONAL PLANNING:</span>{" "}
+                        local decisions with a regional impact that require or
+                        would benefit from coordination across municipal
+                        boundaries.
                       </div>
                     </div>
                   </div>
@@ -214,12 +229,18 @@ const Preface = ({ isVisible, setIsVisible }) => {
           </div>
         </div>
       </div>
-      <div className="flex items-center absolute w-full">
+      <div
+        className="top-0 w-[75%] ml-[25%] fixed p-4 h-[10vh] flex items-end"
+        style={{ zIndex: 1000 }}
+      >
         <img
-          src={DownArrow}
-          alt="arrow"
-          className="h-[30px] mt-1 p-2 ml-auto mr-auto cursor-pointer ball rounded-full bg-[#4fa3a8]"
-          onClick={e => setIsVisible(!isVisible)}
+          src={QuestionMark}
+          alt="question mark"
+          className="h-[30px] mt-1 p-2 cursor-pointer rounded-full bg-white"
+          onClick={() => {
+            window.scrollTo({ top: 0, behavior: "auto" });
+            setIsVisible(true);
+          }}
           style={{ display: !isVisible ? "" : "none" }}
         />
       </div>

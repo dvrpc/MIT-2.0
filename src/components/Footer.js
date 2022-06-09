@@ -5,11 +5,11 @@ const Footer = () => {
     <>
       <div className="italic p-2 bg-[#dddddd]">
         Contact:{" "}
-        <a className="underline" href="mailto:jdavis@dvrpc.org">
-          Jackie Davis
+        <a className="underline" href="mailto:abey@dvrpc.org@dvrpc.org">
+          Amani Bey
         </a>
       </div>
-      <footer className="bg-[#636363] text-white flex">
+      <footer className="bg-[#636363] text-white flex flex-col md:flex-row">
         <div id="footer-words">
           <a href="/">
             <img
@@ -24,7 +24,7 @@ const Footer = () => {
             Philadelphia, PA 19106-1520
             <br />
             <a href="tel:+1-215-592-1800">215.592.1800</a> |{" "}
-            <a href="mailto:jdavis@dvrpc.org">jdavis@dvrpc.org</a> |{" "}
+            <a href="mailto:abey@dvrpc.org">abey@dvrpc.org</a> |{" "}
             <a href="/Policies/">Policies</a>
             <br />
             &copy; Delaware Valley Regional Planning Commission

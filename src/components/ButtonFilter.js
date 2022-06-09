@@ -10,10 +10,10 @@ const ButtonFilter = ({
   setPrincipleFilter,
 }) => {
   const toggleFilter = event => {
-    event.target.classList.toggle("grayscale");
-    const filterType = event.target.parentNode.id;
+    event.target.firstChild.classList.toggle("grayscale");
+    const filterType = event.target.id;
     const filterArr = filterType === "focus" ? focusFilter : principleFilter;
-    const filterElem = event.target.id;
+    const filterElem = event.target.firstChild.id;
     const setFilterFunc =
       filterType === "focus" ? setFocusFilter : setPrincipleFilter;
     setFilter(filterArr, filterElem, setFilterFunc);
@@ -47,16 +47,21 @@ const ButtonFilter = ({
           <div>Filter by focus area:</div>
           {Object.keys(focusAreas).map(focus => {
             return (
-              <div id="focus" className="flex my-4 items-center cursor-pointer">
+              <button
+                id="focus"
+                className="flex my-4 items-center"
+                onClick={toggleFilter}
+              >
                 <img
                   alt={focus}
                   src={focusAreas[focus]}
-                  onClick={toggleFilter}
                   id={`${focus}`}
-                  className="w-[35px] rounded-full grayscale hover:filter-none"
+                  className="w-[35px] rounded-full grayscale hover:filter-none pointer-events-none"
                 />
-                <span className="ml-2 text-left text-[#58a7ac]">{focus}</span>
-              </div>
+                <span className="ml-2 text-left text-[#58a7ac] pointer-events-none">
+                  {focus}
+                </span>
+              </button>
             );
           })}
         </div>
@@ -64,19 +69,21 @@ const ButtonFilter = ({
           <div>Filter by principle:</div>
           {Object.keys(principles).map(principle => {
             return (
-              <div
+              <button
                 id="principle"
-                className="flex my-4 items-center cursor-pointer"
+                className="flex my-4 items-center"
+                onClick={toggleFilter}
               >
                 <img
                   alt={principle}
                   src={principles[principle]}
-                  onClick={toggleFilter}
                   id={`${principle}`}
-                  className="w-[35px] rounded-full grayscale hover:filter-none"
+                  className="w-[35px] rounded-full grayscale hover:filter-none pointer-events-none"
                 />
-                <span className="ml-2 text-[#58a7ac]">{principle}</span>
-              </div>
+                <span className="ml-2 text-[#58a7ac] pointer-events-none">
+                  {principle}
+                </span>
+              </button>
             );
           })}
         </div>
