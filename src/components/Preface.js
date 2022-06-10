@@ -1,7 +1,6 @@
-import React, { useContext, useEffect, useRef } from "react";
+import React, { useContext, useEffect } from "react";
 import ToolKit from "../images/toolkit.png";
 import { Tabs, Tab, TabList, TabPanel } from "react-tabs";
-import QuestionMark from "../images/questionmark.svg";
 import Funding from "../images/funding.png";
 import Municipal from "../images/municipal.png";
 import Connections from "../images/connections.png";
@@ -35,7 +34,7 @@ const Preface = () => {
 
     window.addEventListener("scroll", listenToScroll);
     return () => window.removeEventListener("scroll", listenToScroll);
-  }, [isVisible, setIsVisible]);
+  }, [isVisible, setIsVisible, info]);
 
   return (
     <div className="flex flex-col w-full" ref={info}>

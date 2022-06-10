@@ -49,14 +49,14 @@ const ButtonFilter = ({
             return (
               <button
                 id="focus"
-                className="flex my-4 items-center"
+                className="flex my-4 items-center grayscale hover:filter-none"
                 onClick={toggleFilter}
               >
                 <img
                   alt={focus}
                   src={focusAreas[focus]}
                   id={`${focus}`}
-                  className="w-[35px] rounded-full grayscale hover:filter-none pointer-events-none"
+                  className="w-[35px] rounded-full pointer-events-none"
                 />
                 <span className="ml-2 text-left text-[#58a7ac] pointer-events-none">
                   {focus}
@@ -71,14 +71,14 @@ const ButtonFilter = ({
             return (
               <button
                 id="principle"
-                className="flex my-4 items-center"
+                className="flex my-4 items-center grayscale hover:filter-none"
                 onClick={toggleFilter}
               >
                 <img
                   alt={principle}
                   src={principles[principle]}
                   id={`${principle}`}
-                  className="w-[35px] rounded-full grayscale hover:filter-none pointer-events-none"
+                  className="w-[35px] rounded-full pointer-events-none"
                 />
                 <span className="ml-2 text-[#58a7ac] pointer-events-none">
                   {principle}
