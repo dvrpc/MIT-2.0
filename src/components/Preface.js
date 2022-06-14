@@ -121,7 +121,7 @@ const Preface = () => {
                   </div>
                 </TabPanel>
                 <TabPanel>
-                  <div className="grid grid-cols-2">
+                  <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="flex">
                       <Icon altText="Equity" image={principles["Equity"]} />
                       <div className="w-full ml-2">
@@ -146,7 +146,7 @@ const Preface = () => {
                         transit and non-motorized travel options
                       </div>
                     </div>
-                    <div className="mt-4 flex">
+                    <div className="md:mt-4 flex">
                       <Icon
                         altText="Resiliency"
                         image={principles["Resiliency"]}
@@ -162,7 +162,20 @@ const Preface = () => {
                   </div>
                 </TabPanel>
                 <TabPanel>
-                  <div className="grid grid-cols-2">
+                  <div className="grid grid-cols-1 md:grid-cols-2">
+                    <div className="flex">
+                      <Icon
+                        altText="Communities"
+                        image={focusAreas["Communities"]}
+                      />
+                      <div className="w-full ml-2">
+                        <span className="preface-bold">COMMUNITIES:</span>{" "}
+                        inclusive, healthy, and walkable communities that offer
+                        a better quality of life for all residents, using the
+                        more than 135 Plan Centers as a framework for
+                        infrastructure investments
+                      </div>
+                    </div>
                     <div className="flex">
                       <Icon
                         altText="Transportation"
@@ -177,20 +190,7 @@ const Preface = () => {
                         variety of trip purposes
                       </div>
                     </div>
-                    <div className="flex">
-                      <Icon
-                        altText="Communities"
-                        image={focusAreas["Communities"]}
-                      />
-                      <div className="w-full ml-2">
-                        <span className="preface-bold">COMMUNITIES:</span>{" "}
-                        inclusive, healthy, and walkable communities that offer
-                        a better quality of life for all residents, using the
-                        more than 135 Plan Centers as a framework for
-                        infrastructure investments
-                      </div>
-                    </div>
-                    <div className="mt-4 flex">
+                    <div className="md:mt-4 flex">
                       <Icon altText="Economy" image={focusAreas["Economy"]} />
                       <div className="w-full ml-2">
                         <span className="preface-bold">ECONOMY:</span>{" "}

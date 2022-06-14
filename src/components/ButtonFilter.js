@@ -37,7 +37,7 @@ const ButtonFilter = ({
             type="text"
             onChange={e => setNameFilter(e.target.value)}
             value={nameFilter}
-            className="w-2/3 md:w-[90%] block border border-[#cccccc] p-1"
+            className="w-5/6 md:w-[90%] block border border-[#cccccc] p-1"
             style={{ borderRadius: "4px" }}
           />
         </label>
