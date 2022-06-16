@@ -50,7 +50,7 @@ const Preface = () => {
         <div className="text-lg md:w-1/2 text-sm md:text-base pb-2 px-6 md:px-0">
           <div className="md:ml-12">
             <Tabs>
-              <TabList className="flex cursor-pointer border-b">
+              <TabList className="flex justify-center md:justify-start cursor-pointer border-b">
                 <Tab>About</Tab>
                 <Tab>Principles</Tab>
                 <Tab>Focus Areas</Tab>
@@ -72,9 +72,9 @@ const Preface = () => {
                   contains resources, case studies, ordinances, and indicators
                   for nearly 80 tools.{" "}
                   <span className="preface-bold">
-                    Scroll down to find the tools that best fit your
-                    municipality’s needs by using the interactive filters. Lear
-                    more about Principle and Focus Area filters.
+                    Click the tabs above to learn more about Principles and
+                    Focus Areas, and scroll down to find the tools that best fit
+                    your municipality’s needs by using the interactive filters.
                   </span>
                   <div className="grid grid-cols-4 mt-6 text-center text-[#4fa3a8]">
                     <a
