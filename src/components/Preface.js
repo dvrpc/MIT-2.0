@@ -50,7 +50,7 @@ const Preface = () => {
         <div className="text-lg md:w-1/2 text-sm md:text-base pb-2 px-6 md:px-0">
           <div className="md:ml-12">
             <Tabs>
-              <TabList className="flex cursor-pointer border-b">
+              <TabList className="flex justify-center md:justify-start cursor-pointer border-b">
                 <Tab>About</Tab>
                 <Tab>Principles</Tab>
                 <Tab>Focus Areas</Tab>
