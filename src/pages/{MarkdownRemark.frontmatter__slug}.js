@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Icon from "../components/Icon";
 import ToolKit from "../images/toolkit.png";
 import Accordion from "../components/Accordion";

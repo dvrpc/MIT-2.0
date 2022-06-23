@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import DVRPC from "../images/dvrpc.svg";
-import Banner from "../images/banner.png";
+import MobileBanner from "../images/mobilebanner.png";
+import DesktopBanner from "../images/desktopbanner.png";
 import { Link } from "gatsby";
 import QuestionMark from "../images/questionmark.svg";
 import AppContext from "../utils/AppContext";
@@ -14,7 +15,16 @@ const Header = () => {
     <header className="flex justify-end items-center h-full w-full p-4 bg-[#4fa3a8]">
       <div className="mr-auto h-full flex">
         <Link to="/" className="h-full">
-          <img src={Banner} alt="mit logo" className="h-full" />
+          <img
+            src={MobileBanner}
+            alt="mit logo"
+            className="md:hidden block h-full"
+          />
+          <img
+            src={DesktopBanner}
+            alt="mit logo"
+            className="hidden md:block h-full"
+          />
         </Link>
         <img
           src={QuestionMark}
@@ -34,7 +44,7 @@ const Header = () => {
         />
       </div>
 
-      <img src={DVRPC} alt="dvrpc-logo" className="h-full p-2" />
+      <img src={DVRPC} alt="dvrpc-logo" className="h-full md:p-2" />
     </header>
   );
 };
