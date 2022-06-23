@@ -49,7 +49,7 @@ const ButtonFilter = ({
             return (
               <button
                 id="focus"
-                className="flex my-4 items-center grayscale hover:filter-none"
+                className="flex my-4 items-center grayscale md:hover:filter-none"
                 onClick={toggleFilter}
               >
                 <img
@@ -71,7 +71,7 @@ const ButtonFilter = ({
             return (
               <button
                 id="principle"
-                className="flex my-4 items-center grayscale hover:filter-none"
+                className="flex my-4 items-center grayscale md:hover:filter-none"
                 onClick={toggleFilter}
               >
                 <img
