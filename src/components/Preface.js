@@ -37,13 +37,12 @@ const Preface = () => {
   }, [isVisible, setIsVisible, info]);
 
   return (
-    <div
-      className="border-b-2 bg-[#edf6f6] shadow-md py-4"
-      ref={info}
-      style={{ display: isVisible ? "" : "none" }}
-    >
-      <div className="flex flex-col md:flex-row md:w-4/5 md:mx-auto p-6 pt-0 md:p-0">
-        <div className="md:w-[45%] flex justify-center py-4 md:py-0">
+    <div className="border-b-2 bg-[#edf6f6] shadow-md py-4" ref={info}>
+      <div
+        className="flex flex-col md:flex-row md:w-4/5 md:mx-auto p-6 pt-0 md:p-0"
+        style={{ display: isVisible ? "" : "none" }}
+      >
+        <div className="md:w-[45%] flex justify-center md:justify-start py-4 md:py-0">
           <img
             src={ToolKit}
             alt="toolkit-logo"
@@ -52,7 +51,7 @@ const Preface = () => {
         </div>
         <div className="w-full md:pl-4 md:p-6 text-lg text-sm md:text-base">
           <Tabs>
-            <TabList className="flex cursor-pointer border-b">
+            <TabList className="flex justify-center md:justify-start cursor-pointer border-b">
               <Tab>About</Tab>
               <Tab>Principles</Tab>
               <Tab>Focus Areas</Tab>
