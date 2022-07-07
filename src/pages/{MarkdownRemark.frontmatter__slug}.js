@@ -45,7 +45,10 @@ export default function Template({ data }) {
           </div>
           <div>
             {markdownRemark.html ? (
-              <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
+              <div
+                className="space-y-2"
+                dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
+              />
             ) : (
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -88,7 +91,7 @@ export default function Template({ data }) {
             )}
             {frontmatter.guidelines && (
               <Accordion label="Model/Sample Ordinances and Design Guidelines: ">
-                {frontmatter.whoHasUsedThisTool.map(guideline => {
+                {frontmatter.guidelines.map(guideline => {
                   return (
                     <a className="pb-2 underline" href={guideline.link}>
                       {guideline.label}
