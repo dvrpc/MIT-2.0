@@ -37,11 +37,12 @@ const Preface = () => {
   }, [isVisible, setIsVisible, info]);
 
   return (
-    <div className="border-b-2 bg-[#edf6f6] shadow-md py-4" ref={info}>
-      <div
-        className="flex flex-col md:flex-row md:w-4/5 md:mx-auto p-6 pt-0 md:p-0"
-        style={{ display: isVisible ? "" : "none" }}
-      >
+    <div
+      className="border-b-2 bg-[#edf6f6] shadow-md py-4"
+      ref={info}
+      style={{ display: isVisible ? "" : "none" }}
+    >
+      <div className="flex flex-col md:flex-row md:w-4/5 md:mx-auto p-6 pt-0 md:p-0">
         <div className="md:w-[45%] flex justify-center py-4 md:py-0">
           <img
             src={ToolKit}
@@ -73,9 +74,9 @@ const Preface = () => {
                 contains resources, case studies, ordinances, and indicators for
                 nearly 80 tools.{" "}
                 <span className="preface-bold">
-                  Scroll down to find the tools that best fit your
-                  municipality’s needs by using the interactive filters. Lear
-                  more about Principle and Focus Area filters.
+                  Click the tabs above to learn more about Principles and Focus
+                  Areas, and scroll down to find the tools that best fit your
+                  municipality’s needs by using the interactive filters
                 </span>
                 <div className="grid grid-cols-4 mt-6 text-center text-[#4fa3a8]">
                   <a

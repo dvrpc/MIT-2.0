@@ -42,14 +42,14 @@ const ButtonFilter = ({
           />
         </label>
       </div>
-      <div className="flex stacked-filters space-x-2 mt-2">
+      <div className="flex stacked-filters mt-2">
         <div>
           <div>Filter by focus area:</div>
           {Object.keys(focusAreas).map(focus => {
             return (
               <button
                 id="focus"
-                className="flex my-4 items-center grayscale hover:filter-none"
+                className="flex my-4 items-center grayscale md:hover:filter-none"
                 onClick={toggleFilter}
               >
                 <img
@@ -71,7 +71,7 @@ const ButtonFilter = ({
             return (
               <button
                 id="principle"
-                className="flex my-4 items-center grayscale hover:filter-none"
+                className="flex my-4 items-center grayscale md:hover:filter-none"
                 onClick={toggleFilter}
               >
                 <img
