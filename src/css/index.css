@@ -152,11 +152,7 @@ address {
   }
 }
 
-@media (min-width: 800px) and (max-width: 1260px) {
-  .stacked-filters-footer {
-    margin-top: 5%;
-  }
-
+@media (min-width: 768px) and (max-width: 1260px) {
   .stacked-filters {
     flex-direction: column;
   }

@@ -44,7 +44,7 @@ const Header = () => {
         />
       </div>
 
-      <img src={DVRPC} alt="dvrpc-logo" className="h-full md:p-2" />
+      <img src={DVRPC} alt="dvrpc-logo" className="h-full" />
     </header>
   );
 };
