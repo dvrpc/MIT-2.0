@@ -1,6 +1,6 @@
 ---
-  slug: "/neighborhooddesigncodes&ordinances"
-  title: Neighborhood Design Codes & Ordinances
+  slug: "/neighborhooddesigncodesandordinances"
+  title: Neighborhood Design Codes and Ordinances
   focusAreas: [Communities]
   principles: []
   seeOther: [Form-Based Zoning,Performance Zoning]

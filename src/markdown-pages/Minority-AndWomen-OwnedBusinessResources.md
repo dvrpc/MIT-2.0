@@ -1,6 +1,6 @@
 ---
-  slug: "/minority-andwomen-ownedbusinessresources"
-  title: Minority- And Women-Owned Business Resources
+  slug: "/minorityandwomen-ownedbusinessresources"
+  title: Minority and Women-Owned Business Resources
   focusAreas: [Communities,Economy]
   principles: [Equity]
   seeOther: [Human Capital Investments,Buy Local Campaign]
