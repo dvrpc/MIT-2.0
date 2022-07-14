@@ -1,5 +1,5 @@
 ---
-  slug: "/traveldemandmanagement(tdm)"
+  slug: "/traveldemandmanagementtdm"
   title: Travel Demand Management (TDM)
   focusAreas: [Environment,Transportation,Regional Planning]
   principles: [Sustainability]

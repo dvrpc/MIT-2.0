@@ -1,5 +1,5 @@
 ---
-  slug: "/transitrevitalizationinvestmentdistrict(trid)"
+  slug: "/transitrevitalizationinvestmentdistricttrid"
   title: Transit Revitalization Investment District (TRID)
   focusAreas: [Communities,Transportation,Economy]
   principles: []

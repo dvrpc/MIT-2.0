@@ -1,5 +1,5 @@
 ---
-  slug: "/transit-orienteddevelopment(tod)zoning"
+  slug: "/transit-orienteddevelopmenttodzoning"
   title: Transit-Oriented Development (TOD) Zoning
   focusAreas: [Environment,Communities,Transportation,Regional Planning]
   principles: [Equity,Resiliency,Sustainability]

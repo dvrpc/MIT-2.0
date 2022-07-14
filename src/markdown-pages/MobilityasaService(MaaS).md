@@ -1,5 +1,5 @@
 ---
-  slug: "/mobilityasaservice(maas)"
+  slug: "/mobilityasaservicemaas"
   title: Mobility as a Service (MaaS)
   focusAreas: [Transportation,Economy]
   principles: []

@@ -1,5 +1,5 @@
 ---
-  slug: "/tourismimprovementdistrict(tid)"
+  slug: "/tourismimprovementdistricttid"
   title: Tourism Improvement District (TID)
   focusAreas: [Economy]
   principles: []

@@ -1,5 +1,5 @@
 ---
-  slug: "/wirelesscommunicationsfacilitiesordinances(5g)"
+  slug: "/wirelesscommunicationsfacilitiesordinances5g"
   title: Wireless Communications Facilities Ordinances (5G)
   focusAreas: [Transportation,Economy]
   principles: [Resiliency]

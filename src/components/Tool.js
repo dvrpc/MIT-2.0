@@ -5,7 +5,7 @@ import { focusAreas, principles } from "../utils/icons";
 
 const Tool = ({ tool }) => {
   let fileName = tool.title;
-  fileName = fileName.replace(/\s/g, "").toLowerCase();
+  fileName = fileName.replace(/\s|[()]|\/|\,/g, "").toLowerCase();
 
   return (
     <div className="my-4">

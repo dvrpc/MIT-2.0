@@ -1,5 +1,5 @@
 ---
-  slug: "/communitybenefitsagreements(cbas)"
+  slug: "/communitybenefitsagreementscbas"
   title: Community Benefits Agreements (CBAs)
   focusAreas: [Environment,Communities,Regional Planning]
   principles: [Equity]
