@@ -11,6 +11,10 @@ export default function Template({ data }) {
   const { markdownRemark } = data;
   const { frontmatter } = markdownRemark;
 
+  const style = {
+    listStyle: "inside",
+  };
+
   return (
     <Layout>
       <div className="md:w-4/5 px-4 md:px-0 flex min-h-[80vh] flex-col">
@@ -46,7 +50,7 @@ export default function Template({ data }) {
           <div>
             {markdownRemark.html ? (
               <div
-                className="space-y-2"
+                className="space-y-2 markdown"
                 dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
               />
             ) : (

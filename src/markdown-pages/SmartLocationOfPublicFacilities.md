@@ -27,13 +27,13 @@
 
 The location of public facilities, such as schools and fire stations, can have important impacts on a community’s vitality, economic growth, and fiscal health. In addition to conventional considerations, such as the amount of space needed and the cost of land, municipalities should consider accessibility and alternative transportation options when siting a new facility. Municipalities may also want to ask several questions, including:
 
-    - Will this investment reinforce other development goals?
+- Will this investment reinforce other development goals?
 
-    - Will it require expensive additions to existing road and water systems?
+- Will it require expensive additions to existing road and water systems?
 
-    - Is it accessible to its potential users and employees?
+- Is it accessible to its potential users and employees?
 
-    - Does it maximize the chance for additional private-sector investment?
+- Does it maximize the chance for additional private-sector investment?
 
 A Community Facilities Location Policy can help a municipality ensure that new public facilities are built in locations that best advance the goals of the community. Similar strategies can be considered when consolidating existing services.
 

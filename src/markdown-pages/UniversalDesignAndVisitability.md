@@ -37,10 +37,10 @@
 
 Universal design aims to make products and environments usable by all people to the greatest extent possible, without the need for adaptation or specialized design. For example, curb ramps make it easier for people to cross a street, whether they are young, old, pregnant, on crutches, on a bike, or in a wheelchair. Visitability is a design approach for new housing that aims to enable anyone who uses a wheelchair or other mobility device to visit. A social visit requires the ability to get into the house, to pass through interior doorways, and be able to access a bathroom. As a result, the basic design elements of a visitable home are:
 
-    1. one zero-step entrance to a home approachable by an accessible route;
+1. one zero-step entrance to a home approachable by an accessible route;
 
-    2. 32” clearances at doorways and 36“-wide hallways; and
+2. 32” clearances at doorways and 36“-wide hallways; and
 
-    3. powder room (half bath) on the first floor with floor clearance to accommodate a wheelchair.
+3. powder room (half bath) on the first floor with floor clearance to accommodate a wheelchair.
 
 Age-friendly transportation policies include expanded sidewalk networks in suburban areas, TOD, Complete Streets, lower speed limits or pedestrian senior zones, more legible wayfinding and signage, bus shelters, benches and places to sit and rest, programs for younger and older cyclists, and playgrounds and outdoor exercise equipment designed for all age groups.

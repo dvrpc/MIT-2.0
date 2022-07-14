@@ -55,20 +55,20 @@ Bike libraries are a low-cost, simple, and effective way for communities (munici
 
 Conventional bikeshare programs are generally located where density is sufficient to warrant more than one trip per day per bike, such that management of the fleet is required to support its operations. University campuses and cities typically have sufficient density of users to support conventional bikeshare programs of varying scales. Conventional bikeshare programs generally have the following characteristics:
 
-    - smart, kiosk payment interface;
+- smart, kiosk payment interface;
 
-    - pay with bank card;
+- pay with bank card;
 
-    - require significant capital costs for bikes, and docks and/or stations if it is a docked system;
+- require significant capital costs for bikes, and docks and/or stations if it is a docked system;
 
-    - require operator costs to redistribute bikes;
+- require operator costs to redistribute bikes;
 
-    - on-board GPS technology;
+- on-board GPS technology;
 
-    - rentals for minutes or hours;
+- rentals for minutes or hours;
 
-    - self-serve stations or bicycles (docked or dockless); and
+- self-serve stations or bicycles (docked or dockless); and
 
-    - defined service area.
+- defined service area.
 
 Bikeshare programs should work to be incorporated into a multimodal mobility-as-a-service network.

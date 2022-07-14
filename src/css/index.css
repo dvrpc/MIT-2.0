@@ -146,6 +146,17 @@ address {
   align-self: center;
 }
 
+.markdown > ul {
+  list-style: disc;
+}
+.markdown > ol {
+  list-style: decimal;
+}
+.markdown > ul > *,
+.markdown > ol > * {
+  margin-left: 1.5rem;
+}
+
 @media (max-width: 800px) {
   .mobile-filters {
     position: relative !important;

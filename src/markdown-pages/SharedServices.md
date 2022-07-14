@@ -36,12 +36,12 @@ In shared service collaborations, two or more local governments partner to provi
 
 Shared services are generally formed by joint agreements initiated by the partnering municipalities.In addition to helping municipalities share knowledge and gain confidence in their decision making, properly planned and implemented shared services provide these benefits:
 
-    - may reduce costs and time spent on existing services by creating economies of scale;
+- may reduce costs and time spent on existing services by creating economies of scale;
 
-    - avoids future costs of programs and tools through coordinated planning and efficiencies;
+- avoids future costs of programs and tools through coordinated planning and efficiencies;
 
-    - eliminates service duplication, saving time, money, and other municipal resources;
+- eliminates service duplication, saving time, money, and other municipal resources;
 
-    - offers municipalities options for maintaining or expanding service within an existing budget despite fiscal or staffing constraints; and
+- offers municipalities options for maintaining or expanding service within an existing budget despite fiscal or staffing constraints; and
 
-    - increases competitiveness for outside funding, as government agencies often give priority in grant programs and funding decisions to areas with multimunicipal plans.
+- increases competitiveness for outside funding, as government agencies often give priority in grant programs and funding decisions to areas with multimunicipal plans.
