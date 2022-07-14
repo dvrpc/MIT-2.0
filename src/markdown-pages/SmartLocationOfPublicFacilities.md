@@ -3,7 +3,7 @@
   title: Smart Location Of Public Facilities
   focusAreas: [Communities,Transportation,Regional Planning]
   principles: [Equity,Sustainability]
-  seeOther: [Neighborhood Design Codes & Ordinances and Revitalization Plans]
+  seeOther: [Neighborhood Design Codes and Ordinances,Revitalization Planning and Programs]
   trackingProgressLinks: [Commute Mode,Land Consumption,Transit Ridership]
   media: 
     type: "image"

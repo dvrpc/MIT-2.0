@@ -3,7 +3,7 @@
   title: Infill Ordinances                                              
   focusAreas: [Communities]
   principles: [Sustainability]
-  seeOther: [Brownfields Redevelopment,Building Missing Middle Housing,]
+  seeOther: [Brownfields Redevelopment,Build Missing Middle Housing]
   trackingProgressLinks: [Land Consumption]
   media: 
     type: "image"

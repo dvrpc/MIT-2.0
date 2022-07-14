@@ -3,7 +3,7 @@
   title: Inclusionary Zoning
   focusAreas: [Communities,Regional Planning]
   principles: [Equity]
-  seeOther: [Live/Work Zoning,Age Friendly Communities,Build Missing Middle Housing,Development without Displacement,Neighborhood Design Codes & Ordinances]
+  seeOther: [Live/Work Zoning,Age Friendly Communities,Build Missing Middle Housing,Development without Displacement,Neighborhood Design Codes and Ordinances]
   trackingProgressLinks: [Educational Attainment,Housing Affordability,Racial & Ethnic Disparities]
   media: 
     type: "image"

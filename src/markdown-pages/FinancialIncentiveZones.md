@@ -3,7 +3,7 @@
   title: Financial Incentive Zones
   focusAreas: [Economy,Regional Planning]
   principles: []
-  seeOther: [TID,Downtown Management,Greenhouse Gas Overlay Zones]
+  seeOther: [Transit Revitalization Investment District (TRID),Downtown Management,Greenhouse Gas Overlay Zones]
   trackingProgressLinks: [Job Growth, Racial and Ethnic Disparities, Income Disparities]
   media: 
     type: "image"

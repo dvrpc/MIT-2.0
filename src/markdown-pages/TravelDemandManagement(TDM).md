@@ -3,7 +3,7 @@
   title: Travel Demand Management (TDM)
   focusAreas: [Environment,Transportation,Regional Planning]
   principles: [Sustainability]
-  seeOther: [Community Shuttle Programs,Walking and Biking Encouragement Programs,Travel Demand Management]
+  seeOther: [Community Shuttle Programs,Walking and Biking Encouragement Programs]
   trackingProgressLinks: [Air Quality, Commute Mode,Greenhouse Gas Emissions,Miles Driven,Congestion]
   media: 
     type: "image"

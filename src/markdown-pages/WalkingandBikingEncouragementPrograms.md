@@ -3,7 +3,7 @@
   title: Walking and Biking Encouragement Programs 
   focusAreas: [Environment,Communities,Transportation]
   principles: [Equity,Sustainability]
-  seeOther: [Sidewalk Standards,Complete Streets]
+  seeOther: [Sidewalk Standards and Management,Complete Streets]
   trackingProgressLinks: [Commute Mode,Miles Driven]
   media: 
     type: "image"

@@ -3,7 +3,7 @@
   title: Floodplain Ordinances 
   focusAreas: [Environment,Communities,Regional Planning]
   principles: [Resiliency]
-  seeOther: [Stream Corridor Protection Ordinances,Stormwater Management,Stormwater Feess]
+  seeOther: [Stream Corridor Protection Ordinances,Stormwater Management,Stormwater Fees]
   trackingProgressLinks: [Water Quality,Greenhouse Gas Emissions]
   media: 
     type: "image"

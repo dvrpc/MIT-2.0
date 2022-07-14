@@ -3,7 +3,7 @@
   title: Streamlined Permitting Processes
   focusAreas: [Communities,Regional Planning]
   principles: []
-  seeOther: [Performance Management,Neighborhood Design Codes & Ordinances]
+  seeOther: [Performance Zoning,Neighborhood Design Codes and Ordinances]
   trackingProgressLinks: [Exports,Global Connectivity,Housing Activity,Population Growth]
   media: 
     type: "image"

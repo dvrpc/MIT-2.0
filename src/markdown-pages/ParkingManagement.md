@@ -3,7 +3,7 @@
   title: Parking Management
   focusAreas: [Communities,Transportation,Regional Planning]
   principles: [Sustainability]
-  seeOther: [MaaS,curb management,Multimodal transportation Hubs and Connections,Smart Communities]
+  seeOther: [Mobility as a Service (MaaS),Curbside Management,Multimodal transportation Hubs and Connections,IoT and Smart Communities]
   trackingProgressLinks: [Greenhouse Gas Emissions]
   media: 
     type: "image"

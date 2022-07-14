@@ -3,7 +3,7 @@
   title: Community-Centered Design in School Systems
   focusAreas: [Environment,Communities]
   principles: [Sustainability]
-  seeOther: [Age Friendly Communities,Universal Design & Visitability]
+  seeOther: [Age Friendly Communities,Universal Design and Visitability]
   trackingProgressLinks: []
   media: 
     type: "image"

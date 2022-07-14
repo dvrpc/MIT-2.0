@@ -3,7 +3,7 @@
   title: Land Acquisition and Conservation Easements
   focusAreas: [Environment,Communities,Regional Planning]
   principles: []
-  seeOther: [Comprehensive Environmental Protection ordinances,Stream Corridor Protection Ordinancess,Street Tree Ordinance & Management Plan]
+  seeOther: [Comprehensive Environmental Protection Ordinance,Stream Corridor Protection Ordinances,Street Tree Ordinance and Management Plan]
   trackingProgressLinks: [Land Consumption]
   media: 
     type: "image"

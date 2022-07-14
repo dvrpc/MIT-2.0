@@ -3,7 +3,7 @@
   title: Certified Local Government (CLG)
   focusAreas: [Environment]
   principles: []
-  seeOther: [Historic Districts & Overlay Zones,Shared Services,Official Map]
+  seeOther: [Historic Districts Overlay Zones and Facade Improvement Grants,Shared Services,Official Map]
   trackingProgressLinks: []
   media: 
     type: "image"

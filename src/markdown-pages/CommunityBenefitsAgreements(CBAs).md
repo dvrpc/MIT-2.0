@@ -3,7 +3,7 @@
   title: Community Benefits Agreements (CBAs)
   focusAreas: [Environment,Communities,Regional Planning]
   principles: [Equity]
-  seeOther: [Community Engagement,Human Capital Investments,Engaging Underserved Communities,Tactical Urbanism]
+  seeOther: [Community Engagement,Human Capital Investments,Engaging Underserved Communities,Tactical Urbanism and Pedestrian Plazas]
   trackingProgressLinks: [Housing Affordability]
   media: 
     type: "image"

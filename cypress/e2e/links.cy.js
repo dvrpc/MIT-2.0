@@ -11,7 +11,7 @@
 // please read our getting started guide:
 // https://on.cypress.io/introduction-to-cypress
 
-describe("example to-do app", () => {
+describe("mit", () => {
   beforeEach(() => {
     // Cypress starts out with a blank slate for each test
     // so we must tell it to visit our website with the `cy.visit()` command.
@@ -20,9 +20,24 @@ describe("example to-do app", () => {
     cy.visit("http://localhost:8000/");
   });
 
+  // it("test links to tools", () => {
+  //   cy.get("a").each(page => {
+  //     const link = page.prop("href");
+  //     cy.request({
+  //       url: link,
+  //       failOnStatusCode: false, // allow good and bad response to pass into then
+  //     }).then(response => {
+  //       Cypress.log({
+  //         name: link,
+  //         message: response.status,
+  //       });
+  //     });
+  //   });
+  // });
+
   it("test links to tools", () => {
-    cy.get("a").each(page => {
-      const link = page.prop("href");
+    cy.get(".tool-link").each(tool => {
+      const link = tool.prop("href");
       cy.request({
         url: link,
         failOnStatusCode: false, // allow good and bad response to pass into then
@@ -30,6 +45,29 @@ describe("example to-do app", () => {
         Cypress.log({
           name: link,
           message: response.status,
+        });
+      });
+    });
+  });
+
+  it("test internal links", () => {
+    cy.get(".tool-link").each(tool => {
+      const link = tool.prop("href");
+      cy.visit({
+        url: link,
+        method: "GET",
+      }).then(() => {
+        cy.get(".internal-link").each(internallink => {
+          const link = internallink.prop("href");
+          cy.request({
+            url: link,
+            failOnStatusCode: false, // allow good and bad response to pass into then
+          }).then(response => {
+            Cypress.log({
+              name: link,
+              message: response.status,
+            });
+          });
         });
       });
     });

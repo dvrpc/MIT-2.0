@@ -3,7 +3,7 @@
   title: Sidewalk Standards and Management
   focusAreas: []
   principles: []
-  seeOther: [Curb management,Downtown Management,Walking and Biking Encouragement]
+  seeOther: [Curbside Management,Downtown Management,Walking and Biking Encouragement Programs]
   trackingProgressLinks: [Commute Mode]
   media: 
     type: "image"

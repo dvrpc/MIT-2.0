@@ -3,7 +3,7 @@
   title: Official Map
   focusAreas: [Environment,Regional Planning]
   principles: []
-  seeOther: [Multimunicipal Comprehensive Plans,Neighborhood Design Codes & Ordinances,Historical District Overlay]
+  seeOther: [Multimunicipal Comprehensive Plans,Neighborhood Design Codes and Ordinances,Historic Districts Overlay Zones and Facade Improvement Grants]
   trackingProgressLinks: [Land Consumption,Population Growth,Transit Ridership]
   media: 
     type: "image"

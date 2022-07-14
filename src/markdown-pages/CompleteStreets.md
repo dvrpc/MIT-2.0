@@ -3,7 +3,7 @@
   title: Complete Streets
   focusAreas: [Environment,Transportation]
   principles: [Equity]
-  seeOther: [Sidewalk Standards,Walking and Biking Encouragement Programs,Curbside Management]
+  seeOther: [Sidewalk Standards and Management,Walking and Biking Encouragement Programs,Curbside Management]
   trackingProgressLinks: [Commute Mode,Transit Ridership]
   media: 
     type: "image"

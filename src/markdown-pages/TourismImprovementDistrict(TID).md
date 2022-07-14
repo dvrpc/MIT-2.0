@@ -3,7 +3,7 @@
   title: Tourism Improvement District (TID)
   focusAreas: [Economy]
   principles: []
-  seeOther: [Multimodal Transportation Hubs and Connections,Downtown Management,Tactical Urbanism / Open Streets]
+  seeOther: [Multimodal Transportation Hubs and Connections,Downtown Management,Tactical Urbanism and Pedestrian Plazas]
   trackingProgressLinks: [Global Connectivity,Transit Conditions]
   media: 
     type: "image"

@@ -3,7 +3,7 @@
   title: IoT and Smart Communities
   focusAreas: [Environment,Transportation,Economy,Regional Planning]
   principles: [Resiliency]
-  seeOther: [Broadband Univeral Access,Wireless Communications Facilitiies Ordinances (5G),Connected & Automated Vehicle Preparations]
+  seeOther: [Broadband Universal Access,Wireless Communications Facilities Ordinances (5G),Connected and Automated Vehicle Preparations]
   trackingProgressLinks: []
   media: 
     type: "image"

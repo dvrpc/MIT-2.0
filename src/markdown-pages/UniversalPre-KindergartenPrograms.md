@@ -3,7 +3,7 @@
   title: Universal Pre-Kindergarten Programs
   focusAreas: [Communities]
   principles: [Equity]
-  seeOther: [Community-Centered Design in School Districts]
+  seeOther: [Community-Centered Design in School Systems]
   trackingProgressLinks: [Educational Attainment,Income Disparities,Racial & Ethnic Disparities,Sex Disparities]
   media: 
     type: "image"

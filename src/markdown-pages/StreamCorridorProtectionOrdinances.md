@@ -3,7 +3,7 @@
   title: Stream Corridor Protection Ordinances
   focusAreas: [Environment,Communities,Regional Planning]
   principles: [Sustainability]
-  seeOther: [Comprehensive Environmental Protection Ordinances,Native Plantings]
+  seeOther: [Comprehensive Environmental Protection Ordinance,Native Plant Ordinances]
   trackingProgressLinks: [Water Quality]
   media: 
     type: "image"

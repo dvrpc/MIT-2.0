@@ -106,19 +106,10 @@ export default function Template({ data }) {
             )}
             {frontmatter.trackingProgressLinks && (
               <Accordion label="Tracking Progress Indicators: ">
-                {frontmatter.trackingProgressLinks.map(link => {
+                {frontmatter.trackingProgressLinks.map(indicator => {
                   return (
-                    <Link
-                      className="pb-2 underline"
-                      to={
-                        "/" +
-                        link
-                          .toLowerCase()
-                          .replace(/\s|[/]/g, "")
-                          .replace(/&| and /g, "-and-")
-                      }
-                    >
-                      {link}
+                    <Link className="pb-2 underline" to={indicator}>
+                      {indicator}
                     </Link>
                   );
                 })}
@@ -126,19 +117,15 @@ export default function Template({ data }) {
             )}
             {frontmatter.seeOther && (
               <Accordion label="See Related Tools:">
-                {frontmatter.seeOther.map(link => {
+                {frontmatter.seeOther.map(other => {
                   return (
                     <Link
-                      className="underline mr-4"
+                      className="underline mr-4 internal-link"
                       to={
-                        "/" +
-                        link
-                          .toLowerCase()
-                          .replace(/\s|[/]/g, "")
-                          .replace(/&| and /g, "-and-")
+                        "/" + other.replace(/\s|[()]|\/|\,/g, "").toLowerCase()
                       }
                     >
-                      {link}
+                      {other}
                     </Link>
                   );
                 })}

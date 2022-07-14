@@ -3,7 +3,7 @@
   title: Tactical Urbanism and Pedestrian Plazas
   focusAreas: [Environment,Communities,Economy,Regional Planning]
   principles: [Equity,Sustainability]
-  seeOther: [Community Branding,Tourism Improvement District (TID),Engaging with Underserved Communities,Public Participation,Community Engagement]
+  seeOther: [Community Branding,Tourism Improvement District (TID),Engaging Underserved Communities,Community Engagement]
   trackingProgressLinks: [Commute Mode,Miles Driven]
   media: 
     type: "image"

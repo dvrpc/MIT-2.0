@@ -3,7 +3,7 @@
   title: Connected and Automated Vehicle Preparations
   focusAreas: [Transportation,Regional Planning]
   principles: []
-  seeOther: [IoT and Smart Communities,Multimodal Transportation Hubs,Shared Mobility Regulatory Framework,Curbside Management]
+  seeOther: [IoT and Smart Communities,Multimodal Transportation Hubs and Connections,Shared Mobility Regulatory Framework,Curbside Management]
   trackingProgressLinks: [Bridge Conditions,Pavement Conditions,Roadway Safety]
   media: 
     type: "image"

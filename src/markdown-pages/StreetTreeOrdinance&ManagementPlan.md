@@ -3,7 +3,7 @@
   title: Street Tree Ordinance and Management Plan
   focusAreas: [Environment,Communities]
   principles: [Equity,Sustainability]
-  seeOther: [Native Plantings,Cool Pavement,Downtown Management]
+  seeOther: [Native Plant Ordinances,Cooling Center,Downtown Management]
   trackingProgressLinks: [Air Quality]
   media: 
     type: "image"

@@ -3,7 +3,7 @@
   title: Comprehensive Environmental Protection Ordinance
   focusAreas: [Environment]
   principles: [Resiliency,Sustainability]
-  seeOther: [Official Map,Parkland Dedication and Fee-in-Lieu,Land Acquisition and Conservation Easements,Dedicated Open Space Funding,Stream Corridor Protection Ordinances,Native Plantings]
+  seeOther: [Official Map,Parkland Dedication and Fee-in-Lieu,Land Acquisition and Conservation Easements,Dedicated Open Space Funding,Stream Corridor Protection Ordinances,Native Plant Ordinances]
   trackingProgressLinks: [Land Consumption,Water Quality]
   media: 
     type: "image"

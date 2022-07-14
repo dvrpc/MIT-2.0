@@ -10,7 +10,7 @@ const Tool = ({ tool }) => {
   return (
     <div className="my-4">
       <div className="flex flex-col md:flex-row">
-        <Link className="md:text-xl preface-bold mr-2" to={fileName}>
+        <Link className="md:text-xl preface-bold mr-2 tool-link" to={fileName}>
           {tool.title}
         </Link>
         <div>

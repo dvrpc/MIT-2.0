@@ -3,7 +3,7 @@
   title: Parkland Dedication and Fee-in-Lieu
   focusAreas: [Environment]
   principles: [Equity,Sustainability]
-  seeOther: [Comprehensive Environmental Planning,Stream Corridor Protection Ordinancess,Tactical Urbanism,]
+  seeOther: [Comprehensive Environmental Protection Ordinance,Stream Corridor Protection Ordinances,Tactical Urbanism and Pedestrian Plazas]
   trackingProgressLinks: [Land Consumption]
   media: 
     type: "image"

@@ -3,7 +3,7 @@
   title: Native Plant Ordinances
   focusAreas: [Environment ,Communities]
   principles: [Resiliency,Sustainability]
-  seeOther: [Comprehensive Environmental Protection Ordinances,Stream Corridor Protection Ordinancess,Street Tree Ordinance & Management Plan]
+  seeOther: [Comprehensive Environmental Protection Ordinance,Stream Corridor Protection Ordinances,Street Tree Ordinance and Management Plan]
   trackingProgressLinks: [Water Quality]
   media: 
     type: "image"

@@ -3,7 +3,7 @@
   title: Development Without Displacement 
   focusAreas: [Communities]
   principles: [Equity]
-  seeOther: [Inclusionary Zoning,Affordable housing,and Community Benefits Agreements]
+  seeOther: [Inclusionary Zoning,Community Benefits Agreements (CBAs)]
   trackingProgressLinks: [Housing Affordability, Racial and Ethnic Disparities, Income Disparities]
   media: 
     type: "image"
