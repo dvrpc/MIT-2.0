@@ -1,6 +1,6 @@
 ---
   slug: "/greenbuildingstandards"
-  title: GREEN BUILDING Standards
+  title: Green Building Standards
   focusAreas: [Environment,Communities]
   principles: [Resiliency,Sustainability]
   seeOther: [Greenhouse Gas Reduction Targets And Climate Action Plans,Alternative Energy Ordinance]
