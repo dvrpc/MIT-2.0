@@ -7,7 +7,7 @@
   trackingProgressLinks: [Housing Activity]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "AccessManagement.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Form-Based Codes for Big-Box Retail, Municipal Implementation Tool #013, DVRPC"
