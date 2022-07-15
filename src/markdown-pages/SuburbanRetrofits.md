@@ -7,8 +7,8 @@
   trackingProgressLinks: [Housing Affordability,Housing Activity]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "SuburbanRetrofits.jpg"
+    credit: "Andrew Svekla, DVRPC"
   resources: 
     - label: "What’s in Store, Exploring the Future of Shopping Malls in Greater Philadelphia, DVRPC"
       link: "https://www.dvrpc.org/Reports/20037.pdf"

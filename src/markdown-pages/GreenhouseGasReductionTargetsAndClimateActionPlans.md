@@ -7,7 +7,7 @@
   trackingProgressLinks: [Air Quality, Greenhouse Gas Emissions]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "AccessManagement.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Local Climate Action Program, PADEP"

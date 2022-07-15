@@ -7,8 +7,7 @@
   trackingProgressLinks: [Water Quality]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "Post-DisasterPlanning.jpg"
   resources: 
     - label: "Planning for Post-Disaster Recovery: Next Generation"
       link: "https://www.planning.org/research/postdisaster/"

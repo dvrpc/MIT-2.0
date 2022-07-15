@@ -7,7 +7,7 @@
   trackingProgressLinks: [Land Consumption]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "LandAcquisitionAndConservationEasements.jpg"
     credit: "DVRPC"
   resources: 
     - label: "ConservationTools.org, WeConservePA"

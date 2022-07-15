@@ -7,8 +7,8 @@
   trackingProgressLinks: [Commute Mode,Land Consumption,Transit Ridership]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "SmartLocationOfPublicFacilities.jpg"
+    credit: "Christina Arlt, DVRPC"
   resources: 
     - label: "Community Facilities Location Policy, Smart Growth America"
       link: "https://smartgrowthamerica.org/app/uploads/2017/04/rural-toolkit_community-facilities.pdf"

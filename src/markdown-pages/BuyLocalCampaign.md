@@ -7,7 +7,7 @@
   trackingProgressLinks: [Job Growth]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "BuyLocalCampaign.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Cultivating a Homegrown Economy, Municipal Implementation Tool #34, DVRPC"

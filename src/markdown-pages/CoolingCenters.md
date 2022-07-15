@@ -7,8 +7,7 @@
   trackingProgressLinks: [Greenhouse Gas Emissions]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "CoolingCenters.png"
   resources: 
     - label: "The Use of Cooling Centers to Prevent Heat-Related Illness, Center for Disease Control"
       link: "https://www.cdc.gov/climateandhealth/docs/UseOfCoolingCenters.pdf"

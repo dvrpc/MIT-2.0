@@ -7,7 +7,7 @@
   trackingProgressLinks: [Land Consumption]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "AccessManagement.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Residential Infill Development, Municipal Implementation Tool #004, DVRPC"

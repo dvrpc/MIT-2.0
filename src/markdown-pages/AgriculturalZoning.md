@@ -7,7 +7,7 @@
   trackingProgressLinks: [Land Consumption]
   media: 
     type: "image"
-    path: "AGRICULTURALZONING.jpg"
+    path: "AgriculturalZoning.jpg"
     credit: "Montgomery County Planning Commission"
   resources: 
     - label: "Chester County Planning Toolbox: Agricultural Zoning"

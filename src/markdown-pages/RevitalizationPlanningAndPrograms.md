@@ -7,7 +7,7 @@
   trackingProgressLinks: [Housing Activity,Population Growth,Racial & Ethnic Disparities]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "RevitalizationPlanningAndPrograms.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Community Resilience, DVRPC"

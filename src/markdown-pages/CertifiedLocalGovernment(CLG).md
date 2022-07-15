@@ -7,8 +7,8 @@
   trackingProgressLinks: []
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "CertifiedLocalGovernmentCLG.jpg"
+    credit: "Christina Arlt, DVRPC"
   resources: 
     - label: "National Park Service Certified Local Government Program & Local Preservation Tools"
       link: "https://www.nps.gov/subjects/historicpreservationfund/certified-local-government-program.htm"

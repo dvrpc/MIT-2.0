@@ -7,8 +7,7 @@
   trackingProgressLinks: [Land Consumption,Population Growth,Transit Ridership]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "OfficialMap.jpg"
   resources: 
     - label: "The Official Map: A Handbook for Preserving and Providing Public Lands and Facilities, WeConservePA"
       link: "https://conservationtools.org/library_items/931"  

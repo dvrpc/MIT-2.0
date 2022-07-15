@@ -7,7 +7,7 @@
   trackingProgressLinks: [Congestion,Roadway Safety]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "AccessManagement.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Access Management, FHWA"

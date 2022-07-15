@@ -7,8 +7,7 @@
   trackingProgressLinks: [Transit Conditions]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "SharedServices.jpg"
   resources: 
     - label: "Implementing Shared Services, Municipal Implementation Tool #025, DVRPC"
       link: "http://www.dvrpc.org/asp/pubs/publicationabstract.asp?pub_id=MIT025"

@@ -7,8 +7,8 @@
   trackingProgressLinks: [Water Quality]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "StormwaterManagement.jpg"
+    credit: "Marco Gorini, DVRPC"
   resources: 
     - label: "Municipal Stormwater, Pennsylvania Department of Environmental Protection (PADEP)"
       link: "https://www.dep.pa.gov/Business/Water/CleanWater/StormwaterMgmt/Stormwater/Pages/default.aspx"

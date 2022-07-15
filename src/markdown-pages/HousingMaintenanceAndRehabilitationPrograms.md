@@ -7,8 +7,7 @@
   trackingProgressLinks: [Housing Affordability,Income Disparities,Population Growth,Racial & Ethnic Disparities]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "HousingMaintenanceAndRehabilitationPrograms.jpg"
   resources: 
     - label: "HOME Program, PA"
       link: "https://dced.pa.gov/programs/home/"

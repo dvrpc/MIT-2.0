@@ -7,8 +7,7 @@
   trackingProgressLinks: [Bridge Conditions,Pavement Conditions,Roadway Safety]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "ConnectedAndAutomatedVehiclePreparations.jpg"
   resources: 
     - label: "Ensuring American Leadership in Automated Vehicle Technologies: Automated Vehicles 4.0"
       link: "https://www.transportation.gov/av/4"

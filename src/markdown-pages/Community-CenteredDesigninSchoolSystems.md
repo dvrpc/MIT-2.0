@@ -7,7 +7,7 @@
   trackingProgressLinks: []
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "AccessManagement.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Coalition for Community Schools"

@@ -7,8 +7,7 @@
   trackingProgressLinks: [Educational Attainment,Income Disparities,Racial & Ethnic Disparities,Sex Disparities]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "UniversalPre-KindergartenPrograms.jpg"
   resources: 
     - label: "“Universal Pre-K: What does it mean and who provides it?,” National Institute for Early Education Research, Rutgers Graduate School of Education"
       link: "http://nieer.org/2016/01/06/universal-pre-k-what-does-it-mean-and-who-provides-it"

@@ -7,7 +7,7 @@
   trackingProgressLinks: [Roadway Safety,Bridge Conditions,Pavement Conditions]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "TransportationSafetyPrograms.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Traffic Calming, Municipal Implementation Tool #011, DVRPC"

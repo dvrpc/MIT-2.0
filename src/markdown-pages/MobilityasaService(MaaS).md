@@ -7,8 +7,7 @@
   trackingProgressLinks: [Commute Mode,Miles Driven,Congestion,Transit Ridership]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "MobilityasaServiceMaaS.jpg"
   resources: 
     - label: "Regulating the Future of Mobility, Deloitte"
       link: "https://www2.deloitte.com/us/en/insights/focus/future-of-mobility/regulating-transportation-new-mobility-ecosystem.html"

@@ -3,12 +3,11 @@
   title: Age Friendly Communities 
   focusAreas: [Communities,Transportation,Economy]
   principles: [Equity,Sustainability]
-  seeOther: [Build Missing Middle Housing,Universal Design and Visitability,infill ordinances]
+  seeOther: [Build Missing Middle Housing,Universal Design and Visitability,Infill Ordinances]
   trackingProgressLinks: [Housing Affordability,Income Disparities]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "AgeFriendlyCommunities.png"
   resources: 
     - label: "8 80 Diagnostic"
       link: "http://880diagnostic.com/#:~:text=8%2080%20neighbourhoods%20are%20ones,built%20environment%20are%20inherently%20inclusive"

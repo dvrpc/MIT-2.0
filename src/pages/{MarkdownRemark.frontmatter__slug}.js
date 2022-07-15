@@ -41,34 +41,13 @@ export default function Template({ data }) {
         </div>
         <div className="md:grid grid-cols-3 my-8 h-full">
           <div className="w-100 flex justify-center md:p-12 py-4 md:py-0 pt-0">
-            {frontmatter.media ? (
-              <Image media={frontmatter.media} />
-            ) : (
-              <img src={ToolKit} alt="toolkit-logo" className="h-[300px]" />
-            )}
+            <Image media={frontmatter.media} />
           </div>
           <div>
-            {markdownRemark.html ? (
-              <div
-                className="space-y-2 markdown"
-                dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
-              />
-            ) : (
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Nulla aliquet enim tortor at auctor urna. Risus at ultrices mi
-                tempus imperdiet. Ut eu sem integer vitae justo. Convallis a
-                cras semper auctor neque vitae tempus. Nullam vehicula ipsum a
-                arcu cursus vitae congue mauris. Interdum posuere lorem ipsum
-                dolor sit amet consectetur adipiscing elit. Elementum eu
-                facilisis sed odio morbi quis commodo odio. In fermentum posuere
-                urna nec tincidunt praesent. Risus sed vulputate odio ut enim
-                blandit volutpat maecenas volutpat. Mattis nunc sed blandit
-                libero volutpat sed cras ornare arcu. Id semper risus in
-                hendrerit gravida. Vulputate dignissim suspendisse in est ante.
-              </p>
-            )}
+            <div
+              className="space-y-2 markdown"
+              dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
+            />
           </div>
           <div className="flex flex-col md:items-center">
             {frontmatter.resources && (

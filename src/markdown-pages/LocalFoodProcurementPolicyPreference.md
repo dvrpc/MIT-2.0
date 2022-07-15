@@ -7,7 +7,7 @@
   trackingProgressLinks: []
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "LocalFoodProcurementPolicyPreference.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Equitable Development Toolkit: Local Food Procurement"

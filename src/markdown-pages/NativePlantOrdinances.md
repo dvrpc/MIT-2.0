@@ -7,7 +7,7 @@
   trackingProgressLinks: [Water Quality]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "AccessManagement.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Audubon Native Plants Database"

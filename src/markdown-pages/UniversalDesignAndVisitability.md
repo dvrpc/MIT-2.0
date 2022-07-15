@@ -7,7 +7,7 @@
   trackingProgressLinks: [Housing Activity]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "UniversalDesignAndVisitability.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Center for Inclusive Design and Environmental Access, University at Buffalo"

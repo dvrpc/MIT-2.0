@@ -7,7 +7,7 @@
   trackingProgressLinks: []
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "FoodSystemPlanning.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Food System Planning, Municipal Implementation Tool #018, DVRPC"

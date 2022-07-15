@@ -7,7 +7,7 @@
   trackingProgressLinks: [Commute Mode,Transit Ridership,Congestion,Miles Driven]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "AccessManagement.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Commute Trip Reduction (CTR), Victoria Transport Policy Institute"

@@ -7,8 +7,8 @@
   trackingProgressLinks: [Land Consumption,Water Quality]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "ComprehensiveEnvironmentalProtectionOrdinance.jpg"
+    credit: "Kim Dean, DVRPC."
   resources: 
     - label: "Natural Resource Protection Standards, Chester County Planning Commission"
       link: "https://chescoplanning.org/MuniCorner/eTools/28-NaturalResources.cfm"

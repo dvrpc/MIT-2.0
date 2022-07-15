@@ -7,8 +7,7 @@
   trackingProgressLinks: [Exports,Income Disparities,Innovation,Job Growth,Racial & Ethnic Disparities,Sex Disparities]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "MinorityAndWomen-OwnedBusinessResources.jpg"
   resources: 
     - label: "Contracting Barriers and Factors Affecting Minority Business Enterprises A Review of Existing Disparity Studies, Minority Business Development Agency, U.S. Department of Commerce"
       link: "https://archive.mbda.gov/news/news-and-announcements/2017/01/contracting-barriers-and-factors-affecting-minority-business.html"

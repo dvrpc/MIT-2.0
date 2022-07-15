@@ -7,7 +7,7 @@
   trackingProgressLinks: [Land Consumption]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "Right-To-FarmProvisions.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Pennsylvania Right to Farm Act Resources Area, Penn State Law"

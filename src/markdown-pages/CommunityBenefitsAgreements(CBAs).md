@@ -7,7 +7,7 @@
   trackingProgressLinks: [Housing Affordability]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "CommunityBenefitsAgreementsCBAs.jpg"
     credit: "DVRPC"
   resources: 
     - label: "LISC Community Benefits Agreement Toolkit"

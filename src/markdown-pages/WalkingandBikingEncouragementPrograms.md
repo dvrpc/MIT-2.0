@@ -7,7 +7,7 @@
   trackingProgressLinks: [Commute Mode,Miles Driven]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "WalkingAndBikingEncouragementPrograms.png"
     credit: "DVRPC"
   resources: 
     - label: "Greater Philadelphia Pedestrian Portal, DVRPC"

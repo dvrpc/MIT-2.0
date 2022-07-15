@@ -7,8 +7,7 @@
   trackingProgressLinks: [Roadway Safety]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "VisionZero.png"
   resources: 
     - label: "Office of Safe Streets, DVRPC"
       link: "https://www.dvrpc.org/transportation/safety"

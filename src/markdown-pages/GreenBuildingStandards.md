@@ -7,7 +7,7 @@
   trackingProgressLinks: [Greenhouse Gas Emissions]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "AccessManagement.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Municipal Energy Management: Best Practices from DVRPC’s Direct Technical Assistance Program, DVRPC"

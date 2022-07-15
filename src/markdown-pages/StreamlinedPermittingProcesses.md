@@ -7,8 +7,7 @@
   trackingProgressLinks: [Exports,Global Connectivity,Housing Activity,Population Growth]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "StreamlinedPermittingProcesses.jpg"
   resources: 
     - label: "Streamlined Permitting & Licensing, Data-Smart City Solutions"
       link: "https://datasmart.ash.harvard.edu/news/article/streamlined-permitting-licensing-599"

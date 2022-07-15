@@ -7,7 +7,7 @@
   trackingProgressLinks: [Global Connectivity,Transit Conditions]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "TourismImprovementDistrictTID.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Pennsylvania Restaurant & Lodging Association"

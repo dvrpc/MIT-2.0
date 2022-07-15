@@ -7,8 +7,8 @@
   trackingProgressLinks: [Water Quality,Greenhouse Gas Emissions]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "FloodplainOrdinances.jpg"
+    credit: "Getty Images"
   resources: 
     - label: "Pennsylvania Emergency Management Agency"
       link: "https://www.pema.pa.gov/Floodplain-Management/Pages/default.aspx"  

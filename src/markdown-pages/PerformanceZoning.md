@@ -7,7 +7,7 @@
   trackingProgressLinks: [Land Consumption, Greenhouse Gas Emissions]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "PerformanceZoning.png"
     credit: "DVRPC"
   resources: 
     - label: "Performance Zoning, Chester County Planning Commission"

@@ -7,8 +7,8 @@
   trackingProgressLinks: [Commute Mode,Global Connectivity,Miles Driven,Congestion,Transit Ridership]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "MultimodalTransportationHubsAndConnections.jpg"
+    credit: "Amtrak"
   resources: 
     - label: "Development Review Checklist for Consideration of Transit, Central Jersey Transportation Forum"
       link: "https://centraljerseytf.com/files/Forum_Transit_Checklist.pdf"

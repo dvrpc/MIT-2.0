@@ -7,7 +7,7 @@
   trackingProgressLinks: [Housing Affordability,Housing Activity,Income Disparities,Population Growth]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "BuildMissingMiddleHousing.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Missing Middle Housing"

@@ -7,7 +7,7 @@
   trackingProgressLinks: [Air Quality, Commute Mode,Greenhouse Gas Emissions,Miles Driven,Congestion]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "AccessManagement.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Commuter Services, DVRPC"

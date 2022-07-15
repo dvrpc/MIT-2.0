@@ -7,8 +7,8 @@
   trackingProgressLinks: [Educational Attainment,Housing Affordability,Racial & Ethnic Disparities]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "InclusionaryZoning.jpg"
+    credit: "Cherry Hill Township"
   resources: 
     - label: "Inclusionary Zoning, Municipal Implementation Tool #009, DVRPC"
       link: "http://www.dvrpc.org/asp/pubs/publicationabstract.asp?pub_id=MIT009"

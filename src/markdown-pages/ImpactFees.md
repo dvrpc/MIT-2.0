@@ -7,8 +7,8 @@
   trackingProgressLinks: [Transit Conditions]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "ImpactFees.jpg"
+    credit: "Upper Merion Township"
   resources: 
     - label: "Impact Fees, Municipal Implementation Tool #005, DVRPC"
       link: "https://www.dvrpc.org/Products/MIT005/"

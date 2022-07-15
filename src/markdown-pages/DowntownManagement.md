@@ -7,7 +7,7 @@
   trackingProgressLinks: [Job Growth]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "DowntownManagement.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Main Street New Jersey"

@@ -7,8 +7,8 @@
   trackingProgressLinks: []
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "CommunityEngagement.jpg"
+    credit: "Alison Hastings, DVRPC"
   resources: 
     - label: "Public Participation, Municipal Implementation Tool #22, DVRPC"
       link: "https://www.dvrpc.org/Reports/MIT022.pdf"

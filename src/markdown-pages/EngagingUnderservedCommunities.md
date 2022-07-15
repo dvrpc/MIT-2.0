@@ -7,7 +7,7 @@
   trackingProgressLinks: [Racial & Ethnic Disparities,Sex Disparities]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "AccessManagement.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Equity Analysis for the Greater Philadelphia Region, DVRPC"

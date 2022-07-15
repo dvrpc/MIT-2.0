@@ -7,8 +7,7 @@
   trackingProgressLinks: [Congestion]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "TransportationSafetyPrograms.jpg"
   resources: 
     - label: "Freight Centers of Greater Philadelphia, DVRPC"
       link: "https://www.dvrpc.org/webmaps/phillyfreightfinder/freight-center-story.html"

@@ -7,7 +7,7 @@
   trackingProgressLinks: [Job Growth]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "AccessManagement.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Pennsylvania Municipal League-Small Wireless Facilities Deployment Act 50 of 2021"

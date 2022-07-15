@@ -7,8 +7,8 @@
   trackingProgressLinks: [Commute Mode,Housing Activity,Miles Driven,Population Growth,Transit Ridership]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "Transit-OrientedDevelopmentTODZoning.jpg"
+    credit: "Karin Morris, DVRPC"
   resources: 
     - label: "Transit-Oriented Development, DVRPC"
       link: "https://www.dvrpc.org/tod"

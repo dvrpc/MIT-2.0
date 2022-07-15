@@ -7,7 +7,7 @@
   trackingProgressLinks: []
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "HistoricDistrictsOverlayZonesandFacadeImprovementGrants.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Historic Preservation, Municipal Implementation Tool #007, DVRPC"

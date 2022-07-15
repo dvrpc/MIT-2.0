@@ -7,8 +7,8 @@
   trackingProgressLinks: [Greenhouse Gas Emissions,Congestion]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "CurbsideManagement.jpg"
+    credit: "Fehr & Peers; prepared for Uber Technologies"
   resources: 
     - label: "Institute of Transportation Engineers"
       link: "https://www.ite.org/technical-resources/topics/complete-streets/curbside-management-resources/"

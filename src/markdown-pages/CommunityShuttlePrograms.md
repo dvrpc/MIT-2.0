@@ -7,8 +7,7 @@
   trackingProgressLinks: [Commute Mode,Racial & Ethnic Disparities]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "Community Shuttle Programs.jpg"
   resources: 
     - label: "Equity Through Access, DVRPC"
       link: "https://www.dvrpc.org/eta/"

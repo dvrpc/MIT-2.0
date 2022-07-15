@@ -7,8 +7,7 @@
   trackingProgressLinks: [Educational Attainment,Exports,Global Connectivity,Innovation]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "BroadbandUniversalAccess.jpg"
   resources: 
     - label: "Broadband Accessibility, DVRPC"
       link: "https://www.dvrpc.org/broadband"

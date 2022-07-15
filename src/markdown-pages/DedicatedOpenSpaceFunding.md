@@ -7,7 +7,7 @@
   trackingProgressLinks: [Land Consumption]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "DedicatedOpenSpaceFunding.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Trust for Public Land"

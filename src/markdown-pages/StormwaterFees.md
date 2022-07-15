@@ -7,8 +7,8 @@
   trackingProgressLinks: [Water Quality]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "StormwaterFees.png"
+    credit: "West Chester Borough, Public Meeting 2/2/17, Stormwater Fees Presentation"
   resources: 
     - label: "Funding Stormwater Management in Pennsylvania Municipalities, PennFuture"
       link: "http://www.pennfuture.org/Files/Admin/PennFuture_StormwaterManual_web_3.20.17.pdf"

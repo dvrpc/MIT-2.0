@@ -7,8 +7,7 @@
   trackingProgressLinks: [Job Growth, Racial and Ethnic Disparities, Income Disparities]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "FinancialIncentiveZones.jpg"
   resources: 
     - label: "Keystone Opportunity Zones (KOZ), PA Department of Community and Economic Development"
       link: "https://dced.pa.gov/business-assistance/keystone-opportunity-zones/"

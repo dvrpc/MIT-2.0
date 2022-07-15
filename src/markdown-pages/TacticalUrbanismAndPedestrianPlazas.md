@@ -8,7 +8,7 @@
   media: 
     type: "image"
     path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    credit: "Derek Lombardi, DVRPC"
   resources: 
     - label: "Interim Public Plazas, National Association of City Transportation Officials (NACTO)"
       link: "https://nacto.org/publication/urban-street-design-guide/interim-design-strategies/interim-public-plazas/"

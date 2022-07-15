@@ -7,8 +7,7 @@
   trackingProgressLinks: [Greenhouse Gas Emissions]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "ParkingManagement.jpg"
   resources: 
     - label: "Parking Management Strategies, Municipal Implementation Tool #006, DVRPC"
       link: "https://www.dvrpc.org/Products/MIT006/"

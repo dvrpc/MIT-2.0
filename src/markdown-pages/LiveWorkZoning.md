@@ -7,7 +7,7 @@
   trackingProgressLinks: [Housing Affordability,Housing Activity]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "LiveWorkZoning.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Artist Space Development: Making the Case"

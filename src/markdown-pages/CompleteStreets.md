@@ -7,8 +7,8 @@
   trackingProgressLinks: [Commute Mode,Transit Ridership]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "CompleteStreets.jpg"
+    credit: "City of Philadelphia"
   resources: 
     - label: "Complete Streets, Smart Growth America"
       link: "http://www.smartgrowthamerica.org/complete-streets/"

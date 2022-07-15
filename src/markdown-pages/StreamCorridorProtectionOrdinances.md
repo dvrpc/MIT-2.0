@@ -7,8 +7,8 @@
   trackingProgressLinks: [Water Quality]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "StreamCorridorProtectionOrdinances.jpg"
+    credit: "Melissa Andrews, DVRPC"
   resources: 
     - label: "Riparian Buffer Protection via Local Government Regulation, WeConservePA"
       link: "https://conservationtools.org/guides/119-riparian-buffer-protection-via-local-government-regulation"

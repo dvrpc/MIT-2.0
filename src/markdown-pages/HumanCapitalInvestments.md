@@ -7,7 +7,7 @@
   trackingProgressLinks: [Educational Attainment,Income Disparities,Innovation,Job Growth,Racial & Ethnic Disparities,Sex Disparities,Transit Ridership]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
+    path: "HumanCapitalInvestments.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Transit Workforce Development, DVRPC"

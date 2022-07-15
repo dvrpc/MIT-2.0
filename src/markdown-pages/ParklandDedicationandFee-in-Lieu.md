@@ -7,8 +7,8 @@
   trackingProgressLinks: [Land Consumption]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "ParklandDedicationAndFee-in-Lieu.jpg"
+    credit: "Melissa Andrews, DVRPC"
   resources: 
     - label: "Public Dedication of Land and Fees-in-Lieu for Parks and Recreation, WeConservePA"
       link: "https://conservationtools.org/guides/17-public-dedication-of-land-and-fees-in-lieu-for-parks-and-recreation"

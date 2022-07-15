@@ -7,8 +7,7 @@
   trackingProgressLinks: [Housing Activity,Land Consumption]
   media: 
     type: "image"
-    path: "ACCESSMANAGEMENT.jpg"
-    credit: "DVRPC"
+    path: "BrownfieldsRedevelopment.jpg"
   resources: 
     - label: "Reclaiming Brownfields, Municipal Implementation Tool #010, DVRPC"
       link: "http://www.dvrpc.org/asp/pubs/publicationabstract.asp?pub_id=MIT010"
