@@ -7,8 +7,8 @@
   trackingProgressLinks: [Housing Affordability, Racial and Ethnic Disparities, Income Disparities]
   media: 
     type: "image"
-    path: "AccessManagement.jpg"
-    credit: "DVRPC"
+    path: "DevelopmentWithoutDisplacement.jpg"
+    credit: "ThinkStock Photos"
   resources: 
     - label: "What Are Gentrification and Displacement, Urban Displacement Project"
       link: "https://www.urbandisplacement.org/about/what-are-gentrification-and-displacement/"

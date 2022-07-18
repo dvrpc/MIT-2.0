@@ -7,8 +7,8 @@
   trackingProgressLinks: []
   media: 
     type: "image"
-    path: "AccessManagement.jpg"
-    credit: "DVRPC"
+    path: "IoTAndSmartCommunities.jpg"
+    credit: "Thinkstock Photos"
   resources: 
     - label: "The Municipal Internet of Things (IoT) Blueprint"
       link: "https://trid.trb.org/view/1642176"

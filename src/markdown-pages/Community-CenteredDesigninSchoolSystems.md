@@ -7,7 +7,7 @@
   trackingProgressLinks: []
   media: 
     type: "image"
-    path: "AccessManagement.jpg"
+    path: "Community-CenteredDesigninSchoolSystems.jpg"
     credit: "DVRPC"
   resources: 
     - label: "Coalition for Community Schools"

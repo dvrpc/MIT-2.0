@@ -7,7 +7,7 @@
   trackingProgressLinks: [Commute Mode,Miles Driven]
   media: 
     type: "image"
-    path: "AccessManagement.jpg"
+    path: "TacticalUrbanismAndPedestrianPlazas.jpg"
     credit: "Derek Lombardi, DVRPC"
   resources: 
     - label: "Interim Public Plazas, National Association of City Transportation Officials (NACTO)"
