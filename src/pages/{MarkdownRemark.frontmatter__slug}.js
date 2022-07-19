@@ -18,11 +18,11 @@ export default function Template({ data }) {
   return (
     <Layout>
       <div className="md:w-4/5 px-4 md:px-0 flex min-h-[80vh] flex-col">
-        <div className="flex mt-10">
+        <div className="flex flex-col md:flex-row mt-10">
           <div className="text-xl md:text-3xl text-[#4fa3a8]">
             {frontmatter.title}
           </div>
-          <div className="flex items-center ml-auto">
+          <div className="flex items-center md:ml-auto mt-2 md:mt-0">
             {frontmatter.focusAreas.map(focus => {
               return (
                 <Icon altText={focus} image={focusAreas[focus]} enableToolTip />
@@ -99,7 +99,7 @@ export default function Template({ data }) {
                 {frontmatter.seeOther.map(other => {
                   return (
                     <Link
-                      className="underline mr-4 internal-link"
+                      className="pb-2 underline mr-4 internal-link"
                       to={
                         "/" + other.replace(/\s|[()]|\/|\,/g, "").toLowerCase()
                       }
