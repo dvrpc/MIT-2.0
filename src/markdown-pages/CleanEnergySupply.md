@@ -7,8 +7,7 @@
   trackingProgressLinks: [Air Quality,Greenhouse Gas Emissions]
   media: 
     type: "image"
-    path: "AccessManagement.jpg"
-    credit: "DVRPC"
+    path: "CleanEnergySupply.jpg"
   resources: 
     - label: "Preparing the Region for Renewable Energy, DVRPC"
       link: "https://www.dvrpc.org/Solar/"

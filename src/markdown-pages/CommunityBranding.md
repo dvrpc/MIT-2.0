@@ -7,8 +7,8 @@
   trackingProgressLinks: []
   media: 
     type: "image"
-    path: "AccessManagement.jpg"
-    credit: "DVRPC"
+    path: "CommunityBranding.jpg"
+    credit: "Amy Verbofsky, DVRPC"
   resources: 
     - label: "Cultivating a Homegrown Economy, Municipal Implementation Tool #34, DVRPC"
       link: "https://www.dvrpc.org/Reports/MIT034.pdf"  

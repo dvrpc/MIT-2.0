@@ -7,8 +7,8 @@
   trackingProgressLinks: [Commute Mode]
   media: 
     type: "image"
-    path: "AccessManagement.jpg"
-    credit: "DVRPC"
+    path: "SidewalkStandardsAndManagement.jpg"
+    credit: "Joe Natale, DVRPC"
   resources: 
     - label: "Sidewalk Gap Analysis Explorer, DVRPC"
       link: "https://www.dvrpc.org/webmaps/sidewalk-gaps/"
