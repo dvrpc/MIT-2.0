@@ -65,6 +65,9 @@ const IndexPage = ({ data }) => {
             />
           </div>
           <div className="md:ml-[30%] w-full p-6 pt-0">
+            <div className="font-bold text-gray-400">
+              Search results: {tools.length}
+            </div>
             {tools.map((tool, idx) => {
               return <Tool key={idx} tool={tool} />;
             })}
