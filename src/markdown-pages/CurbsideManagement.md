@@ -3,7 +3,7 @@
   title: Curbside Management 
   focusAreas: [Communities,Transportation]
   principles: []
-  seeOther: [Delivery-Friendly Design,Complete Streets,Sidewalk Standards and Management,Connected and Automated Vehicle Preparations]
+  seeOther: [Complete Streets,Sidewalk Standards and Management,Connected and Automated Vehicle Preparations]
   trackingProgressLinks: [Greenhouse Gas Emissions,Congestion]
   media: 
     type: "image"

@@ -3,7 +3,7 @@
   title: Performance Zoning
   focusAreas: [Environment,Communities]
   principles: []
-  seeOther: [Suburban Retrofits,Neighborhood Design Codes and Ordinances,Brownfields Redevelopment,Infill Ordinances,Greenhouse Gas Overlay Zones]
+  seeOther: [Suburban Retrofits,Neighborhood Design Codes and Ordinances,Brownfields Redevelopment,Infill Ordinances]
   trackingProgressLinks: [Land Consumption, Greenhouse Gas Emissions]
   media: 
     type: "image"

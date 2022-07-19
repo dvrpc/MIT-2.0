@@ -3,7 +3,7 @@
   title: Neighborhood Design Codes and Ordinances
   focusAreas: [Communities]
   principles: []
-  seeOther: [Form-Based Zoning,Performance Zoning]
+  seeOther: [Performance Zoning]
   trackingProgressLinks: [Housing Activity]
   media: 
     type: "image"

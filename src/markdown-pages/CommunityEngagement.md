@@ -3,7 +3,7 @@
   title: Community Engagement
   focusAreas: [Communities,Regional Planning]
   principles: [Equity]
-  seeOther: [Engaging Underserved Communities,Tactical Urbanism and Pedestrian Plazas,Biophilic Design,Smart Location of Public Facilities]
+  seeOther: [Engaging Underserved Communities,Tactical Urbanism and Pedestrian Plazas,Smart Location of Public Facilities]
   trackingProgressLinks: []
   media: 
     type: "image"
