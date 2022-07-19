@@ -43,8 +43,9 @@ const Header = () => {
           }}
         />
       </div>
-
-      <img src={DVRPC} alt="dvrpc-logo" className="h-full" />
+      <a href="https://www.dvrpc.org" className="h-full">
+        <img src={DVRPC} alt="dvrpc-logo" className="h-full" />
+      </a>
     </header>
   );
 };
