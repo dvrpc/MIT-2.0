@@ -7,8 +7,8 @@
   trackingProgressLinks: [Air Quality,Greenhouse Gas Emissions]
   media: 
     type: "image"
-    path: "AccessManagement.jpg"
-    credit: "DVRPC"
+    path: "ElectricVehicles.jpg"
+    credit: "Sean Greene, DVRPC"
   resources: 
     - label: "Electric Vehicle Resource Kit for Municipalities, DVRPC"
       link: "https://www.dvrpc.org/energyclimate/alternativefuelvehicles/evmuniresource"
