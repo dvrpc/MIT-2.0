@@ -2,7 +2,6 @@ import React from "react";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Icon from "../components/Icon";
-import ToolKit from "../images/toolkit.png";
 import Accordion from "../components/Accordion";
 import Image from "../components/Image";
 import { focusAreas, principles } from "../utils/icons";
@@ -10,10 +9,6 @@ import { focusAreas, principles } from "../utils/icons";
 export default function Template({ data }) {
   const { markdownRemark } = data;
   const { frontmatter } = markdownRemark;
-
-  const style = {
-    listStyle: "inside",
-  };
 
   return (
     <Layout>
@@ -54,7 +49,11 @@ export default function Template({ data }) {
               <Accordion label="Resources: ">
                 {frontmatter.resources.map(resource => {
                   return (
-                    <a className="pb-2 underline" href={resource.link}>
+                    <a
+                      className="pb-2 underline"
+                      href={resource.link}
+                      target="_blank"
+                    >
                       {resource.label}
                     </a>
                   );
@@ -65,7 +64,11 @@ export default function Template({ data }) {
               <Accordion label="Who Has Used This Tool?: ">
                 {frontmatter.whoHasUsedThisTool.map(who => {
                   return (
-                    <a className="pb-2 underline" href={who.link}>
+                    <a
+                      className="pb-2 underline"
+                      href={who.link}
+                      target="_blank"
+                    >
                       {who.label}
                     </a>
                   );
@@ -76,7 +79,11 @@ export default function Template({ data }) {
               <Accordion label="Model/Sample Ordinances and Design Guidelines: ">
                 {frontmatter.guidelines.map(guideline => {
                   return (
-                    <a className="pb-2 underline" href={guideline.link}>
+                    <a
+                      className="pb-2 underline"
+                      href={guideline.link}
+                      target="_blank"
+                    >
                       {guideline.label}
                     </a>
                   );
@@ -87,9 +94,15 @@ export default function Template({ data }) {
               <Accordion label="Tracking Progress Indicators: ">
                 {frontmatter.trackingProgressLinks.map(indicator => {
                   return (
-                    <Link className="pb-2 underline" to={indicator}>
+                    <a
+                      className="pb-2 underline"
+                      href={
+                        "https://www.dvrpc.org/TrackingProgress/" + indicator
+                      }
+                      target="_blank"
+                    >
                       {indicator}
-                    </Link>
+                    </a>
                   );
                 })}
               </Accordion>
