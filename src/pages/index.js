@@ -8,12 +8,15 @@ import { graphql } from "gatsby";
 import AppContext from "../utils/AppContext";
 
 const IndexPage = ({ data }) => {
-  const { isVisible, setIsVisible } = useContext(AppContext);
-  const [tools, setTools] = useState([]);
-  const [namefilter, setNameFilter] = useState("");
-  const [focusFilter, setFocusFilter] = useState([]);
-  const [principleFilter, setPrincipleFilter] = useState([]);
-  // destructure what is returned from query
+  const {
+    isVisible,
+    setIsVisible,
+    tools,
+    setTools,
+    nameFilter,
+    focusFilter,
+    principleFilter,
+  } = useContext(AppContext);
   let {
     allMarkdownRemark: { edges },
   } = data;
@@ -26,7 +29,7 @@ const IndexPage = ({ data }) => {
 
   useEffect(() => {
     const filters = {
-      nameFilter: namefilter,
+      nameFilter: nameFilter,
       focusFilter: focusFilter,
       principleFilter: principleFilter,
     };
@@ -43,7 +46,7 @@ const IndexPage = ({ data }) => {
     });
 
     setTools(oldState);
-  }, [namefilter, focusFilter, principleFilter, edges]);
+  }, [nameFilter, focusFilter, principleFilter, setTools, edges]);
 
   return (
     <Layout>
@@ -55,14 +58,7 @@ const IndexPage = ({ data }) => {
             style={{ position: !isVisible ? "fixed" : "absolute" }}
           >
             <div className="text-2xl pb-2 preface-bold">Tools:</div>
-            <ButtonFilter
-              namefilter={namefilter}
-              focusFilter={focusFilter}
-              principleFilter={principleFilter}
-              setNameFilter={setNameFilter}
-              setFocusFilter={setFocusFilter}
-              setPrincipleFilter={setPrincipleFilter}
-            />
+            <ButtonFilter />
             <div className="font-bold text-gray-400">
               Search results: {tools.length}
             </div>

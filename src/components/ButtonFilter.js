@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
+import AppContext from "../utils/AppContext";
 import { focusAreas, principles } from "../utils/icons";
 
-const ButtonFilter = ({
-  nameFilter,
-  focusFilter,
-  principleFilter,
-  setNameFilter,
-  setFocusFilter,
-  setPrincipleFilter,
-}) => {
+const ButtonFilter = () => {
+  const {
+    nameFilter,
+    focusFilter,
+    principleFilter,
+    setNameFilter,
+    setFocusFilter,
+    setPrincipleFilter,
+  } = useContext(AppContext);
+
+  console.log(nameFilter);
+
   const toggleFilter = event => {
     event.target.classList.toggle("grayscale");
     const filterType = event.target.id;
@@ -49,7 +54,9 @@ const ButtonFilter = ({
             return (
               <button
                 id="focus"
-                className="flex my-4 items-center grayscale md:hover:filter-none"
+                className={`flex my-4 items-center md:hover:filter-none ${
+                  focusFilter.includes(focus) ? "" : "grayscale"
+                }`}
                 onClick={toggleFilter}
               >
                 <img
@@ -71,7 +78,9 @@ const ButtonFilter = ({
             return (
               <button
                 id="principle"
-                className="flex my-4 items-center grayscale md:hover:filter-none"
+                className={`flex my-4 items-center md:hover:filter-none ${
+                  principleFilter.includes(principle) ? "" : "grayscale"
+                }`}
                 onClick={toggleFilter}
               >
                 <img
