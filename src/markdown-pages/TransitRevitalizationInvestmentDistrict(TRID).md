@@ -7,7 +7,7 @@
   trackingProgressLinks: [Commute Mode]
   media: 
     type: "image"
-    path: "AccessManagement.jpg"
+    path: "TransitRevitalizationInvestmentDistrictTRID.png"
     credit: "DVRPC"
   resources: 
     - label: "Transit Revitalization Investment District (TRID), DVRPC"

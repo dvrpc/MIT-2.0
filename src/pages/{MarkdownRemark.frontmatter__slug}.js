@@ -5,6 +5,7 @@ import Icon from "../components/Icon";
 import Accordion from "../components/Accordion";
 import Image from "../components/Image";
 import { focusAreas, principles } from "../utils/icons";
+import trackingProgressLinks from "../utils/trackingProgressLinks";
 
 export default function Template({ data }) {
   const { markdownRemark } = data;
@@ -96,9 +97,7 @@ export default function Template({ data }) {
                   return (
                     <a
                       className="pb-2 underline"
-                      href={
-                        "https://www.dvrpc.org/TrackingProgress/" + indicator
-                      }
+                      href={trackingProgressLinks[indicator]}
                       target="_blank"
                     >
                       {indicator}
