@@ -75,7 +75,7 @@ const Preface = () => {
                 <span className="preface-bold">
                   Click the tabs above to learn more about Principles and Focus
                   Areas, and scroll down to find the tools that best fit your
-                  municipality’s needs by using the interactive filters
+                  municipality’s needs by using the interactive filters.
                 </span>
                 <div className="grid grid-cols-4 mt-6 text-center text-[#4fa3a8]">
                   <a
@@ -122,6 +122,9 @@ const Preface = () => {
                 </div>
               </TabPanel>
               <TabPanel>
+                <div className="preface-bold my-2">
+                  These principles are applied to the focus areas of the Plan:
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-2">
                   <div className="flex">
                     <Icon altText="Equity" image={principles["Equity"]} />

@@ -36,7 +36,7 @@ export default function Template({ data }) {
           </div>
         </div>
         <div className="md:grid grid-cols-3 my-8 h-full">
-          <div className="w-100 flex justify-center md:p-12 py-4 md:py-0 pt-0">
+          <div className="w-100 flex justify-center md:pr-6 py-4 md:py-0 pt-0">
             <Image media={frontmatter.media} />
           </div>
           <div>
