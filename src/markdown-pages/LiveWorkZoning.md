@@ -3,7 +3,7 @@
   title: Live/Work Zoning
   focusAreas: [Communities,Regional Planning]
   principles: [Equity]
-  seeOther: [Age Friendly Communities,Build Missing Middle Housing,Development without Displacement,]
+  seeOther: [Age Friendly Communities,Build Missing Middle Housing,Development Without Displacement,]
   trackingProgressLinks: [Housing Affordability,Housing Activity]
   media: 
     type: "image"

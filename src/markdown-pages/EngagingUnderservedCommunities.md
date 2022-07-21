@@ -3,7 +3,7 @@
   title: Engaging Underserved Communities
   focusAreas: [Environment,Communities,Regional Planning]
   principles: [Equity,Sustainability]
-  seeOther: [Age Friendly Communities,Community engagement,Housing Maintenance and Rehabilitation Programs,Human Capital Investments]
+  seeOther: [Age Friendly Communities,Community Engagement,Housing Maintenance and Rehabilitation Programs,Human Capital Investments]
   trackingProgressLinks: [Racial & Ethnic Disparities,Sex Disparities]
   media: 
     type: "image"

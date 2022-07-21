@@ -1,6 +1,6 @@
 ---
   slug: "/smartlocationofpublicfacilities"
-  title: Smart Location Of Public Facilities
+  title: Smart Location of Public Facilities
   focusAreas: [Communities,Transportation,Regional Planning]
   principles: [Equity,Sustainability]
   seeOther: [Neighborhood Design Codes and Ordinances,Revitalization Planning and Programs]

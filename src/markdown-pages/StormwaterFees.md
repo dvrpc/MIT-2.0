@@ -3,7 +3,7 @@
   title: Stormwater Fees
   focusAreas: [Environment]
   principles: [Sustainability]
-  seeOther: [stormwater management]
+  seeOther: [Stormwater Management]
   trackingProgressLinks: [Water Quality]
   media: 
     type: "image"

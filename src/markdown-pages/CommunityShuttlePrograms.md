@@ -3,7 +3,7 @@
   title: Community Shuttle Programs
   focusAreas: [Environment,Transportation]
   principles: [Equity]
-  seeOther: [Multimodal Transportation Hubs and Connections,Shared services,Travel Demand Management (TDM),Mobility as a Service (MaaS)]
+  seeOther: [Multimodal Transportation Hubs and Connections,Shared Services,Travel Demand Management (TDM),Mobility as a Service (MaaS)]
   trackingProgressLinks: [Commute Mode,Racial & Ethnic Disparities]
   media: 
     type: "image"
