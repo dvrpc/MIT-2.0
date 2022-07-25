@@ -12,8 +12,6 @@ const ButtonFilter = () => {
     setPrincipleFilter,
   } = useContext(AppContext);
 
-  console.log(nameFilter);
-
   const toggleFilter = event => {
     event.target.classList.toggle("grayscale");
     const filterType = event.target.id;
@@ -47,8 +45,8 @@ const ButtonFilter = () => {
           />
         </label>
       </div>
-      <div className="flex stacked-filters mt-2">
-        <div>
+      <div className="flex stacked-filters mt-2 w-5/6">
+        <div className="w-1/2">
           <div>Filter by focus area:</div>
           {Object.keys(focusAreas).map(focus => {
             return (
@@ -65,14 +63,18 @@ const ButtonFilter = () => {
                   id={`${focus}`}
                   className="w-[35px] rounded-full pointer-events-none"
                 />
-                <span className="ml-2 text-left text-[#58a7ac] pointer-events-none">
+                <span
+                  className={`ml-2 text-left text-[#58a7ac] pointer-events-none ${
+                    focusFilter.includes(focus) ? "font-bold" : ""
+                  }`}
+                >
                   {focus}
                 </span>
               </button>
             );
           })}
         </div>
-        <div>
+        <div className="w-1/2">
           <div>Filter by principle:</div>
           {Object.keys(principles).map(principle => {
             return (
@@ -89,7 +91,11 @@ const ButtonFilter = () => {
                   id={`${principle}`}
                   className="w-[35px] rounded-full pointer-events-none"
                 />
-                <span className="ml-2 text-[#58a7ac] pointer-events-none">
+                <span
+                  className={`ml-2 text-left text-[#58a7ac] pointer-events-none ${
+                    principleFilter.includes(principle) ? "font-bold" : ""
+                  }`}
+                >
                   {principle}
                 </span>
               </button>

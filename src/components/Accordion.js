@@ -14,7 +14,7 @@ const Accordion = ({ label, children }) => {
   };
 
   return (
-    <div className="md:w-3/4 my-4">
+    <div className="md:w-3/4 mb-4 md:my-4">
       <button
         className="accordion bg-[#edf6f6] rounded"
         onClick={openAccordion}
