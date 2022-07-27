@@ -34,20 +34,19 @@ const ButtonFilter = () => {
   return (
     <div className="flex flex-col">
       <div>
-        <label>
-          Search for tool:
-          <input
-            type="text"
-            onChange={e => setNameFilter(e.target.value)}
-            value={nameFilter}
-            className="w-5/6 md:w-[90%] block border border-[#cccccc] p-1"
-            style={{ borderRadius: "4px" }}
-          />
-        </label>
+        <input
+          type="text"
+          onChange={e => setNameFilter(e.target.value)}
+          value={nameFilter}
+          className="w-5/6 md:w-[90%] block border border-[#cccccc] p-1"
+          style={{ borderRadius: "4px" }}
+        />
       </div>
       <div className="flex stacked-filters mt-2 w-5/6">
         <div className="w-1/2">
-          <div>Filter by focus area:</div>
+          <div>
+            <b className="text-lg">Filter</b> by Focus Area:
+          </div>
           {Object.keys(focusAreas).map(focus => {
             return (
               <button
@@ -75,7 +74,9 @@ const ButtonFilter = () => {
           })}
         </div>
         <div className="w-1/2">
-          <div>Filter by principle:</div>
+          <div>
+            <b className="text-lg">Filter</b> by Principle:
+          </div>
           {Object.keys(principles).map(principle => {
             return (
               <button

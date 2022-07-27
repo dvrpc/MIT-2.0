@@ -47,7 +47,7 @@ export default function Template({ data }) {
           </div>
           <div className="flex flex-col md:items-center">
             {frontmatter.resources && frontmatter.resources.length > 0 && (
-              <Accordion label="Resources: ">
+              <Accordion label="Resources ">
                 <ul className="list-disc pb-4">
                   {frontmatter.resources.map(resource => {
                     return (
@@ -67,7 +67,7 @@ export default function Template({ data }) {
             )}
             {frontmatter.whoHasUsedThisTool &&
               frontmatter.whoHasUsedThisTool.length > 0 && (
-                <Accordion label="Who Has Used This Tool?: ">
+                <Accordion label="Who Has Used This Tool? ">
                   <ul className="list-disc pb-4">
                     {frontmatter.whoHasUsedThisTool.map(who => {
                       return (
@@ -86,7 +86,7 @@ export default function Template({ data }) {
                 </Accordion>
               )}
             {frontmatter.guidelines && frontmatter.guidelines.length > 0 && (
-              <Accordion label="Model/Sample Ordinances and Design Guidelines: ">
+              <Accordion label="Model/Sample Ordinances and Design Guidelines ">
                 <ul className="list-disc pb-4">
                   {frontmatter.guidelines.map(guideline => {
                     return (
@@ -106,7 +106,7 @@ export default function Template({ data }) {
             )}
             {frontmatter.trackingProgressLinks &&
               frontmatter.trackingProgressLinks.length > 0 && (
-                <Accordion label="Tracking Progress Indicators: ">
+                <Accordion label="Tracking Progress Indicators ">
                   <ul className="list-disc pb-4">
                     {frontmatter.trackingProgressLinks.map(indicator => {
                       return (
@@ -125,7 +125,7 @@ export default function Template({ data }) {
                 </Accordion>
               )}
             {frontmatter.seeOther && frontmatter.seeOther.length > 0 && (
-              <Accordion label="See Related Tools:">
+              <Accordion label="See Related Tools">
                 <ul className="list-disc pb-4">
                   {frontmatter.seeOther.map(other => {
                     return (

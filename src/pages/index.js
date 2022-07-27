@@ -57,11 +57,9 @@ const IndexPage = ({ data }) => {
             className="px-6 md:px-0 md:w-[25%] mobile-filters"
             style={{ position: !isVisible ? "fixed" : "absolute" }}
           >
-            <div className="text-2xl pb-2 preface-bold">Tools:</div>
+            <div className="text-2xl pb-2 preface-bold">Search Tools:</div>
             <ButtonFilter />
-            <div className="font-bold text-gray-400">
-              Search results: {tools.length}
-            </div>
+            <div className="text-gray-500">Search results: {tools.length}</div>
           </div>
           <div className="md:ml-[30%] w-full p-6 pt-0">
             {tools.map((tool, idx) => {
