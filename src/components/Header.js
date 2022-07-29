@@ -12,18 +12,18 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="flex justify-end items-center h-full w-full p-4 bg-[#4fa3a8]">
+    <header className="flex justify-end items-center h-full w-full p-4 md:p-2 bg-[#4fa3a8]">
       <div className="mr-auto h-full flex">
         <Link to="/" className="h-full">
           <img
             src={MobileBanner}
             alt="mit logo"
-            className="md:hidden block h-full"
+            className="md:hidden block h-full w-full"
           />
           <img
             src={DesktopBanner}
             alt="mit logo"
-            className="hidden md:block h-full"
+            className="hidden md:block h-full w-full"
           />
         </Link>
         <img
@@ -44,7 +44,7 @@ const Header = () => {
         />
       </div>
       <a href="https://www.dvrpc.org" className="h-full">
-        <img src={DVRPC} alt="dvrpc-logo" className="h-full" />
+        <img src={DVRPC} alt="dvrpc-logo" className="h-full md:p-1" />
       </a>
     </header>
   );

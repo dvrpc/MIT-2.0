@@ -45,7 +45,7 @@ export default function Template({ data }) {
               dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
             />
           </div>
-          <div className="flex flex-col md:items-center">
+          <div className="flex flex-col md:items-center mt-4 md:mt-0">
             {frontmatter.resources && frontmatter.resources.length > 0 && (
               <Accordion label="Resources ">
                 <ul className="list-disc pb-4">

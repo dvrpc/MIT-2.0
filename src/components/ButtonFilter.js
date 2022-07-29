@@ -42,10 +42,10 @@ const ButtonFilter = () => {
           style={{ borderRadius: "4px" }}
         />
       </div>
-      <div className="flex stacked-filters mt-2 w-5/6">
+      <div className="flex stacked-filters mt-2 md:w-5/6">
         <div className="w-1/2">
           <div>
-            <b className="text-lg">Filter</b> by Focus Area:
+            <b>Filter</b> by Focus Area:
           </div>
           {Object.keys(focusAreas).map(focus => {
             return (
@@ -75,7 +75,7 @@ const ButtonFilter = () => {
         </div>
         <div className="w-1/2">
           <div>
-            <b className="text-lg">Filter</b> by Principle:
+            <b>Filter</b> by Principle:
           </div>
           {Object.keys(principles).map(principle => {
             return (

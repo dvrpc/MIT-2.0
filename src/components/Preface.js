@@ -46,7 +46,7 @@ const Preface = () => {
           <img
             src={ToolKit}
             alt="toolkit-logo"
-            className="md:max-w-[75%] max-w-[85%] h-auto md:mx-0 self-center"
+            className="w-full md:max-w-[75%] h-auto md:mx-0 self-center"
           />
         </div>
         <div className="w-full md:pl-4 md:p-6 text-lg text-sm md:text-base">
@@ -79,7 +79,7 @@ const Preface = () => {
                     your municipality’s needs by using the interactive filters.
                   </span>
                 </div>
-                <div className="grid grid-cols-4 mt-6 text-center text-[#4fa3a8] text-lg">
+                <div className="grid grid-cols-4 mt-6 text-center text-[#4fa3a8] md:text-lg">
                   <a
                     className="h-min flex flex-col justify-center"
                     href="https://www.dvrpc.org/Funding/"
@@ -89,7 +89,7 @@ const Preface = () => {
                       alt="Funding Opportunities"
                       className="h-[70px] object-contain"
                     />
-                    <div className="preface-bold">Funding Opportunities</div>
+                    Funding Opportunities
                   </a>
                   <a
                     className="h-min flex flex-col justify-center"
@@ -100,9 +100,7 @@ const Preface = () => {
                       alt="Building Municipal Capacity"
                       className="h-[70px] object-contain"
                     />
-                    <div className="preface-bold">
-                      Building Municipal Capacity
-                    </div>
+                    Building Municipal Capacity
                   </a>
                   <a
                     className="h-min flex flex-col justify-center"
@@ -113,9 +111,7 @@ const Preface = () => {
                       alt="Connections 2050 Plan"
                       className="h-[70px] object-contain"
                     />
-                    <div className="italic preface-bold">
-                      Connections 2050 Plan
-                    </div>
+                    <div className="italic">Connections 2050 Plan</div>
                   </a>
                   <a className="h-min flex flex-col justify-center" href="/">
                     <img
@@ -123,7 +119,7 @@ const Preface = () => {
                       alt="Abstract"
                       className="h-[70px] object-contain"
                     />
-                    <div className="preface-bold">Abstract</div>
+                    Abstract
                   </a>
                 </div>
               </TabPanel>
