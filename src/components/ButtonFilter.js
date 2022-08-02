@@ -12,16 +12,27 @@ const ButtonFilter = () => {
     setPrincipleFilter,
   } = useContext(AppContext);
 
+  /**
+   * captures button click event and calls function to update the array of filters associated with that button
+   * @param {Event} event
+   */
   const toggleFilter = event => {
     event.target.classList.toggle("grayscale");
-    const filterType = event.target.id;
-    const filterArr = filterType === "focus" ? focusFilter : principleFilter;
-    const filterElem = event.target.firstChild.id;
+    const typeAndElem = event.target.firstChild.id.split(" ");
+    const filterArr =
+      typeAndElem[0] === "focus" ? focusFilter : principleFilter;
     const setFilterFunc =
-      filterType === "focus" ? setFocusFilter : setPrincipleFilter;
-    setFilter(filterArr, filterElem, setFilterFunc);
+      typeAndElem[0] === "focus" ? setFocusFilter : setPrincipleFilter;
+    setFilter(filterArr, typeAndElem[1], setFilterFunc);
   };
 
+  /**
+   * takes an array and appends the filter or removes the filter
+   * @param {Array} filterArr
+   * @param {String} filterElem
+   * @param {Function} setFilterFunc
+   * @returns
+   */
   const setFilter = (filterArr, filterElem, setFilterFunc) => {
     if (!filterArr.includes(filterElem)) {
       return setFilterFunc([...filterArr, filterElem]);
@@ -50,16 +61,15 @@ const ButtonFilter = () => {
           {Object.keys(focusAreas).map(focus => {
             return (
               <button
-                id="focus"
                 className={`flex my-4 items-center md:hover:filter-none ${
-                  focusFilter.includes(focus) ? "" : "grayscale"
+                  focusFilter.includes(focus) ? "" : "grayscale brightness-75"
                 }`}
                 onClick={toggleFilter}
               >
                 <img
                   alt={focus}
                   src={focusAreas[focus]}
-                  id={`${focus}`}
+                  id={`focus ${focus}`}
                   className="w-[35px] rounded-full pointer-events-none"
                 />
                 <span
@@ -80,16 +90,17 @@ const ButtonFilter = () => {
           {Object.keys(principles).map(principle => {
             return (
               <button
-                id="principle"
                 className={`flex my-4 items-center md:hover:filter-none ${
-                  principleFilter.includes(principle) ? "" : "grayscale"
+                  principleFilter.includes(principle)
+                    ? ""
+                    : "grayscale brightness-75"
                 }`}
                 onClick={toggleFilter}
               >
                 <img
                   alt={principle}
                   src={principles[principle]}
-                  id={`${principle}`}
+                  id={`principle ${principle}`}
                   className="w-[35px] rounded-full pointer-events-none"
                 />
                 <span

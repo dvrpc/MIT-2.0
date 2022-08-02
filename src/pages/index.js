@@ -51,7 +51,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <Preface isVisible={isVisible} setIsVisible={setIsVisible} />
-      <div className="flex justify-center items-start md:w-4/5 stacked-filters-body">
+      <div className="flex justify-center items-start md:w-4/5 mt-6 stacked-filters-body">
         <div className="flex md:flex-row flex-col w-full min-h-[80vh]">
           <div
             className="px-6 md:px-0 md:w-[25%] mobile-filters"
