@@ -45,7 +45,7 @@ const ButtonFilter = () => {
           />
         </label>
       </div>
-      <div className="flex stacked-filters mt-2 w-5/6">
+      <div className="flex stacked-filters mt-2 md:w-5/6">
         <div className="w-1/2">
           <div>Filter by focus area:</div>
           {Object.keys(focusAreas).map(focus => {
