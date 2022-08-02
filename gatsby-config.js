@@ -2,9 +2,22 @@ module.exports = {
   pathPrefix: `/MIT`,
   siteMetadata: {
     title: `MIT`,
+    description:
+      "Municipal Implementation Toolbox serves as a way to look into the Connections 2045 plan which is a collective vision across municipal and county boundaries as to how the region should look and function in the future.",
+    author: "Delaware Valley Regional Planning Commission (DVRPC)",
+    siteUrl: "https://www.dvrpc.org/",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-9825778-1",
+        // this option places the tracking script into the head of the DOM
+        head: true,
+      },
+    },
     `gatsby-plugin-react-helmet`,
+
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
