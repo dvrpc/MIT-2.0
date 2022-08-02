@@ -8,7 +8,7 @@ body {
 }
 
 .preface-bold {
-  color: #58a7ac;
+  color: #4f969a;
   font-weight: bold;
 }
 
@@ -28,7 +28,7 @@ body {
 
 .react-tabs__tab--selected {
   background-color: white;
-  color: #4fa3a8;
+  color: #4f969a;
 }
 
 .ball {
@@ -64,6 +64,7 @@ body {
   font-weight: bold;
   float: right;
   margin-left: 5px;
+  font-size: larger;
 }
 
 .active:after {
