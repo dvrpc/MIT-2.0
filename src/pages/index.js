@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import Layout from "../components/Layout";
 import Tool from "../components/Tool";
 import filterData from "../utils/filterData";
@@ -62,8 +62,8 @@ const IndexPage = ({ data }) => {
             <div className="text-gray-500">Search results: {tools.length}</div>
           </div>
           <div className="md:ml-[30%] w-full p-6 pt-0">
-            {tools.map((tool, idx) => {
-              return <Tool key={idx} tool={tool} />;
+            {tools.map(tool => {
+              return <Tool key={tool.title} tool={tool} />;
             })}
             {!tools.length && (
               <div className="text-slate-400">No tools match search...</div>
