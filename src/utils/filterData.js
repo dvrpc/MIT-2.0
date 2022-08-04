@@ -7,7 +7,6 @@
  */
 
 const filterData = (data, filter, property) => {
-  console.log(filter);
   if (typeof filter === "object") {
     let checker = (arr, target) => target.every(v => arr.includes(v));
     if (property === "focus")

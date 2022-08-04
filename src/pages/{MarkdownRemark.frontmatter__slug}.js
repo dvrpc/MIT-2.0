@@ -13,7 +13,7 @@ export default function Template({ data }) {
 
   return (
     <Layout>
-      <div className="md:w-4/5 px-4 md:px-0 flex min-h-[80vh] flex-col">
+      <div className="md:w-5/6 px-4 md:px-0 flex min-h-[80vh] flex-col">
         <div className="flex flex-col md:flex-row mt-10">
           <div className="text-xl md:text-3xl text-[#4fa3a8] page-title">
             {frontmatter.title}

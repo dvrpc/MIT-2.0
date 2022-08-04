@@ -25,7 +25,7 @@ const Footer = () => {
             <br />
             <a href="tel:+1-215-592-1800">215.592.1800</a> |{" "}
             <a href="mailto:abey@dvrpc.org">abey@dvrpc.org</a> |{" "}
-            <a href="/Policies/">Policies</a>
+            <a href="https://www.dvrpc.org/policies">Policies</a>
             <br />
             &copy; Delaware Valley Regional Planning Commission
           </address>

@@ -42,7 +42,7 @@ const Preface = () => {
         className="flex flex-col md:flex-row md:w-4/5 md:mx-auto p-6 pt-0 md:p-0"
         style={{ display: isVisible ? "" : "none" }}
       >
-        <div className="md:w-[45%] flex justify-center md:justify-start py-4 md:py-0">
+        <div className="w-[300px] md:w-[750px] flex self-center md:justify-start py-4 md:py-0">
           <img
             src={ToolKit}
             alt="toolkit-logo"
@@ -125,7 +125,7 @@ const Preface = () => {
               </TabPanel>
               <TabPanel>
                 <div className="preface-bold my-2 text-lg">
-                  These principles are applied to the focus areas of the Plan:
+                  The <i>Connections 2050</i> Plan is built on three principles:
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 text-lg">
                   <div className="flex">
@@ -167,6 +167,9 @@ const Preface = () => {
                 </div>
               </TabPanel>
               <TabPanel>
+                <div className="preface-bold my-2 text-lg">
+                  These principles are applied to the focus areas of the Plan:
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 text-lg">
                   <div className="flex">
                     <Icon
