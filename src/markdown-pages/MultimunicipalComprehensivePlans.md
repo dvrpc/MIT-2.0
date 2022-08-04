@@ -7,8 +7,7 @@
   trackingProgressLinks: [Global Connectivity,Transit Conditions]
   media: 
     type: "image"
-    path: "AccessManagement.jpg"
-    credit: "DVRPC"
+    path: "MultimunicipalComprehensivePlans.jpg"
   resources: 
     - label: "Multi-Municipal Planning, Municipal Implementation Tool #003, DVRPC"
       link: "http://www.dvrpc.org/asp/pubs/publicationabstract.asp?pub_id=MIT003"  
