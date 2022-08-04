@@ -174,4 +174,17 @@ address {
   .stacked-filters {
     flex-direction: column;
   }
+
+  .stacked-content {
+    flex-direction: column !important;
+  }
+
+  .stacked-image {
+    width: 100% !important;
+  }
+
+  .stacked-text {
+    padding-left: 0px !important;
+    width: 100% !important;
+  }
 }

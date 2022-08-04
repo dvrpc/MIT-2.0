@@ -8,7 +8,7 @@ const Image = ({ media }) => {
       <Zoom>
         <img
           src={require(`../markdown-images/${media.path}`).default}
-          className="object-contain object-top min-w-full shrink-0 min-w-[235px]"
+          className="object-contain object-top min-w-full min-h-full shrink-0 min-w-[235px]"
           alt={media.path}
         />
       </Zoom>

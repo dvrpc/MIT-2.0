@@ -36,14 +36,16 @@ export default function Template({ data }) {
           </div>
         </div>
         <div className="md:grid grid-cols-3 my-8 h-full">
-          <div className="w-100 flex justify-center py-4 md:py-0 pt-0">
-            <Image media={frontmatter.media} />
-          </div>
-          <div className="md:pl-6 ">
-            <div
-              className="space-y-2 markdown"
-              dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
-            />
+          <div className="md:col-span-2 w-full flex-col md:flex md:flex-row stacked-content">
+            <div className="flex justify-center py-4 md:py-0 pt-0 md:w-1/2 stacked-image">
+              <Image media={frontmatter.media} />
+            </div>
+            <div className="md:pl-6 stacked-text md:w-1/2">
+              <div
+                className="space-y-2 markdown"
+                dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
+              />
+            </div>
           </div>
           <div className="flex flex-col md:items-center mt-4 md:mt-0">
             {frontmatter.resources && frontmatter.resources.length > 0 && (
