@@ -37,7 +37,12 @@ const Preface = () => {
   }, [isVisible, setIsVisible, info]);
 
   return (
-    <div className="border-b-2 bg-[#edf6f6] shadow-md py-4" ref={info}>
+    <div
+      className={`border-b-2 bg-[#edf6f6] shadow-md py-4 ${
+        isVisible && "mb-6"
+      }`}
+      ref={info}
+    >
       <div
         className="flex flex-col md:flex-row md:w-4/5 md:mx-auto p-6 pt-0 md:p-0"
         style={{ display: isVisible ? "" : "none" }}
