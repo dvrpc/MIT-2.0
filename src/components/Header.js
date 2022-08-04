@@ -14,16 +14,16 @@ const Header = () => {
   return (
     <header className="flex justify-end items-center h-full w-full p-4 md:p-2 bg-[#4fa3a8]">
       <div className="mr-auto h-full flex">
-        <Link to="/" className="h-full">
+        <Link to="/" className="h-full flex items-center">
           <img
             src={MobileBanner}
             alt="mit logo"
-            className="md:hidden block h-full w-full"
+            className="md:hidden block h-[50px] w-full"
           />
           <img
             src={DesktopBanner}
             alt="mit logo"
-            className="hidden md:block h-full w-full"
+            className="hidden md:block h-[80px] w-full"
           />
         </Link>
         <img
@@ -43,8 +43,12 @@ const Header = () => {
           }}
         />
       </div>
-      <a href="https://www.dvrpc.org" className="h-full">
-        <img src={DVRPC} alt="dvrpc-logo" className="h-full md:p-1" />
+      <a href="https://www.dvrpc.org" className="h-full flex items-center">
+        <img
+          src={DVRPC}
+          alt="dvrpc-logo"
+          className="h-[40px] md:h-[70px] md:p-1"
+        />
       </a>
     </header>
   );
