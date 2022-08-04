@@ -104,7 +104,7 @@ const Preface = () => {
                   </a>
                   <a
                     className="h-min flex flex-col justify-center"
-                    href="https://www.dvrpc.org/Connections2045/"
+                    href="https://www.dvrpc.org/plan/"
                   >
                     <img
                       src={Connections}
@@ -113,7 +113,10 @@ const Preface = () => {
                     />
                     <div className="italic">Connections 2050 Plan</div>
                   </a>
-                  <a className="h-min flex flex-col justify-center" href="/">
+                  <a
+                    className="h-min flex flex-col justify-center"
+                    href="https://www.dvrpc.org/Products/WEB22022"
+                  >
                     <img
                       src={Abstract}
                       alt="Abstract"
