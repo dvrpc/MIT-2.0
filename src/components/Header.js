@@ -18,18 +18,18 @@ const Header = () => {
           <img
             src={MobileBanner}
             alt="mit logo"
-            className="md:hidden block h-[50px] w-full"
+            className="md:hidden block h-[45px] w-full"
           />
           <img
             src={DesktopBanner}
             alt="mit logo"
-            className="hidden md:block h-[80px] w-full"
+            className="hidden md:block h-[70px] w-full"
           />
         </Link>
         <img
           src={QuestionMark}
           alt="question mark"
-          className="h-[30px] p-2 cursor-pointer rounded-full bg-white ml-6 mt-auto"
+          className="h-[30px] p-2 md:mb-1 cursor-pointer rounded-full bg-white ml-6 mt-auto"
           onClick={() => {
             window.scrollTo({ top: 0, behavior: "auto" });
             setIsVisible(true);
@@ -47,7 +47,7 @@ const Header = () => {
         <img
           src={DVRPC}
           alt="dvrpc-logo"
-          className="h-[40px] md:h-[70px] md:p-1"
+          className="h-[40px] md:h-[70px] md:p-2"
         />
       </a>
     </header>
