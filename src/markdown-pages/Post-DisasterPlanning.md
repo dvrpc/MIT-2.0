@@ -4,7 +4,6 @@
   focusAreas: [Environment,Communities,Regional Planning]
   principles: [Resiliency,Sustainability]
   seeOther: []
-  trackingProgressLinks: [Water Quality]
   media: 
     type: "image"
     path: "Post-DisasterPlanning.jpg"

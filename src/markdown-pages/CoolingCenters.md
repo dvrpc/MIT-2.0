@@ -4,7 +4,6 @@
   focusAreas: [Environment,Communities]
   principles: [Equity,Resiliency]
   seeOther: [Post-Disaster Planning,Green Building Standards,Engaging Underserved Communities]
-  trackingProgressLinks: [Greenhouse Gas Emissions]
   media: 
     type: "image"
     path: "CoolingCenters.png"

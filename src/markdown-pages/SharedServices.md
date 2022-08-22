@@ -4,7 +4,6 @@
   focusAreas: [Environment,Communities,Transportation,Regional Planning]
   principles: [Sustainability]
   seeOther: [Community Shuttle Programs,Multimunicipal Comprehensive Plans]
-  trackingProgressLinks: [Transit Conditions]
   media: 
     type: "image"
     path: "SharedServices.jpg"
@@ -33,7 +32,7 @@
 
 In shared service collaborations, two or more local governments partner to provide a range of services in ways that decrease both the cost and the complexity of the services they provide to their constituents while providing a higher level of service overall. Some examples of shared municipal services include e-government, fire and police, water and sewer, permitting and inspections, collaborative fiscal planning, animal control, grant writing, recycling and waste disposal programs, information technology, bulk purchasing and procurement, public health, and equipment sharing. In the region, shared services occur at every level of government and are much more widespread than the number of formal service-sharing agreements indicates. The shared service model has been embraced by members of both political parties as a fiscally responsible method of service delivery.
 
-Shared services are generally formed by joint agreements initiated by the partnering municipalities.In addition to helping municipalities share knowledge and gain confidence in their decision making, properly planned and implemented shared services provide these benefits:
+Shared services are generally formed by joint agreements initiated by the partnering municipalities. In addition to helping municipalities share knowledge and gain confidence in their decision making, properly planned and implemented shared services provide these benefits:
 
 - may reduce costs and time spent on existing services by creating economies of scale;
 

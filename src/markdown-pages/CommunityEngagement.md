@@ -14,7 +14,7 @@
       link: "https://www.dvrpc.org/Reports/MIT022.pdf"
     - label: "Assessing Public Engagement Effectiveness: Rapid Review  Worksheets, Institute for Local Government"
       link: "http://www.ca-ilg.org/post/assessing-public-engagement-effectiveness-rapid-review-worksheets"
-    - label: "World Resources Institute"
+    - label: "World Resources Institute, Breaking Ground: Engaging Communities in Extractive and Infrastructure Projects"
       link: "https://www.wri.org/publication/breaking-ground"
     - label: "IAP2 Spectrum of Public Participation, International Association for Public Participation (IAP2)"
       link: "https://cdn.ymaws.com/www.iap2.org/resource/resmgr/pillars/Spectrum_8.5x11_Print.pdf"
@@ -36,4 +36,4 @@
       link: "https://digital.gov/guides/public-participation/"
 ---
 
-Community engagement is a critical part of the planning process, especially at the municipal level. This tool can help create sustainable, desired, and useful projects for the community, convene important stakeholders to support a project, and keep the community informed about development and changes in their area. There are many different community engagement methods that range from low- to high-budget, digital to in-person, small to large, and single-step to multi staged. Which tool municipalities use will depend on the needs and capacity of the stakeholders involved.
+Community engagement is a critical part of the planning process, especially at the municipal level. This tool can help create sustainable, desired, and useful projects for the community, convene important stakeholders to support a project, and keep the community informed about development and changes in their area. There are many different community engagement methods that range from low- to high-budget, digital to in-person, small to large, and single-step to multi-staged. Which tool municipalities use will depend on the needs and capacity of the stakeholders involved.

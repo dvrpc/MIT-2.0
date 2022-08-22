@@ -4,7 +4,7 @@
   focusAreas: [Environment,Regional Planning]
   principles: []
   seeOther: [Multimunicipal Comprehensive Plans,Neighborhood Design Codes and Ordinances,"Historic Districts, Overlay Zones, and Facade Improvement Grants"]
-  trackingProgressLinks: [Land Consumption,Population Growth,Transit Ridership]
+  trackingProgressLinks: [Land Consumption]
   media: 
     type: "image"
     path: "OfficialMap.jpg"

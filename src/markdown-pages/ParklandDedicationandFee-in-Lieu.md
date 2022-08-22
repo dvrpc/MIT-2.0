@@ -4,7 +4,6 @@
   focusAreas: [Environment]
   principles: [Equity,Sustainability]
   seeOther: [Comprehensive Environmental Protection Ordinance,Stream Corridor Protection Ordinances,Tactical Urbanism and Pedestrian Plazas]
-  trackingProgressLinks: [Land Consumption]
   media: 
     type: "image"
     path: "ParklandDedicationAndFee-in-Lieu.jpg"

@@ -12,10 +12,6 @@
   resources: 
     - label: "LISC Community Benefits Agreement Toolkit"
       link: "https://www.lisc.org/our-resources/resource/community-benefits-agreements-toolkit/"
-    - label: "Policy & Tools: Community Benefits Toolkit, Partnership for Working Families"
-      link: "http://www.forworkingfamilies.org/resources/policy-tools-community-benefits-toolkit"
-    - label: "Delivering Community Benefits through Economic Development: A Guide for Elected and Appointed Officials, Partnership for Working Families"
-      link: "https://www.forworkingfamilies.org/resources/publications/cba-elected-officials"
     - label: "Community Benefits Agreements: Definitions, Values, and Legal Enforceability, Julian Gross"
       link: "http://juliangross.net/docs/CBA_Definitions_Values_Enforceability.pdf"
     - label: "Community Benefits Agreements: Making Development Projects Accountable, Good Jobs First"

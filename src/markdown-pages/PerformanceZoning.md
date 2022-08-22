@@ -4,7 +4,6 @@
   focusAreas: [Environment,Communities]
   principles: []
   seeOther: [Suburban Retrofits,Neighborhood Design Codes and Ordinances,Brownfields Redevelopment,Infill Ordinances]
-  trackingProgressLinks: [Land Consumption, Greenhouse Gas Emissions]
   media: 
     type: "image"
     path: "PerformanceZoning.png"

@@ -4,7 +4,7 @@
   focusAreas: [Communities,Regional Planning]
   principles: []
   seeOther: [Performance Zoning,Neighborhood Design Codes and Ordinances]
-  trackingProgressLinks: [Exports,Global Connectivity,Housing Activity,Population Growth]
+  trackingProgressLinks: [Housing Activity]
   media: 
     type: "image"
     path: "StreamlinedPermittingProcesses.jpg"

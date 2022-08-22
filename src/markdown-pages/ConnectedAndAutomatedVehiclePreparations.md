@@ -4,7 +4,7 @@
   focusAreas: [Transportation,Regional Planning]
   principles: []
   seeOther: [IoT and Smart Communities,Multimodal Transportation Hubs and Connections,Curbside Management]
-  trackingProgressLinks: [Bridge Conditions,Pavement Conditions,Roadway Safety]
+  trackingProgressLinks: [Bridge Conditions,Pavement Conditions]
   media: 
     type: "image"
     path: "ConnectedAndAutomatedVehiclePreparations.jpg"

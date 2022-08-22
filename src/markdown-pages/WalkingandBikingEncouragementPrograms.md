@@ -4,7 +4,7 @@
   focusAreas: [Environment,Communities,Transportation]
   principles: [Equity,Sustainability]
   seeOther: [Sidewalk Standards and Management,Complete Streets]
-  trackingProgressLinks: [Commute Mode,Miles Driven]
+  trackingProgressLinks: [Commute Mode]
   media: 
     type: "image"
     path: "WalkingAndBikingEncouragementPrograms.png"
@@ -51,13 +51,13 @@
 
 Many short trips that are presently made by car could be made by bicycle if safer and more comfortable bicycle accommodations were provided. Walking and biking encouragement programs advocate sharing the road in a safe and equitable way, and promote walking and bicycling as viable transportation modes. Encouraging walking and biking in communities can help meet daily activity and fitness recommendations, which provides health benefits and improves social cohesion. Programs can highlight existing infrastructure and provide incentives. Common efforts include Safe Routes to School, walking school buses or trains (with parent and teacher supervision), cycling events, community engagement efforts to highlight the viability of biking and walking in downtown areas, and share-the-road campaigns.
 
-Bike libraries are a low-cost, simple, and effective way for communities (municipalities or university and corporate campuses) to provide a service of lending bikes. Bike libraries operate much like a traditional library. Some common characteristics of a bike library are limited usage of bike borrowing for no more than a day, waivers for check in, provision of bike locks, and pick-up and drop-off locations at a municipal institution like a library.
+Bike libraries are a low-cost, simple, and effective way for communities (municipalities or university and corporate campuses) to provide a service of lending bikes. Bike libraries operate much like a traditional library. Some common characteristics of a bike library are limited usage of bike borrowing for no more than a day, waivers for check-in, provision of bike locks, and pick-up and drop-off locations at a municipal institution like a library.
 
 Conventional bikeshare programs are generally located where density is sufficient to warrant more than one trip per day per bike, such that management of the fleet is required to support its operations. University campuses and cities typically have sufficient density of users to support conventional bikeshare programs of varying scales. Conventional bikeshare programs generally have the following characteristics:
 
 - smart, kiosk payment interface;
 
-- pay with bank card;
+- payment via bank card;
 
 - require significant capital costs for bikes, and docks and/or stations if it is a docked system;
 

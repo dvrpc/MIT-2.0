@@ -26,7 +26,7 @@
       link: "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0301343"
     - label: "Camden, NJ (2003)"
       link: "https://www.nj.gov/dep/srp/brownfields/success/victor.htm"
-    - label: "Pennsauken, NJ"
+    - label: "Trenton and Pennsauken, NJ"
       link: "https://www.njit.edu/njbrownfields/brownfield-success-stories"
   guidelines: 
     - label: "Sustainable Jersey Actions"

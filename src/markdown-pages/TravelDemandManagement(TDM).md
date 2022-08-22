@@ -4,7 +4,7 @@
   focusAreas: [Environment,Transportation,Regional Planning]
   principles: [Sustainability]
   seeOther: [Community Shuttle Programs,Walking and Biking Encouragement Programs]
-  trackingProgressLinks: [Air Quality, Commute Mode,Greenhouse Gas Emissions,Miles Driven,Congestion]
+  trackingProgressLinks: [Commute Mode,Greenhouse Gas Emissions,Miles Driven,Congestion]
   media: 
     type: "image"
     path: "TravelDemandManagementTDM.png"
@@ -26,4 +26,4 @@
       link: "https://ops.fhwa.dot.gov/plan4ops/trans_demand.htm" 
 ---
 
-TDM programs work to reduce traffic at peak hours by changing the driving habits of commuters. Local governments can utilize travel demand management techniques for their employees. Strategies may include employee subsidies for the use of transit, preferred parking for carpoolers, parking fees for employees who drive alone, flextime, telecommuting, and similar measures. Transportation management associations (TMAs) work with the private sector to promote alternative travel options that reduce congestion and improve air quality. Park-and-ride lots dedicate space for commuters to park vehicles while using transit or participating in carpools or vanpools. These benefits can help local governments compete for talent, reduce roadway demand during peak hours and help make the community cleaner and greener.
+TDM programs work to reduce traffic at peak hours by changing the driving habits of commuters. Local governments can utilize travel demand management techniques for their employees. Strategies may include employee subsidies for the use of transit, preferred parking for carpoolers, parking fees for employees who drive alone, flextime, telecommuting, and similar measures. Transportation management associations (TMAs) work with the private sector to promote alternative travel options that reduce congestion and improve air quality. For example, park-and-ride lots dedicate space for commuters to park vehicles while using transit or participating in carpools or vanpools. These benefits can help local governments compete for talent, reduce roadway demand during peak hours and help make the community cleaner and greener.

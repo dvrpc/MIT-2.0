@@ -77,7 +77,7 @@ const Preface = () => {
                   municipalities to help implement the goals of{" "}
                   <i>Connections 2050</i>, the region’s Long-Range Plan. It
                   contains resources, case studies, ordinances, and indicators
-                  for nearly 80 tools.{" "}
+                  for 75 tools.{" "}
                   <span className="preface-bold">
                     Click the tabs above to learn more about Principles and
                     Focus Areas, and scroll down to find the tools that best fit

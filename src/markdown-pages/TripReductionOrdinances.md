@@ -4,7 +4,7 @@
   focusAreas: [Environment,Transportation ,Regional Planning ]
   principles: [Sustainability]
   seeOther: [Walking and Biking Encouragement Programs,Travel Demand Management (TDM),Community Shuttle Programs]
-  trackingProgressLinks: [Commute Mode,Transit Ridership,Congestion,Miles Driven]
+  trackingProgressLinks: [Congestion,Miles Driven]
   media: 
     type: "image"
     path: "TripReductionOrdinances.jpg"

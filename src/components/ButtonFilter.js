@@ -18,7 +18,7 @@ const ButtonFilter = () => {
    */
   const toggleFilter = event => {
     event.target.classList.toggle("grayscale");
-    const typeAndElem = event.target.firstChild.id.split(" ");
+    const typeAndElem = event.target.firstChild.id.split(/\s(.*)/s);
     const filterArr =
       typeAndElem[0] === "focus" ? focusFilter : principleFilter;
     const setFilterFunc =

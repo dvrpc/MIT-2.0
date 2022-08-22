@@ -13,8 +13,6 @@
       link: "https://www.dvrpc.org/Solar/"
     - label: "Solar Photovoltaic Systems - Best Practices for Local Governments, DVRPC"
       link: "https://www.dvrpc.org/solar/"
-    - label: "Ready for 100, Sierra Club"
-      link: "https://www.sierraclub.org/ready-for-100"
     - label: "MAPC’s Municipal Net Zero Playbook"
       link: "https://www.mapc.org/net-zero/playbook/"
   whoHasUsedThisTool: 

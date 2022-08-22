@@ -4,7 +4,7 @@
   focusAreas: [Transportation]
   principles: [Equity,Resiliency]
   seeOther: [Community Shuttle Programs,Transportation Safety Programs]
-  trackingProgressLinks: [Roadway Safety,Bridge Conditions,Pavement Conditions]
+  trackingProgressLinks: [Roadway Safety]
   media: 
     type: "image"
     path: "TransportationSafetyPrograms.jpg"
@@ -39,4 +39,4 @@
 
 Traffic crashes are not accidents; they are preventable incidents that can be systematically eliminated. A road safety audit is a formal safety performance evaluation of an existing or future road or intersection by an independent, qualified safety team. It qualitatively estimates and reports on potential road safety issues and identifies opportunities for safety improvements while determining if the needs of all road users are being safely met. Through crash reduction techniques, signal optimization, and geometric improvements, municipalities can address locations where a demonstrated crash history and congestion are compromising operations.
 
-Speed is the primary determinant of crash severity. As speed increases, severity increases. Traffic-calming techniques can reduce traffic speeds and enhance safety by incorporating physical elements (e.g., speed humps, narrow lanes, curb extensions, diagonal or parallel street parking, street trees, and central medians with landscaping) into roadway design to modify driver behavior. These are most desirable on residential or commercial streets, or areas with pedestrian traffic and or multimodal use. One example of a traffic-calming technique for intersections is the roundabout. Key features of the roundabout include yield control of entering traffic, channelized approaches, and appropriate geometric curvature to slow speeds. Roundabouts provide substantially better operational and safety characteristics than older traffic circles and rotaries, and are safer than comparable signalized intersections.
+Speed is the primary determinant of crash severity. As speed increases, severity increases. Traffic-calming techniques can reduce traffic speeds and enhance safety by incorporating physical elements (e.g., speed humps, narrow lanes, curb extensions, diagonal or parallel street parking, street trees, and central medians with landscaping) into roadway design to modify driver behavior. These are most desirable on residential or commercial streets, or areas with pedestrian traffic and/or multimodal use. One example of a traffic-calming technique for intersections is the roundabout. Key features of the roundabout include yield control of entering traffic, channelized approaches, and appropriate geometric curvature to slow speeds. Roundabouts provide substantially better operational and safety characteristics than older traffic circles and rotaries, and are safer than comparable signalized intersections.

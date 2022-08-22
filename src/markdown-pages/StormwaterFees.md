@@ -12,8 +12,8 @@
   resources: 
     - label: "Funding Stormwater Management in Pennsylvania Municipalities, PennFuture"
       link: "http://www.pennfuture.org/Files/Admin/PennFuture_StormwaterManual_web_3.20.17.pdf"
-    - label: "Pennsylvania Environmental Council"
-      link: "https://pecpa.org/resources/?_resource_facet=policy&_categories=water"
+    - label: "NJ DEP Stormwater Utility Guidance"
+      link: "https://www.nj.gov/dep/dwq/SWU_fees_and_credits.html"
   whoHasUsedThisTool: 
     - label: "West Chester Stream Protection Fee"
       link: "https://west-chester.com/533/Stream-Protection-Fee-Program"

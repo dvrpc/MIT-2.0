@@ -4,7 +4,7 @@
   focusAreas: [Economy]
   principles: []
   seeOther: [Multimodal Transportation Hubs and Connections,Downtown Management,Tactical Urbanism and Pedestrian Plazas]
-  trackingProgressLinks: [Global Connectivity,Transit Conditions]
+  trackingProgressLinks: [Global Connectivity,Exported Goods]
   media: 
     type: "image"
     path: "TourismImprovementDistrictTID.jpg"
@@ -20,7 +20,7 @@
     - label: "Newark, NJ"
       link: "https://www.newarknj.gov/card/greater-newark-convention-center"
     - label: "Memphis Tourism Improvement District, Civitas"
-      link: "http://www.civitasadvisors.com/resources/research/tourism-improvement-district/"
+      link: "https://civitasadvisors.com/memphis-tourism-improvement-district/"
   guidelines: 
     - label: "Fort Collins, CO (2021)"
       link: "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH22PUIM_ARTVTOIMDI"

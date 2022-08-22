@@ -4,7 +4,6 @@
   focusAreas: [Communities]
   principles: []
   seeOther: [Performance Zoning]
-  trackingProgressLinks: [Housing Activity]
   media: 
     type: "image"
     path: "NeighborhoodDesignCodesAndOrdinances.jpg"
@@ -21,8 +20,6 @@
       link: "https://www.planning.org/blog/9227409/encouraging-physical-activity-through-traditional-neighborhood-development/"
     - label: "Form-Based Codes Institute"
       link: "https://formbasedcodes.org/"
-    - label: "Traditional Neighborhood Development, WeConservePA"
-      link: "https://conservationtools.org/guides/46-traditional-neighborhood-development"
     - label: "Unified Development Code, USEPA"
       link: "https://www.epa.gov/smartgrowth/codes-support-smart-growth-development#unified"
     - label: "Form-Based Code Planner’s Portfolio, Delaware County Planning Department"
@@ -67,6 +64,6 @@
 
 Traditional neighborhood development (TND) applies historic development patterns to new development by encouraging compact, center-based development with a mix of uses in a pedestrian-friendly, village-type setting. Important TND features include a connected street grid, the use of back alleys to access garages, shallow setbacks, and front porches. TNDs can be required or encouraged in zoning, subdivision, and land development ordinances.
 
-Form-based codes encourage predictable and compatible new building construction by using physical form—rather than separation of uses—as the organizing principle for building codes, and zoning, subdivision, and land development ordinances. They are regulations, not design guidelines, adopted into a municipality's land use ordinance. Whereas conventional zoning would include density, use, setback, and maximum building heights, form-based codes include street and building types, build to lines, number of floors, and percentage of built frontage. Form-based zoning encourages mixed uses and walkability. Form-based code can remove some of the prohibition of small and versatile forms of Missing Middle Housing. By relying on design concepts and patterns to preserve the assets and character of a neighborhood, it allows for the character of a neighborhood to remain harmonious.
+Form-based codes encourage predictable and compatible new building construction by using physical form—rather than separation of uses—as the organizing principle for building codes, and zoning, subdivision, and land development ordinances. They are regulations, not design guidelines, adopted into a municipality's land use ordinance. Whereas conventional zoning would include density, use, setback, and maximum building heights; form-based codes include street and building types, build to lines, number of floors, and percentage of built frontage. Form-based zoning encourages mixed uses and walkability. Form-based code can remove some of the prohibition of small and versatile forms of Missing Middle Housing. By relying on design concepts and patterns to preserve the assets and character of a neighborhood, it allows for the character of a neighborhood to remain harmonious.
 
 Several municipalities in the Greater Philadelphia region use form-based codes to address the relationship between building facades and the public realm, the form and mass of buildings in relation to one another, and the scale and types of streets and blocks as a way to preserve the overall character of their historic downtowns while allowing for new development.

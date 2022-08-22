@@ -4,7 +4,7 @@
   focusAreas: [Communities,Economy,Regional Planning]
   principles: [Equity]
   seeOther: [Minority and Women-Owned Business Resources,Engaging Underserved Communities,Broadband Universal Access,Community Benefits Agreements (CBAs)]
-  trackingProgressLinks: [Educational Attainment,Income Disparities,Innovation,Job Growth,Racial & Ethnic Disparities,Sex Disparities,Transit Ridership]
+  trackingProgressLinks: [Educational Attainment,Income Disparities,Innovation,Job Growth]
   media: 
     type: "image"
     path: "HumanCapitalInvestments.jpg"

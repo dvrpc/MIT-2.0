@@ -4,7 +4,6 @@
   focusAreas: [Communities,Transportation,Regional Planning]
   principles: [Sustainability]
   seeOther: [Mobility as a Service (MaaS),Curbside Management,Multimodal Transportation Hubs and Connections,IoT and Smart Communities]
-  trackingProgressLinks: [Greenhouse Gas Emissions]
   media: 
     type: "image"
     path: "ParkingManagement.jpg"
@@ -27,13 +26,19 @@
       link: "https://www.sustainablejersey.com/actions/#open/action/527"
     - label: "Sustainable Green Parking Lots, Montgomery County, PA (2016)"
       link: "https://www.montcopa.org/DocumentCenter/View/9735/Green-Sustainable-Parking-Guide-2_10_2016-Web?bidId="
+    - label: "Montville, NJ"
+      link: "https://ecode360.com/16097409"
+    - label: "Lakewood Off Street Parking Code, NJ"
+      link: "https://ecode360.com/35468696"
+    - label: "Lakewood Township, NJ Truck Route Code"
+      link: "https://ecode360.com/35467027"
 ---
 
 Parking management refers to a combination of policies and programs that result in more efficient use of existing parking resources. At the local level, parking strategies can help communities minimize congestion, foster economic development, preserve neighborhood quality of life, and protect natural resources. Some of the most effective parking management strategies include:
 
 - Revise parking standards to ensure that required parking supply does not exceed demand and is sensitive to the local context. In some cases, such as in TODs or historic villages, establishing parking maximums may be necessary.
 
-- Provide alternatives to conventional parking standards by allowing flexible parking provisions, such as shared parking, reserve parking, and fee-in-lieu of parking.
+- Provide alternatives to conventional parking standards by allowing flexible parking provisions, such as shared parking, reserve parking, and fee-in-lieu parking.
 
 - Implement pricing or metering strategies in locations where the amount of available parking is scarce and/or parking turnover is desirable.
 

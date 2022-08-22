@@ -4,7 +4,7 @@
   focusAreas: [Environment,Communities,Regional Planning]
   principles: [Equity,Resiliency,Sustainability]
   seeOther: [Neighborhood Design Codes and Ordinances,Build Missing Middle Housing,Downtown Management]
-  trackingProgressLinks: [Housing Affordability,Housing Activity]
+  trackingProgressLinks: [Housing Activity]
   media: 
     type: "image"
     path: "SuburbanRetrofits.jpg"
@@ -19,7 +19,9 @@
     - label: "Realizing Density: Strategies for Compact Suburban Development, DVRPC"
       link: "https://www.dvrpc.org/Products/05009"
     - label: "Safe, Clean, and Green, Municipal Implementation Tool #028, DVRPC"
-      link: "https://www.dvrpc.org/Products/MIT028"    
+      link: "https://www.dvrpc.org/Products/MIT028"
+    - label: "Build a Better Burb"
+      link: "http://buildabetterburb.org/"    
   whoHasUsedThisTool: 
     - label: "Voorhees Town Center"
       link: "https://voorheesnj.com/wp-content/uploads/2019/01/18-12-28-VTC-Redevelopment-Plan-Phase-II-Final.pdf"
@@ -36,8 +38,6 @@
       link: "https://icma.org/revitalizing-first-suburbs-managers-manual"
     - label: "Upper Dublin, Greater Fort Washington District, PA (2019)"
       link: "https://www.upperdublin.net/new-zoning-district-for-the-fort-washington-office-park/"
-    - label: "Build a Better Burb"
-      link: "http://buildabetterburb.org/"
 ---
 
 As population and demographics shift and available land becomes more scarce, there may be an opportunity to re-envision some automobile-oriented, conventional suburbs. Suburban retrofits use rehabilitation, redevelopment, and regreening to transform single-use residential or commercial areas into more compact, walkable, and sustainable mixed-use centers.

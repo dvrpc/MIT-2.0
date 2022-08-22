@@ -15,7 +15,7 @@
       link: "https://www.dvrpc.org/Reports/20017.pdf"
     - label: "Broadband: Part 3: Bridging the Digital Divide, DVRPC"
       link: "https://www.dvrpc.org/Products/21008"
-    - label: "Broadband Availability Map"
+    - label: "NJ Broadband Availability Map"
       link: "https://www.nj.gov/bpu/about/divisions/telecommunications/broadbandavailability.html"
     - label: "Broadband Funding and Information Resources, PA Department of Community and Economic Development"
       link: "https://dced.pa.gov/broadband-resources/broadband-funding-information/"

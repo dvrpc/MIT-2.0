@@ -4,7 +4,6 @@
   focusAreas: [Environment,Communities,Economy,Regional Planning]
   principles: [Equity,Sustainability]
   seeOther: [Community Branding,Tourism Improvement District (TID),Engaging Underserved Communities,Community Engagement]
-  trackingProgressLinks: [Commute Mode,Miles Driven]
   media: 
     type: "image"
     path: "TacticalUrbanismAndPedestrianPlazas.jpg"
@@ -19,7 +18,9 @@
     - label: "Playworks"
       link: "https://www.playworks.org/resources/"
     - label: "Tactical Urbanist’s Guide"
-      link: "http://tacticalurbanismguide.com/about/#:~:text=Tactical%20Urbanism%20is%20all%20about,to%20catalyze%20long%2Dterm%20change."  
+      link: "http://tacticalurbanismguide.com/about/#:~:text=Tactical%20Urbanism%20is%20all%20about,to%20catalyze%20long%2Dterm%20change."
+    - label: "8 80 Civic Engagement Tools"
+      link: "https://www.880cities.org/resource-hub-tools/"  
   whoHasUsedThisTool: 
     - label: "Expo: Experimental Pop-ups, DVRPC"
       link: "https://www.dvrpc.org/expo"
@@ -30,8 +31,6 @@
     - label: "Philly Free Streets"
       link: "http://www.mayorsfundphila.org/initiatives/philly-free-streets/"
   guidelines: 
-    - label: "8 80 Civic Engagement Tools"
-      link: "https://www.880cities.org/resource-hub-tools/"
     - label: "Borough of Haddonfield, NJ Pedestrian Mall"
       link: "https://ecode360.com/10203106"
     - label: "Philadelphia Pedestrian Plaza Guidelines (2016)"
@@ -46,6 +45,6 @@ Established forms of tactical urbanism include open streets and play streets, in
 
 Tactical urbanism is often a collaborative process supported by citizens and experts. It focuses on including diverse knowledge bases in processes of placemaking to create innovative solutions to complex problems like access, sustainability, and physical infrastructure needs. It is an iterative public participation process, with room for experimentation built in. When engaging in co-creation, people are planned with and not for.
 
-Pedestrian plazas, also known as pedestrian malls, reclaim underused street segments as public space. They can be done on a temporary trial basis with minimal capital outlay. Plazas can occur at the intersection of two streets or can exist as easement on sidewalks in a commercial area. When designing a street-to-plaza project, it is important to preserve access to homes and businesses while eliminating through traffic. Drivers will have less access to the street, but people walking or bicycling will have full access.
+Pedestrian plazas, also known as pedestrian malls, reclaim underused street segments as public space. They can be done on a temporary trial basis with minimal capital outlay. Plazas can occur at the intersection of two streets or can exist as an easement on sidewalks in a commercial area. When designing a street-to-plaza project, it is important to preserve access to homes and businesses while eliminating through traffic. Drivers will have less access to the street, but people walking or bicycling will have full access.
 
-A plaza can encourage engagement with neighborhood street life by providing space for seating, tables, and other amenities, offer space for community events and activities, calm traffic, and improve the design of intersections. Spaces are often maintained by the permit applicant (neighborhood or business associations, community development corporations, local nonprofits, etc.) Permits are still required for special activity consistent with outline broad
+A plaza can encourage engagement with neighborhood street life by: providing space for seating, tables, and other amenities; offer space for community events and activities; calm traffic; and improve the design of intersections. Spaces are often maintained by the permit applicant (neighborhood or business associations, community development corporations, local nonprofits, etc.)

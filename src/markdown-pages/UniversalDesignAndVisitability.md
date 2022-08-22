@@ -4,7 +4,6 @@
   focusAreas: [Environment,Communities,Regional Planning]
   principles: [Equity,Sustainability]
   seeOther: [Age Friendly Communities,Housing Maintenance and Rehabilitation Programs]
-  trackingProgressLinks: [Housing Activity]
   media: 
     type: "image"
     path: "UniversalDesignAndVisitability.jpg"

@@ -4,7 +4,7 @@
   focusAreas: [Environment,Communities,Transportation,Regional Planning]
   principles: [Equity,Resiliency,Sustainability]
   seeOther: [Multimodal Transportation Hubs and Connections,Official Map,Transit Revitalization Investment District (TRID)]
-  trackingProgressLinks: [Commute Mode,Housing Activity,Miles Driven,Population Growth,Transit Ridership]
+  trackingProgressLinks: [Transit Conditions,Transit Ridership]
   media: 
     type: "image"
     path: "Transit-OrientedDevelopmentTODZoning.jpg"

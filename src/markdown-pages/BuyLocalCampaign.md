@@ -21,8 +21,8 @@
   whoHasUsedThisTool: 
     - label: "Newark, NJ (2018)"
       link: "https://www.policylink.org/resources-tools/buy-newark-adopting-a-comprehensive-buy-local-strategy-for-the-city-of-newark"
-    - label: "Shop Washington Township, NJ (2010)"
-      link: "https://propertytaxcard.com/ShopWashingtonTownship/aboutus"
+    - label: "Shop Washington Township, NJ (2019)"
+      link: "https://www.twp.washington.nj.us/businesses/shop_washington_township_program/index.php"
 ---
 
 A “buy local” campaign that engages local businesses and citizens can be a powerful tool to help sustain independent businesses and neighborhood-serving business districts. Buying from a local business ensures that more money stays in the community, sustains and creates local jobs, strengthens the local economy, and improves quality of life and customer service.

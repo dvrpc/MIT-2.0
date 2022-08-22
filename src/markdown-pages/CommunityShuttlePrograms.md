@@ -4,7 +4,7 @@
   focusAreas: [Environment,Transportation]
   principles: [Equity]
   seeOther: [Multimodal Transportation Hubs and Connections,Shared Services,Travel Demand Management (TDM),Mobility as a Service (MaaS)]
-  trackingProgressLinks: [Commute Mode,Racial & Ethnic Disparities]
+  trackingProgressLinks: [Commute Mode]
   media: 
     type: "image"
     path: "CommunityShuttlePrograms.jpg"
@@ -26,4 +26,4 @@
       link: "https://www.dvrpc.org/ETA/CaseStudies/pdf/ZLine_case_study.pdf"
 ---
 
-Community shuttle programs fill gaps in transit service to vulnerable communities, including individuals who are low-income, seniors, physically disabled, mentally disabled, and who are more likely to be transit dependent than the general population. These programs improve access to essential services: destinations needed to meet a standard quality of life. These include places of employment, grocery stores, schools, medical facilities, recreation and open space areas, senior centers, and centers for the developmentally disabled. Alongside more targeted programs that primarily serve vulnerable populations, municipalities can also work with Transportation Management Associations (TMAs) to fund and plan shuttles that connect dense residential areas with employment centers and other essential services for all people who live or work in an area.
+Community shuttle programs fill gaps in transit service to vulnerable communities, including individuals who are low-income, seniors, physically disabled, mentally disabled, and who are more likely to be transit dependent than the general population. These programs improve access to essential services and destinations needed to meet a standard quality of life. These include places of employment, grocery stores, schools, medical facilities, recreation and open space areas, senior centers, and centers for the developmentally disabled. Alongside more targeted programs that primarily serve vulnerable populations, municipalities can also work with Transportation Management Associations (TMAs) to fund and plan shuttles that connect dense residential areas with employment centers and other essential services for all people who live or work in an area.

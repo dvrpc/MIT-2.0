@@ -4,7 +4,7 @@
   focusAreas: [Environment,Communities]
   principles: [Sustainability]
   seeOther: [Age Friendly Communities,Universal Design and Visitability]
-  trackingProgressLinks: []
+  trackingProgressLinks: [Commute Mode]
   media: 
     type: "image"
     path: "Community-CenteredDesigninSchoolSystems.jpg"
