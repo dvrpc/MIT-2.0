@@ -1,3 +1,11 @@
+/**
+ * takes in array of data and filters by either string or array of filters or also both.
+ * @param {Array} data
+ * @param {String Array} filter
+ * @param {String} property
+ * @returns Array
+ */
+
 const filterData = (data, filter, property) => {
   if (typeof filter === "object") {
     let checker = (arr, target) => target.every(v => arr.includes(v));

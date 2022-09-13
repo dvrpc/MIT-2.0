@@ -1,24 +1,38 @@
-import React from "react";
+import React, { useContext } from "react";
+import AppContext from "../utils/AppContext";
 import { focusAreas, principles } from "../utils/icons";
 
-const ButtonFilter = ({
-  nameFilter,
-  focusFilter,
-  principleFilter,
-  setNameFilter,
-  setFocusFilter,
-  setPrincipleFilter,
-}) => {
+const ButtonFilter = () => {
+  const {
+    nameFilter,
+    focusFilter,
+    principleFilter,
+    setNameFilter,
+    setFocusFilter,
+    setPrincipleFilter,
+  } = useContext(AppContext);
+
+  /**
+   * captures button click event and calls function to update the array of filters associated with that button
+   * @param {Event} event
+   */
   const toggleFilter = event => {
     event.target.classList.toggle("grayscale");
-    const filterType = event.target.id;
-    const filterArr = filterType === "focus" ? focusFilter : principleFilter;
-    const filterElem = event.target.firstChild.id;
+    const typeAndElem = event.target.firstChild.id.split(/\s(.*)/s);
+    const filterArr =
+      typeAndElem[0] === "focus" ? focusFilter : principleFilter;
     const setFilterFunc =
-      filterType === "focus" ? setFocusFilter : setPrincipleFilter;
-    setFilter(filterArr, filterElem, setFilterFunc);
+      typeAndElem[0] === "focus" ? setFocusFilter : setPrincipleFilter;
+    setFilter(filterArr, typeAndElem[1], setFilterFunc);
   };
 
+  /**
+   * takes an array and appends the filter or removes the filter
+   * @param {Array} filterArr
+   * @param {String} filterElem
+   * @param {Function} setFilterFunc
+   * @returns
+   */
   const setFilter = (filterArr, filterElem, setFilterFunc) => {
     if (!filterArr.includes(filterElem)) {
       return setFilterFunc([...filterArr, filterElem]);
@@ -31,56 +45,69 @@ const ButtonFilter = ({
   return (
     <div className="flex flex-col">
       <div>
-        <label>
-          Search for tool:
-          <input
-            type="text"
-            onChange={e => setNameFilter(e.target.value)}
-            value={nameFilter}
-            className="w-5/6 md:w-[90%] block border border-[#cccccc] p-1"
-            style={{ borderRadius: "4px" }}
-          />
-        </label>
+        <input
+          type="text"
+          onChange={e => setNameFilter(e.target.value)}
+          value={nameFilter}
+          className="w-5/6 md:w-[90%] block border border-[#cccccc] p-1"
+          style={{ borderRadius: "4px" }}
+        />
       </div>
-      <div className="flex stacked-filters mt-2">
-        <div>
-          <div>Filter by focus area:</div>
+      <div className="flex stacked-filters mt-2 md:w-5/6">
+        <div className="w-1/2">
+          <div>
+            <b>Filter</b> by Focus Area:
+          </div>
           {Object.keys(focusAreas).map(focus => {
             return (
               <button
-                id="focus"
-                className="flex my-4 items-center grayscale md:hover:filter-none"
+                className={`flex my-4 items-center md:hover:filter-none ${
+                  focusFilter.includes(focus) ? "" : "grayscale brightness-75"
+                }`}
                 onClick={toggleFilter}
               >
                 <img
                   alt={focus}
                   src={focusAreas[focus]}
-                  id={`${focus}`}
+                  id={`focus ${focus}`}
                   className="w-[35px] rounded-full pointer-events-none"
                 />
-                <span className="ml-2 text-left text-[#58a7ac] pointer-events-none">
+                <span
+                  className={`ml-2 text-left text-[#58a7ac] pointer-events-none ${
+                    focusFilter.includes(focus) ? "font-bold" : ""
+                  }`}
+                >
                   {focus}
                 </span>
               </button>
             );
           })}
         </div>
-        <div>
-          <div>Filter by principle:</div>
+        <div className="w-1/2">
+          <div>
+            <b>Filter</b> by Principle:
+          </div>
           {Object.keys(principles).map(principle => {
             return (
               <button
-                id="principle"
-                className="flex my-4 items-center grayscale md:hover:filter-none"
+                className={`flex my-4 items-center md:hover:filter-none ${
+                  principleFilter.includes(principle)
+                    ? ""
+                    : "grayscale brightness-75"
+                }`}
                 onClick={toggleFilter}
               >
                 <img
                   alt={principle}
                   src={principles[principle]}
-                  id={`${principle}`}
+                  id={`principle ${principle}`}
                   className="w-[35px] rounded-full pointer-events-none"
                 />
-                <span className="ml-2 text-[#58a7ac] pointer-events-none">
+                <span
+                  className={`ml-2 text-left text-[#58a7ac] pointer-events-none ${
+                    principleFilter.includes(principle) ? "font-bold" : ""
+                  }`}
+                >
                   {principle}
                 </span>
               </button>

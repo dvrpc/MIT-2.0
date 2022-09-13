@@ -37,16 +37,21 @@ const Preface = () => {
   }, [isVisible, setIsVisible, info]);
 
   return (
-    <div className="border-b-2 bg-[#edf6f6] shadow-md py-4" ref={info}>
+    <div
+      className={`border-b-2 bg-[#edf6f6] shadow-md py-4 ${
+        isVisible && "mb-6"
+      }`}
+      ref={info}
+    >
       <div
         className="flex flex-col md:flex-row md:w-4/5 md:mx-auto p-6 pt-0 md:p-0"
         style={{ display: isVisible ? "" : "none" }}
       >
-        <div className="md:w-[45%] flex justify-center md:justify-start py-4 md:py-0">
+        <div className="w-[300px] md:w-[750px] flex self-center md:justify-start py-4 md:py-0">
           <img
             src={ToolKit}
             alt="toolkit-logo"
-            className="md:max-w-[75%] max-w-[85%] h-auto md:mx-0 self-center"
+            className="w-full md:max-w-[75%] h-auto md:mx-0 self-center"
           />
         </div>
         <div className="w-full md:pl-4 md:p-6 text-lg text-sm md:text-base">
@@ -58,26 +63,28 @@ const Preface = () => {
             </TabList>
             <div className="mt-4">
               <TabPanel>
-                <span className="preface-bold">
-                  The Delaware Valley Regional Planning Commission (DVRPC)
-                </span>{" "}
-                is responsible for long-range planning at the regional scale,
-                but implementation of the Plan—and much of our collective
-                future—is based on how the region’s 350 municipalities use their
-                home-rule authority to influence land use, provide public
-                services, protect natural and historic resources, and,
-                ultimately, create the places we call home. DVRPC has designed
-                this Municipal Implementation Toolbox to serve as a guide for
-                municipalities to help implement the goals of{" "}
-                <i>Connections 2050</i>, the region’s Long-Range Plan. It
-                contains resources, case studies, ordinances, and indicators for
-                nearly 80 tools.{" "}
-                <span className="preface-bold">
-                  Click the tabs above to learn more about Principles and Focus
-                  Areas, and scroll down to find the tools that best fit your
-                  municipality’s needs by using the interactive filters
-                </span>
-                <div className="grid grid-cols-4 mt-6 text-center text-[#4fa3a8]">
+                <div className="text-lg">
+                  <span className="preface-bold">
+                    The Delaware Valley Regional Planning Commission (DVRPC)
+                  </span>{" "}
+                  is responsible for long-range planning at the regional scale,
+                  but implementation of the Plan—and much of our collective
+                  future—is based on how the region’s 350 municipalities use
+                  their home-rule authority to influence land use, provide
+                  public services, protect natural and historic resources, and,
+                  ultimately, create the places we call home. DVRPC has designed
+                  this Municipal Implementation Toolbox to serve as a guide for
+                  municipalities to help implement the goals of{" "}
+                  <i>Connections 2050</i>, the region’s Long-Range Plan. It
+                  contains resources, case studies, ordinances, and indicators
+                  for 75 tools.{" "}
+                  <span className="preface-bold">
+                    Click the tabs above to learn more about Principles and
+                    Focus Areas, and scroll down to find the tools that best fit
+                    your municipality’s needs by using the interactive filters.
+                  </span>
+                </div>
+                <div className="grid grid-cols-4 mt-6 text-center text-[#4fa3a8] md:text-lg">
                   <a
                     className="h-min flex flex-col justify-center"
                     href="https://www.dvrpc.org/Funding/"
@@ -87,7 +94,7 @@ const Preface = () => {
                       alt="Funding Opportunities"
                       className="h-[70px] object-contain"
                     />
-                    <div>Funding Opportunities</div>
+                    Funding Opportunities
                   </a>
                   <a
                     className="h-min flex flex-col justify-center"
@@ -98,11 +105,11 @@ const Preface = () => {
                       alt="Building Municipal Capacity"
                       className="h-[70px] object-contain"
                     />
-                    <div>Building Municipal Capacity</div>
+                    Building Municipal Capacity
                   </a>
                   <a
                     className="h-min flex flex-col justify-center"
-                    href="https://www.dvrpc.org/Connections2045/"
+                    href="https://www.dvrpc.org/plan/"
                   >
                     <img
                       src={Connections}
@@ -111,18 +118,24 @@ const Preface = () => {
                     />
                     <div className="italic">Connections 2050 Plan</div>
                   </a>
-                  <a className="h-min flex flex-col justify-center" href="/">
+                  <a
+                    className="h-min flex flex-col justify-center"
+                    href="https://www.dvrpc.org/Products/WEB22022"
+                  >
                     <img
                       src={Abstract}
                       alt="Abstract"
                       className="h-[70px] object-contain"
                     />
-                    <div>Abstract</div>
+                    Abstract
                   </a>
                 </div>
               </TabPanel>
               <TabPanel>
-                <div className="grid grid-cols-1 md:grid-cols-2">
+                <div className="preface-bold my-2 text-lg">
+                  The <i>Connections 2050</i> Plan is built on three principles:
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 text-lg">
                   <div className="flex">
                     <Icon altText="Equity" image={principles["Equity"]} />
                     <div className="w-full ml-2">
@@ -130,7 +143,7 @@ const Preface = () => {
                       to public outreach and participatory planning to hear more
                       voices in the development of communities that we live in,
                       and to increase everyone’s access to the transportation
-                      infrastructure needed for all of our daily activities
+                      infrastructure needed for all of our daily activities.
                     </div>
                   </div>
                   <div className="flex">
@@ -143,7 +156,7 @@ const Preface = () => {
                       reduction of emissions to a net zero level by 2050 through
                       renewable energy, energy management, the electrification
                       of buildings and vehicles, and improving transit and
-                      non-motorized travel options
+                      non-motorized travel options.
                     </div>
                   </div>
                   <div className="md:mt-4 flex">
@@ -162,7 +175,10 @@ const Preface = () => {
                 </div>
               </TabPanel>
               <TabPanel>
-                <div className="grid grid-cols-1 md:grid-cols-2">
+                <div className="preface-bold my-2 text-lg">
+                  These principles are applied to the focus areas of the Plan:
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 text-lg">
                   <div className="flex">
                     <Icon
                       altText="Communities"
@@ -173,7 +189,7 @@ const Preface = () => {
                       inclusive, healthy, and walkable communities that offer a
                       better quality of life for all residents, using the more
                       than 135 Plan Centers as a framework for infrastructure
-                      investments
+                      investments.
                     </div>
                   </div>
                   <div className="flex">
@@ -187,7 +203,7 @@ const Preface = () => {
                       </span>{" "}
                       safe, healthy, and environmentally friendly transportation
                       accessible to a wide range of users for a variety of trip
-                      purposes
+                      purposes.
                     </div>
                   </div>
                   <div className="md:mt-4 flex">
@@ -207,7 +223,7 @@ const Preface = () => {
                     <div className="w-full ml-2">
                       <span className="preface-bold">ENVIRONMENT:</span>{" "}
                       protection and enhancement of natural amenities, air and
-                      water quality, open space, and farmland
+                      water quality, open space, and farmland.
                     </div>
                   </div>
                   <div className="mt-4 flex">

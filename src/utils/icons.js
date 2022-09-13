@@ -9,14 +9,14 @@ import sustainability from "../icons/sustainability.png";
 
 export const focusAreas = {
   Communities: communities,
+  Transportation: transportation,
   Economy: economy,
   Environment: environment,
   "Regional Planning": regionalplanning,
-  Transportation: transportation,
 };
 
 export const principles = {
   Equity: equity,
-  Resiliency: resiliency,
   Sustainability: sustainability,
+  Resiliency: resiliency,
 };

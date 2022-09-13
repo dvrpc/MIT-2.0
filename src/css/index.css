@@ -8,7 +8,7 @@ body {
 }
 
 .preface-bold {
-  color: #58a7ac;
+  color: #448083;
   font-weight: bold;
 }
 
@@ -28,7 +28,7 @@ body {
 
 .react-tabs__tab--selected {
   background-color: white;
-  color: #4fa3a8;
+  color: #4f969a;
 }
 
 .ball {
@@ -64,6 +64,7 @@ body {
   font-weight: bold;
   float: right;
   margin-left: 5px;
+  font-size: larger;
 }
 
 .active:after {
@@ -83,7 +84,6 @@ body {
   display: inline-block;
 }
 
-/* Tooltip text */
 .tooltip .tooltip-text {
   visibility: hidden;
   width: 120px;
@@ -92,13 +92,10 @@ body {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltip-text {
   visibility: visible;
 }
@@ -114,36 +111,57 @@ footer {
   justify-content: space-around;
   font-size: 0.9rem;
 }
+
 footer a {
   color: #f7f7f7;
 }
+
 address {
   font-style: normal;
 }
+
 #footer-logo {
   width: 85px;
 }
 #footer-contact-wrapper {
   align-self: center;
 }
+
 #footer-contact-wrapper h3 {
   padding-bottom: 5px;
   margin: 0;
   letter-spacing: 0.1rem;
 }
+
 #footer-social-wrapper {
   display: flex;
 }
+
 .vr {
   display: block;
   border-right: 1px solid #f7f7f7;
   margin: 0 3%;
 }
+
 .footer-social {
   padding: 0 5px;
 }
+
 .footer-social-link {
   align-self: center;
+}
+
+.markdown > ul {
+  list-style: disc;
+}
+
+.markdown > ol {
+  list-style: decimal;
+}
+
+.markdown > ul > *,
+.markdown > ol > * {
+  margin-left: 1.5rem;
 }
 
 @media (max-width: 800px) {
@@ -155,5 +173,18 @@ address {
 @media (min-width: 768px) and (max-width: 1260px) {
   .stacked-filters {
     flex-direction: column;
+  }
+
+  .stacked-content {
+    flex-direction: column !important;
+  }
+
+  .stacked-image {
+    width: 100% !important;
+  }
+
+  .stacked-text {
+    padding-left: 0px !important;
+    width: 100% !important;
   }
 }

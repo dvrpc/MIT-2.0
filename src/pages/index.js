@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import Layout from "../components/Layout";
 import Tool from "../components/Tool";
 import filterData from "../utils/filterData";
@@ -8,12 +8,15 @@ import { graphql } from "gatsby";
 import AppContext from "../utils/AppContext";
 
 const IndexPage = ({ data }) => {
-  const { isVisible, setIsVisible } = useContext(AppContext);
-  const [tools, setTools] = useState([]);
-  const [namefilter, setNameFilter] = useState("");
-  const [focusFilter, setFocusFilter] = useState([]);
-  const [principleFilter, setPrincipleFilter] = useState([]);
-  // destructure what is returned from query
+  const {
+    isVisible,
+    setIsVisible,
+    tools,
+    setTools,
+    nameFilter,
+    focusFilter,
+    principleFilter,
+  } = useContext(AppContext);
   let {
     allMarkdownRemark: { edges },
   } = data;
@@ -26,7 +29,7 @@ const IndexPage = ({ data }) => {
 
   useEffect(() => {
     const filters = {
-      nameFilter: namefilter,
+      nameFilter: nameFilter,
       focusFilter: focusFilter,
       principleFilter: principleFilter,
     };
@@ -43,30 +46,24 @@ const IndexPage = ({ data }) => {
     });
 
     setTools(oldState);
-  }, [namefilter, focusFilter, principleFilter, edges]);
+  }, [nameFilter, focusFilter, principleFilter, setTools, edges]);
 
   return (
     <Layout>
       <Preface isVisible={isVisible} setIsVisible={setIsVisible} />
-      <div className="flex justify-center items-start md:w-4/5 md:mt-6 stacked-filters-body">
-        <div className="flex md:flex-row flex-col w-full min-h-[80vh]">
+      <div className="flex justify-center items-start min-w-full md:min-w-0 md:w-4/5 md:mt-6 stacked-filters-body">
+        <div className="flex md:flex-row flex-col min-w-full min-h-[80vh]">
           <div
             className="px-6 md:px-0 md:w-[25%] mobile-filters"
             style={{ position: !isVisible ? "fixed" : "absolute" }}
           >
-            <div className="text-2xl pb-2 preface-bold">Tools:</div>
-            <ButtonFilter
-              namefilter={namefilter}
-              focusFilter={focusFilter}
-              principleFilter={principleFilter}
-              setNameFilter={setNameFilter}
-              setFocusFilter={setFocusFilter}
-              setPrincipleFilter={setPrincipleFilter}
-            />
+            <div className="text-2xl pb-2 preface-bold">Search Tools:</div>
+            <ButtonFilter />
+            <div className="text-gray-500">Search results: {tools.length}</div>
           </div>
           <div className="md:ml-[30%] w-full p-6 pt-0">
-            {tools.map((tool, idx) => {
-              return <Tool key={idx} tool={tool} />;
+            {tools.map(tool => {
+              return <Tool key={tool.title} tool={tool} />;
             })}
             {!tools.length && (
               <div className="text-slate-400">No tools match search...</div>
@@ -80,7 +77,7 @@ const IndexPage = ({ data }) => {
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: [frontmatter___title], order: ASC }) {
       edges {
         node {
           id

@@ -3,7 +3,7 @@
   title: Alternative Energy Ordinance
   focusAreas: [Environment,Regional Planning]
   principles: [Sustainability]
-  seeOther: [Street Tree Ordinance and Management Plan,Greenhouse Gas Reduction Targets And Climate Action Plans,GREEN BUILDING STANDARDS]
+  seeOther: [Street Tree Ordinance and Management Plan,Greenhouse Gas Reduction Targets and Climate Action Plans,Green Building Standards]
   trackingProgressLinks: [Air Quality, Greenhouse Gas Emissions]
   media: 
     type: "image"

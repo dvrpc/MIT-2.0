@@ -6,9 +6,11 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "autoprefixer": "^10.4.7",
+    "cypress": "^10.3.0",
     "gatsby": "^4.13.1",
     "gatsby-plugin-breadcrumb": "^12.3.1",
     "gatsby-plugin-gatsby-cloud": "^4.13.0",
+    "gatsby-plugin-google-analytics": "^4.19.0",
     "gatsby-plugin-image": "^2.13.0",
     "gatsby-plugin-manifest": "^4.13.0",
     "gatsby-plugin-offline": "^5.13.0",
@@ -23,6 +25,7 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
+    "react-medium-image-zoom": "^4.4.3",
     "react-select": "^5.3.2",
     "react-tabs": "^5.1.0",
     "tailwindcss": "^3.0.24"
@@ -43,7 +46,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
+    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
   },
   "repository": {
     "type": "git",

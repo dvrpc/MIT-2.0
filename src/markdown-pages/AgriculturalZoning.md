@@ -3,11 +3,11 @@
   title: Agricultural Zoning
   focusAreas: [Environment,Communities,Regional Planning]
   principles: [Sustainability]
-  seeOther: [Food System Planning,Right-To-Farm Provisions,LOCAL FOOD PROCUREMENT POLICY PREFERENCE]
+  seeOther: [Food System Planning,Right-To-Farm Provisions,Local Food Procurement Policy Preference]
   trackingProgressLinks: [Land Consumption]
   media: 
     type: "image"
-    path: "AGRICULTURALZONING.jpg"
+    path: "AgriculturalZoning.jpg"
     credit: "Montgomery County Planning Commission"
   resources: 
     - label: "Chester County Planning Toolbox: Agricultural Zoning"

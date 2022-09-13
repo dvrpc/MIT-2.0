@@ -12,24 +12,24 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="flex justify-end items-center h-full w-full p-4 bg-[#4fa3a8]">
+    <header className="flex justify-end items-center h-full w-full p-4 md:p-2 bg-[#4fa3a8]">
       <div className="mr-auto h-full flex">
-        <Link to="/" className="h-full">
+        <Link to="/" className="h-full flex items-center">
           <img
             src={MobileBanner}
             alt="mit logo"
-            className="md:hidden block h-full"
+            className="md:hidden block h-[45px] w-full"
           />
           <img
             src={DesktopBanner}
             alt="mit logo"
-            className="hidden md:block h-full"
+            className="hidden md:block h-[70px] w-full"
           />
         </Link>
         <img
           src={QuestionMark}
           alt="question mark"
-          className="h-[30px] p-2 cursor-pointer rounded-full bg-white ml-6 mt-auto"
+          className="h-[30px] p-2 md:mb-1 cursor-pointer rounded-full bg-white ml-6 mt-auto"
           onClick={() => {
             window.scrollTo({ top: 0, behavior: "auto" });
             setIsVisible(true);
@@ -43,8 +43,13 @@ const Header = () => {
           }}
         />
       </div>
-
-      <img src={DVRPC} alt="dvrpc-logo" className="h-full" />
+      <a href="https://www.dvrpc.org" className="h-full flex items-center">
+        <img
+          src={DVRPC}
+          alt="dvrpc-logo"
+          className="h-[40px] md:h-[70px] md:p-2"
+        />
+      </a>
     </header>
   );
 };
