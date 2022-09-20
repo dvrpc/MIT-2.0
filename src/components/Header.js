@@ -37,7 +37,7 @@ const Header = () => {
           style={{
             display:
               !isVisible &&
-              (location.pathname === "/" || location.pathname === "/MIT/")
+              (location.pathname === "/" || location.pathname === "/Plan/MIT/")
                 ? ""
                 : "none",
           }}
