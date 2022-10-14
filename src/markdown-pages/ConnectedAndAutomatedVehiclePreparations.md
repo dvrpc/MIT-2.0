@@ -8,7 +8,9 @@
   media: 
     type: "image"
     path: "ConnectedAndAutomatedVehiclePreparations.jpg"
-  resources: 
+  resources:
+    - label: "Local Government Checklist: Preparing for HAVs, DVRPC"
+      link: "https://cms.dvrpc.org/sites/default/files/2022-10/C2050_HAV_Checklist.pdf" 
     - label: "Ensuring American Leadership in Automated Vehicle Technologies: Automated Vehicles 4.0"
       link: "https://www.transportation.gov/av/4"
     - label: "Automated Vehicles, PennDOT"
@@ -19,8 +21,6 @@
       link: "https://www.naco.org/resources/featured/connected-autonomous-vehicles-toolkit"
     - label: "Preparing Greater Philadelphia for Highly Automated Vehicles, DVRPC"
       link: "https://www.dvrpc.org/Products/20013/"
-    - label: "Local Government Legal and Administrative Connected and Automated Vehicle (CAV) Checklist, DVRPC"
-      link: "https://www.dvrpc.org/Plan/pdf/CAV_Checklist.pdf"
     - label: "Sharing Spaces with Robots: The Basics of Personal Delivery Devices, Pedestrian and Bicycle Information Center (2019)"
       link: "https://www.pedbikeinfo.org/cms/downloads/PBIC_InfoBrief_SharingSpaceswithRobots.pdf"
   whoHasUsedThisTool: 
