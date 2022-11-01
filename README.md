@@ -8,7 +8,6 @@ DVRPC has designed this online toolbox to serve as a guide for municipalities to
 
 ## Installation:
 Use npm to install dependencies.
-
 ```bash
 npm install
 ```
@@ -16,7 +15,6 @@ Then run the develop script to run application locally.
 ```bash
 npm run develop
 ```
-
 ## Testing:
 [Cypress](https://github.com/cypress-io/cypress) is used for testing. To run the tests you must have two terminals open. The first terminal should run the Gatsby development script
 ```bash
@@ -28,5 +26,10 @@ npx cypress open
 ```
 Cypress is ran through the browser. I had some difficulties when running in Firefox but Google Chrome works well.
 
+## Build Process:
+To build application for deployment run the build:staging script. This script adds prefixes to various static assets.
+```bash
+npm run build:staging
+```
 ## Links for planners:
 This application makes use of markdown files. Indentation is important for parsing and improper indentation can lead to bad formatting when displayed. [This link](https://www.markdownguide.org/basic-syntax/) shows how to properly write markdown and should answer most syntax questions. Any further questions can be sent to developers.
