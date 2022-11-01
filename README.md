@@ -12,6 +12,11 @@ Use npm to install dependencies.
 ```bash
 npm install
 ```
+Then run the develop script to run application locally.
+```bash
+npm run develop
+```
+
 ## Testing:
 [Cypress](https://github.com/cypress-io/cypress) is used for testing. To run the tests you must have two terminals open. The first terminal should run the Gatsby development script
 ```bash
