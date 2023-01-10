@@ -14,7 +14,9 @@
     - label: "Native Plant Finder, National Wildlife Federation "
       link: "https://www.nwf.org/nativeplantfinder/"
     - label: "Native Plants and Controlling Invasive Species, Chester County Planning Toolbox"
-      link: "https://www.chescoplanning.org/MuniCorner/Tools/NativePlants.cfm"  
+      link: "https://www.chescoplanning.org/MuniCorner/Tools/NativePlants.cfm"
+    - label: "Landscaping with Native Plants, PA DNCR"
+      link: "https://www.dcnr.pa.gov/Conservation/WildPlants/LandscapingwithNativePlants/Pages/default.aspx"
   whoHasUsedThisTool: 
     - label: "Westtown, PA"
       link: "https://www.nwf.org/CommunityWildlifeHabitat/Community?communityId=164"
