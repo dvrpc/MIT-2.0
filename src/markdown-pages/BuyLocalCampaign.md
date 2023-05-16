@@ -4,7 +4,7 @@
   focusAreas: [Economy]
   principles: [Sustainability]
   seeOther: [Local Food Procurement Policy Preference,Agricultural Zoning,Minority and Women-owned Business Resources]
-  trackingProgressLinks:[Business Formations, Gross Domestic Product, Income, Job Growth] 
+  trackingProgressLinks: [Business Formations, Gross Domestic Product, Income, Job Growth] 
   media: 
     type: "image"
     path: "BuyLocalCampaign.jpg"
