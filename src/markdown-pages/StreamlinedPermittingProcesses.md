@@ -4,7 +4,7 @@
   focusAreas: [Communities,Regional Planning]
   principles: []
   seeOther: [Performance Zoning,Neighborhood Design Codes and Ordinances]
-  trackingProgressLinks: [Housing Activity]
+  trackingProgressLinks: [Housing Permits]
   media: 
     type: "image"
     path: "StreamlinedPermittingProcesses.jpg"

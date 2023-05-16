@@ -4,7 +4,7 @@
   focusAreas: [Environment,Communities,Regional Planning]
   principles: [Equity,Sustainability]
   seeOther: [Engaging Underserved Communities,Infill Ordinances]
-  trackingProgressLinks: [Housing Affordability,Income Disparities,Racial & Ethnic Disparities]
+  trackingProgressLinks: [Community Integration, Housing Affordability, Labor Force, Mortgage Lending]
   media: 
     type: "image"
     path: "HousingMaintenanceAndRehabilitationPrograms.jpg"

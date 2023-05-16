@@ -4,7 +4,7 @@
   focusAreas: [Environment,Communities,Regional Planning]
   principles: [Equity]
   seeOther: [Community Engagement,Human Capital Investments,Engaging Underserved Communities,Tactical Urbanism and Pedestrian Plazas]
-  trackingProgressLinks: [Housing Affordability]
+  trackingProgressLinks: [Community Integration]
   media: 
     type: "image"
     path: "CommunityBenefitsAgreementsCBAs.jpg"

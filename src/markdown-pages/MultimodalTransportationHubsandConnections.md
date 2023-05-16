@@ -4,7 +4,7 @@
   focusAreas: [Communities,Transportation,Economy,Regional Planning]
   principles: [Equity]
   seeOther: [Mobility as a Service (MaaS),Parking Management,Curbside Management,Transit Revitalization Investment District (TRID),Transit-Oriented Development (TOD) Zoning]
-  trackingProgressLinks: [Commute Mode,Miles Driven,Congestion,Transit Ridership]
+  trackingProgressLinks: [Commute Mode,Miles Driven,Congestion,Transit Ridership, Income]
   media: 
     type: "image"
     path: "MultimodalTransportationHubsAndConnections.jpg"

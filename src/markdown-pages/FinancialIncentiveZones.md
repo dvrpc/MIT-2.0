@@ -4,7 +4,7 @@
   focusAreas: [Economy,Regional Planning]
   principles: []
   seeOther: [Transit Revitalization Investment District (TRID),Downtown Management]
-  trackingProgressLinks: [Job Growth, Income Disparities]
+  trackingProgressLinks: [Gross Domestic Product, Job Growth, Income]
   media: 
     type: "image"
     path: "FinancialIncentiveZones.jpg"

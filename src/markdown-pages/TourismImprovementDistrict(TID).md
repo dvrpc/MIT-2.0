@@ -4,7 +4,7 @@
   focusAreas: [Economy]
   principles: []
   seeOther: [Multimodal Transportation Hubs and Connections,Downtown Management,Tactical Urbanism and Pedestrian Plazas]
-  trackingProgressLinks: [Global Connectivity,Exported Goods]
+  trackingProgressLinks: [Housing Affordability]
   media: 
     type: "image"
     path: "TourismImprovementDistrictTID.jpg"

@@ -4,7 +4,7 @@
   focusAreas: [Communities,Economy]
   principles: [Equity]
   seeOther: [Human Capital Investments,Buy Local Campaign]
-  trackingProgressLinks: [Income Disparities,Innovation,Job Growth,Racial & Ethnic Disparities,Sex Disparities]
+  trackingProgressLinks: [Community Integration, Gross Domestic Product, Income, Job Growth]
   media: 
     type: "image"
     path: "MinorityAndWomen-OwnedBusinessResources.jpg"

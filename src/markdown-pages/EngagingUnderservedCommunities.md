@@ -4,7 +4,7 @@
   focusAreas: [Environment,Communities,Regional Planning]
   principles: [Equity,Sustainability]
   seeOther: [Age Friendly Communities,Community Engagement,Housing Maintenance and Rehabilitation Programs,Human Capital Investments]
-  trackingProgressLinks: [Racial & Ethnic Disparities,Sex Disparities]
+  trackingProgressLinks: [ Community Integration, Labor Force ]
   media: 
     type: "image"
     path: "EngagingUnderservedCommunities.png"

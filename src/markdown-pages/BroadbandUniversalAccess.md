@@ -4,7 +4,7 @@
   focusAreas: [Communities,Economy]
   principles: [Equity,Resiliency]
   seeOther: [Wireless Communications Facilities Ordinances (5G),IoT and Smart Communities,Smart Location of Public Facilities]
-  trackingProgressLinks: [Educational Attainment,Exports,Global Connectivity,Innovation]
+  trackingProgressLinks: [Business Formations, Gross Domestic Product, Income, Job Growth, Labor Force]
   media: 
     type: "image"
     path: "BroadbandUniversalAccess.jpg"

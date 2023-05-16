@@ -4,7 +4,7 @@
   focusAreas: [Communities,Economy]
   principles: []
   seeOther: [Buy Local Campaign,Downtown Management]
-  trackingProgressLinks: []
+  trackingProgressLinks: [Business Formations, Job Growth]
   media: 
     type: "image"
     path: "CommunityBranding.jpg"

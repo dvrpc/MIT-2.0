@@ -4,7 +4,7 @@
   focusAreas: [Communities]
   principles: [Equity]
   seeOther: [Suburban Retrofits,Neighborhood Design Codes and Ordinances,Brownfields Redevelopment,Infill Ordinances]
-  trackingProgressLinks: [Housing Activity]
+  trackingProgressLinks: [Housing Permits]
   media: 
     type: "image"
     path: "RevitalizationPlanningAndPrograms.jpg"

@@ -4,7 +4,7 @@
   focusAreas: [Economy,Regional Planning]
   principles: [Sustainability]
   seeOther: [Buy Local Campaign,Agricultural Zoning]
-  trackingProgressLinks: []
+  trackingProgressLinks: [Business Formations]
   media: 
     type: "image"
     path: "LocalFoodProcurementPolicyPreference.jpg"

@@ -4,7 +4,7 @@
   focusAreas: [Communities]
   principles: [Equity]
   seeOther: [Community-Centered Design in School Systems]
-  trackingProgressLinks: [Educational Attainment,Income Disparities,Racial & Ethnic Disparities,Sex Disparities]
+  trackingProgressLinks: [ Community Integration, Educational Attainment, Labor Force ] 
   media: 
     type: "image"
     path: "UniversalPre-KindergartenPrograms.jpg"

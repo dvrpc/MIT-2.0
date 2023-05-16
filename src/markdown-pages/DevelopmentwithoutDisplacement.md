@@ -4,7 +4,7 @@
   focusAreas: [Communities]
   principles: [Equity]
   seeOther: [Inclusionary Zoning,Community Benefits Agreements (CBAs)]
-  trackingProgressLinks: [Housing Affordability, Racial and Ethnic Disparities, Income Disparities]
+  trackingProgressLinks:  Development without Displacement: [Community Integration, Housing Affordability, Labor Force, Mortgage Lending]
   media: 
     type: "image"
     path: "DevelopmentWithoutDisplacement.jpg"

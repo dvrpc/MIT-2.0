@@ -4,7 +4,7 @@
   focusAreas: [Environment,Communities,Regional Planning]
   principles: [Equity,Resiliency,Sustainability]
   seeOther: [Neighborhood Design Codes and Ordinances,Build Missing Middle Housing,Downtown Management]
-  trackingProgressLinks: [Housing Activity]
+  trackingProgressLinks: [Housing Permits]
   media: 
     type: "image"
     path: "SuburbanRetrofits.jpg"

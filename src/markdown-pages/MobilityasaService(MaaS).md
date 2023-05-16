@@ -4,7 +4,7 @@
   focusAreas: [Transportation,Economy]
   principles: []
   seeOther: [Multimodal Transportation Hubs and Connections]
-  trackingProgressLinks: [Commute Mode,Miles Driven,Congestion,Transit Ridership]
+  trackingProgressLinks: [Commute Mode,Miles Driven,Congestion, Transit Ridership]
   media: 
     type: "image"
     path: "MobilityasaServiceMaaS.jpg"

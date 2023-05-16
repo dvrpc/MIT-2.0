@@ -4,7 +4,7 @@
   focusAreas: [Communities,Transportation,Economy]
   principles: []
   seeOther: [Multimodal Transportation Hubs and Connections]
-  trackingProgressLinks: [Transit Conditions, Transit Ridership]
+  trackingProgressLinks: [Income, Transit Conditions, Transit Ridership]
   media: 
     type: "image"
     path: "TransitRevitalizationInvestmentDistrictTRID.png"

@@ -4,7 +4,7 @@
   focusAreas: [Communities,Transportation,Economy]
   principles: [Equity,Sustainability]
   seeOther: [Build Missing Middle Housing,Universal Design and Visitability,Infill Ordinances]
-  trackingProgressLinks: [Housing Affordability,Housing Activity]
+  trackingProgressLinks: [Community Integration]
   media: 
     type: "image"
     path: "AgeFriendlyCommunities.png"

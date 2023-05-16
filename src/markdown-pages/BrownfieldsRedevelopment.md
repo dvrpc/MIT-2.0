@@ -4,7 +4,7 @@
   focusAreas: [Environment,Communities]
   principles: [Sustainability]
   seeOther: [Revitalization Planning and Programs,Infill Ordinances]
-  trackingProgressLinks: [Housing Activity,Land Consumption]
+  trackingProgressLinks: [Housing Permits,Land Consumption]
   media: 
     type: "image"
     path: "BrownfieldsRedevelopment.jpg"

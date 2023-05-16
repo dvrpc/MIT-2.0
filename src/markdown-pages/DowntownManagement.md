@@ -4,7 +4,7 @@
   focusAreas: [Communities,Economy]
   principles: []
   seeOther: [Community Branding,Tactical Urbanism and Pedestrian Plazas,Financial Incentive Zones]
-  trackingProgressLinks: [Job Growth]
+  trackingProgressLinks: [Gross Domestic Product, Job Growth]
   media: 
     type: "image"
     path: "DowntownManagement.jpg"

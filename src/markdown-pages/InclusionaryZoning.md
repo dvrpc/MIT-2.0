@@ -4,7 +4,7 @@
   focusAreas: [Communities,Regional Planning]
   principles: [Equity]
   seeOther: [Live/Work Zoning,Age Friendly Communities,Build Missing Middle Housing,Development Without Displacement,Neighborhood Design Codes and Ordinances]
-  trackingProgressLinks: [Educational Attainment,Housing Affordability,Racial & Ethnic Disparities]
+  trackingProgressLinks: [Community Integration, Educational Attainment, Housing Affordability, Labor Force, Mortgage Lending]
   media: 
     type: "image"
     path: "InclusionaryZoning.jpg"
