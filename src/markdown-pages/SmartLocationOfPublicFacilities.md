@@ -4,7 +4,7 @@
   focusAreas: [Communities,Transportation,Regional Planning]
   principles: [Equity,Sustainability]
   seeOther: [Neighborhood Design Codes and Ordinances,Revitalization Planning and Programs]
-  trackingProgressLinks: [Commute Mode,Transit Ridership]
+  trackingProgressLinks: [Commute Mode,Transit Ridership, Miles Driven]
   media: 
     type: "image"
     path: "SmartLocationOfPublicFacilities.jpg"

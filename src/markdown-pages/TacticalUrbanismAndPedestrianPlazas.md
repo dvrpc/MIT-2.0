@@ -4,6 +4,7 @@
   focusAreas: [Environment,Communities,Economy,Regional Planning]
   principles: [Equity,Sustainability]
   seeOther: [Community Branding,Tourism Improvement District (TID),Engaging Underserved Communities,Community Engagement]
+  trackingProgressLinks: [Housing Permits, Miles Driven]
   media: 
     type: "image"
     path: "TacticalUrbanismAndPedestrianPlazas.jpg"

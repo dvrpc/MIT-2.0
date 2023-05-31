@@ -4,7 +4,7 @@
   focusAreas: [Communities]
   principles: [Sustainability]
   seeOther: [Brownfields Redevelopment,Build Missing Middle Housing]
-  trackingProgressLinks: [Land Consumption]
+  trackingProgressLinks: [Land Consumption, Miles Driven]
   media: 
     type: "image"
     path: "InfillOrdinances.jpg"

@@ -4,7 +4,7 @@
   focusAreas: [Communities,Regional Planning]
   principles: [Equity]
   seeOther: [Age Friendly Communities,Build Missing Middle Housing,Development Without Displacement,]
-  trackingProgressLinks: [Housing Affordability,Housing Permits, Mortgage Lending]
+  trackingProgressLinks: [Housing Affordability,Housing Permits, Mortgage Lending, Miles Driven]
   media: 
     type: "image"
     path: "LiveWorkZoning.jpg"

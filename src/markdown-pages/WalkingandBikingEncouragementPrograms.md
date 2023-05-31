@@ -4,7 +4,7 @@
   focusAreas: [Environment,Communities,Transportation]
   principles: [Equity,Sustainability]
   seeOther: [Sidewalk Standards and Management,Complete Streets]
-  trackingProgressLinks: [Commute Mode]
+  trackingProgressLinks: [Commute Mode, Miles Driven]
   media: 
     type: "image"
     path: "WalkingAndBikingEncouragementPrograms.png"
