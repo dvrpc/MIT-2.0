@@ -15,7 +15,7 @@
     - label: "Alternative Fuel Vehicles, DVRPC"
       link: "https://www.dvrpc.org/EnergyClimate/AlternativeFuelVehicles/"
     - label: "Planning for Electric Vehicles—Mapping Vehicle Distribution and Workplace Charging Demand, DVRPC"
-      link: "https://dvrpcgis.maps.arcgis.com/apps/MapSeries/index.html?appid=793fa4e10eac43b387adfc9cd2621a3d"
+      link: "https://www.dvrpc.org/webmaps/electric_vehicles/"
     - label: "Pennsylvania Electric Vehicle Roadmap"
       link: "https://files.dep.state.pa.us/Energy/OfficeofPollutionPrevention/StateEnergyProgram/PAElectricVehRoadmapBookletDEP5334.pdf"
     - label: "Electric Vehicle Incentive Programs, New Jersey’s Clean Energy Program"
