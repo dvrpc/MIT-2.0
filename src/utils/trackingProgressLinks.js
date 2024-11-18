@@ -30,6 +30,7 @@ const trackingProgressLinks = {
   "Population Growth":
     "https://www.dvrpc.org/TrackingProgress/#Population-Growth/",
   "Roadway Safety": "https://www.dvrpc.org/TrackingProgress/#Roadway-Safety/",
+  "Transportation Safety": "https://www.dvrpc.org/TrackingProgress/#Transportation-Safety/",
   "Transit Conditions":
     "https://www.dvrpc.org/TrackingProgress/#Transit-Conditions/",
   "Transit Ridership":

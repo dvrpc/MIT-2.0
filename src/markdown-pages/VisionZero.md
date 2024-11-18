@@ -4,7 +4,7 @@
   focusAreas: [Transportation,Regional Planning]
   principles: [Equity]
   seeOther: [Multimodal Transportation Hubs and Connections,Transportation Safety Programs]
-  trackingProgressLinks: [Roadway Safety]
+  trackingProgressLinks: [Transportation Safety]
   media: 
     type: "image"
     path: "VisionZero.png"
